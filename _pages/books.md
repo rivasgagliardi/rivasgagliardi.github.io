@@ -13,8 +13,13 @@ article {
   gap: 32px;
   justify-content: center;
 }
+
 .cover img {
   height: 320px !important;
   width: auto;
+}
+
+.uncategorized {
+  visibility: hidden;
 }
 </style>
