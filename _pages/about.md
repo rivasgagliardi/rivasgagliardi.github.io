@@ -2,11 +2,10 @@
 layout: about
 title: about
 permalink: /
-subtitle: 
-<p>Literaturwissenschaftlerin
+subtitle: "Literaturwissenschaftlerin
 Wissenschaftliche Mitarbeiterin
 Portugiesisch-Brasilianisches Institut
-Universität zu Köln</p>
+Universität zu Köln"
 
 profile:
   align: right
