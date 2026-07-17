@@ -27,6 +27,12 @@ h2:has(> a[href="/publications/"])::before {
   content: "Ausgewählte Publikationen";
   font-size: 1.5rem;
 }
+.contact-icons i {
+  font-size: 1.1rem;
+}
+.contact-icons {
+  gap: 0.9rem;
+}
 </style>
 
 Laura Rivas Gagliardi ist wissenschaftliche Mitarbeiterin am Portugiesisch-Brasilianischen Institut der Universität zu Köln.
