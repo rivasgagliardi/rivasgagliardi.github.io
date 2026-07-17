@@ -25,7 +25,7 @@ h2:has(> a[href="/publications/"]) {
   margin-top: 2.5rem;
 }
 h2:has(> a[href="/publications/"])::before {
-  content: "Ausgewählte Publikationen";
+  content: "Neueste Publikationen";
   font-size: 1.5rem;
 }
 .contact-icons i {
