@@ -9,9 +9,9 @@ nav: false
 **Angaben gemäß § 5 TMG**
 
 
-Laura Rivas Gagliardi
-Portugiesisch-Brasilianisches Institut der Universität zu Köln
-Albertus-Magnus-Platz
+Laura Rivas Gagliardi<br>
+Portugiesisch-Brasilianisches Institut der Universität zu Köln<br>
+Albertus-Magnus-Platz<br>
 50923 Köln
 
 
