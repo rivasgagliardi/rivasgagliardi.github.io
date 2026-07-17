@@ -1,14 +1,10 @@
 # this file contains the social media links and usernames of the author
 # the socials will be displayed in the order they are defined here
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
-cv_pdf: /assets/pdf/example_pdf.pdf # path to your CV PDF file
 email: rivasgagliardi@gmail.com
-inspirehep_id: 1010907 # Inspire HEP author ID
-rss_icon: false
 scholar_userid: T4prrrEAAAAJ
 orcid_id: 0000-0002-3915-6753
 instagram_id: lauralarivas
 lattes_id: 3726692042057061
 linkedin_username: laura-rivas-gagliardi-25481733
-rss_icon: true
-custom_social: false
+rss_icon: false
