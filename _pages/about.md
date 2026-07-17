@@ -43,4 +43,3 @@ Nach dem Studium der Portugiesischen und Französischen Philologie an der Univer
     <img src="/assets/img/cover_beyond.jpg" style="width:100%; height:auto; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.15);" alt="Roberto Schwarz Beyond Borders">
   </a>
 </div>
-
