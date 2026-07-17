@@ -22,6 +22,7 @@ latest_posts:
 <style>
 h2:has(> a[href="/publications/"]) {
   font-size: 0;
+  margin-top: 2.5rem;
 }
 h2:has(> a[href="/publications/"])::before {
   content: "Ausgewählte Publikationen";
@@ -39,10 +40,8 @@ h2:has(> a[href="/publications/"])::before {
 .clearfix p {
   font-size: 1.0625rem;
 }
-  h2:has(> a[href="/publications/"]) {
-  margin-top: 2.5rem;
-}
 </style>
+
 
 Laura Rivas Gagliardi ist wissenschaftliche Mitarbeiterin am [Portugiesisch-Brasilianischen Institut der Universität zu Köln](https://pbi.phil-fak.uni-koeln.de/personen/wissenschaftliche-mitarbeiterinnen/laura-rivas-gagliardi).
 
