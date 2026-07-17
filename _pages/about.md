@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: Literaturwissenschaftlerin
+subtitle: 
+Literaturwissenschaftlerin
 Wissenschaftliche Mitarbeiterin
 Portugiesisch-Brasilianisches Institut
 Universität zu Köln
