@@ -8,7 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false
- more_info: >
+  more_info: >
     <p>Portugiesisch-Brasilianisches Institut, Universität zu Köln</p>
     <p><a href="https://pbi.phil-fak.uni-koeln.de/personen/wissenschaftliche-mitarbeiterinnen/laura-rivas-gagliardi">Profil am PBI</a></p>
 selected_papers: false
