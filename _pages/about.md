@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Literaturwissenschaftlerin, Komparatistin
+subtitle: Literaturwissenschaftlerin
 Wissenschaftliche Mitarbeiterin
 Portugiesisch-Brasilianisches Institut
 Universität zu Köln
