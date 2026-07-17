@@ -15,7 +15,7 @@ profile:
     <p>50923 Köln</p>
     <p><a href="https://pbi.phil-fak.uni-koeln.de/personen/wissenschaftliche-mitarbeiterinnen/laura-rivas-gagliardi">Profil am PBI</a></p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false
 social: true # includes social icons at the bottom of the page
 
 announcements:
