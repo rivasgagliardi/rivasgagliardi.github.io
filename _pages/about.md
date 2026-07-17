@@ -2,7 +2,10 @@
 layout: about
 title: about
 permalink: /
-subtitle: Literaturwissenschaftlerin (Komparatistik)
+subtitle: Literaturwissenschaftlerin, Komparatistin
+Wissenschaftliche Mitarbeiterin
+Portugiesisch-Brasilianisches Institut
+Universität zu Köln
 
 profile:
   align: right
