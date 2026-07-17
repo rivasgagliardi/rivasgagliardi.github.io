@@ -34,12 +34,12 @@ Nach dem Studium der Portugiesischen und Französischen Philologie an der Univer
 
 <div class="row justify-content-center mt-4">
   <div class="col-4">
-    <img src="/assets/img/cover_wolf.jpeg" class="img-fluid rounded" alt="Literaturgeschichte und Ideologie: Ferdinand Wolfs literaturpolitisches Projekt «Le Brésil littéraire»">
+    <img src="/assets/img/cover_wolf.jpg" class="img-fluid rounded" alt="Literaturgeschichte und Ideologie: Ferdinand Wolfs literaturpolitisches Projekt «Le Brésil littéraire»">
   </div>
   <div class="col-4">
-    <img src="/assets/img/cover_ein_meister.jpeg" class="img-fluid rounded" alt="Roberto Schwarz: Ein Meister an der Peripherie des Kapitalismus">
+    <img src="/assets/img/cover_ein_meister.jpg" class="img-fluid rounded" alt="Roberto Schwarz: Ein Meister an der Peripherie des Kapitalismus">
   </div>
   <div class="col-4">
-    <img src="/assets/img/cover_beyond.jpeg" class="img-fluid rounded" alt="Roberto Schwarz Beyond Borders">
+    <img src="/assets/img/cover_beyond.jpg" class="img-fluid rounded" alt="Roberto Schwarz Beyond Borders">
   </div>
 </div>
