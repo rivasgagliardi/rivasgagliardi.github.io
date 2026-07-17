@@ -41,7 +41,7 @@ h2:has(> a[href="/publications/"])::before {
 }
 </style>
 
-Laura Rivas Gagliardi ist wissenschaftliche Mitarbeiterin am [Portugiesisch-Brasilianischen Institut der Universität zu Köln](https://pbi.phil-fak.uni-koeln.de/).
+Laura Rivas Gagliardi ist wissenschaftliche Mitarbeiterin am [Portugiesisch-Brasilianischen Institut der Universität zu Köln](https://pbi.phil-fak.uni-koeln.de/personen/wissenschaftliche-mitarbeiterinnen/laura-rivas-gagliardi).
 
 Nach dem Studium der Portugiesischen und Französischen Philologie an der Universität von São Paulo (2007) und dem Master in Angewandter Literaturwissenschaft an der Freien Universität Berlin (2013) wurde sie dort 2019 – als Stipendiatin der Friedrich Schlegel Graduate School of Literary Studies – promoviert. Als Postdoktorandin forschte sie am Institute of Latin American Studies in London sowie am Departamento de Letras Modernas der Universität von São Paulo, bevor sie 2021 nach Köln wechselte, wo sie bis 2024 ein [DFG-gefördertes Forschungsprojekt](https://gepris.dfg.de/gepris/projekt/459579268) zur kritischen Methode von Mário de Andrade, Antonio Candido und Roberto Schwarz leitete.
 
