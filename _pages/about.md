@@ -40,7 +40,29 @@ h2:has(> a[href="/publications/"])::before {
 .clearfix p {
   font-size: 1.0625rem;
 }
+
+
 </style>
+
+.news-title {
+  pointer-events: none;
+  color: inherit;
+  text-decoration: none;
+  cursor: default;
+}
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var monthMap = {Jan:'Januar', Feb:'Februar', Mar:'März', Apr:'April', May:'Mai', Jun:'Juni', Jul:'Juli', Aug:'August', Sep:'September', Oct:'Oktober', Nov:'November', Dec:'Dezember'};
+  document.querySelectorAll('.news th').forEach(function (th) {
+    var m = th.textContent.trim().match(/^([A-Za-z]{3})\s+(\d{1,2}),\s+(\d{4})$/);
+    if (m && monthMap[m[1]]) {
+      th.textContent = m[2] + '. ' + monthMap[m[1]] + ' ' + m[3];
+    }
+  });
+});
+</script>
 
 
 Laura Rivas Gagliardi ist wissenschaftliche Mitarbeiterin am [Portugiesisch-Brasilianischen Institut der Universität zu Köln](https://pbi.phil-fak.uni-koeln.de/personen/wissenschaftliche-mitarbeiterinnen/laura-rivas-gagliardi).
