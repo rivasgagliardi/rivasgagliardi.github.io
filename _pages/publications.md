@@ -38,6 +38,15 @@ nav_order: 2
   }
 </style>
 
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('.links a').forEach(function (a) {
+    if (a.textContent.trim() === 'Website') {
+      a.textContent = 'Webseite';
+    }
+  });
+});
+</script>
 
 <!-- _pages/publications.md -->
 
