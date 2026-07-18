@@ -7,7 +7,6 @@ nav_order: 6
 calendar: true
 ---
 
-
 <style>
 .course-title a, a.course-title {
   pointer-events: none;
@@ -16,3 +15,5 @@ calendar: true
   cursor: default;
 }
 </style>
+
+{% include courses.liquid %}
