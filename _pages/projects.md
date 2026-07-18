@@ -12,7 +12,7 @@ horizontal: false
 <style>
 .projects .row.row-cols-1.row-cols-md-3 {
   display: grid !important;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)) !important;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)) !important;
   gap: 24px !important;
 }
 .projects .row.row-cols-1.row-cols-md-3 > .col {
