@@ -11,23 +11,25 @@ horizontal: false
 
 <style>
 .projects .row.row-cols-1.row-cols-md-3 {
-  position: static !important;
   display: grid !important;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 24px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)) !important;
+  gap: 24px !important;
 }
-.projects .col {
+.projects .row.row-cols-1.row-cols-md-3 > .col {
+  flex: none !important;
+  max-width: none !important;
+  width: 100% !important;
   position: static !important;
-  width: auto !important;
-  left: auto !important;
-  top: auto !important;
 }
 .projects .card {
   border-left: 3px solid var(--global-theme-color);
-  border-top: none;
   height: 100%;
 }
+.projects h2.category {
+  color: var(--global-text-color);
+}
 </style>
+
 <!-- pages/projects.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
