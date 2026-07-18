@@ -15,6 +15,27 @@ nav_order: 2
     padding-top: 0;
     margin-top: 2.5rem;
   }
+
+  
+  #schwarz2023meister .links::after,
+  #gagliardi2026tropischer .links::after,
+  #gagliardi2025apropriacoes .links::after,
+  #gagliardi2024kolonialgeschichte .links::after,
+  #gagliardi2023antropofagia .links::after,
+  #gagliardi2023einfuehrung .links::after,
+  #gagliardi2022aspectos .links::after,
+  #gagliardi2022historia .links::after,
+  #gagliardi2021invisibilidad .links::after {
+    content: "Open Access";
+    display: inline-block;
+    margin-left: 8px;
+    padding: 2px 8px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: #2e7d32;
+    border-radius: 4px;
+  }
 </style>
 
 
