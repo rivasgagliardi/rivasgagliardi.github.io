@@ -5,6 +5,6 @@ description: Hauptseminar (Universidade de São Paulo) zur ideologischen Dimensi
 instructor: 
 year: 2020
 term: Sommersemester
-location: Universität zu Köln
+location: Universidade de São Paulo
 course_id: usp-2020-historia-literaria
 ---
