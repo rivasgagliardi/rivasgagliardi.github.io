@@ -65,32 +65,20 @@ cv:
         highlights:
           - "03/2004–03/2005: Sprachaufenthalt in Berlin"
 
-    Interests:
-      - name: Universidade de São Paulo (FFLCH)
-        summary: Gastdozentur, ISAP-Programm DAAD
-        start_date: 2025-12
-        end_date: 2025-12
-      - name: Universidade de São Paulo (FFLCH)
-        summary: Gastdozentur, ISAP-Programm DAAD
-        start_date: 2024-12
-        end_date: 2024-12
-      - name: Universidade de São Paulo (FFLCH)
-        summary: Gastprofessur und Postdoc-Forschung
-        start_date: 2020-05
-        end_date: 2020-11
-      - name: University of London, Institute of Latin American Studies (ILAS)
-        summary: Postdoc-Forschung
-        start_date: 2019-11
-        end_date: 2019-12
-      - name: Arquivo Nacional, Arquivo Histórico do Itamaraty, Rio de Janeiro
-        summary: Archivforschung
-        start_date: 2016-07
-        end_date: 2016-10
-      - name: Österreichische Nationalbibliothek, Wien
-        summary: Archivforschung
-        start_date: 2016-06
-        end_date: 2016-06
-
+  Interests:
+      - name: "6. Universidade de São Paulo (FFLCH)"
+        keywords: "Gastdozentur, ISAP-Programm DAAD — 12/2025"
+      - name: "5. Universidade de São Paulo (FFLCH)"
+        keywords: "Gastdozentur, ISAP-Programm DAAD — 12/2024"
+      - name: "4. Universidade de São Paulo (FFLCH)"
+        keywords: "Gastprofessur und Postdoc-Forschung — 05–11/2020"
+      - name: "3. University of London, Institute of Latin American Studies (ILAS)"
+        keywords: "Postdoc-Forschung — 11–12/2019"
+      - name: "2. Arquivo Nacional, Arquivo Histórico do Itamaraty, Rio de Janeiro"
+        keywords: "Archivforschung — 07–10/2016"
+      - name: "1. Österreichische Nationalbibliothek, Wien"
+        keywords: "Archivforschung — 06/2016"
+    
     Awards:
       - title: Doktorandinnen-Stipendium
         awarder: Friedrich Schlegel Graduiertenschule, FUB
@@ -124,41 +112,35 @@ cv:
         summary: "Projekt: Neuperspektivierungen nachkolonialer Theorie [Nr. 459579268]. Mittel: 246.780 € zzgl. 54.300 € Programmpauschale."
 
     Certificates:
-      - name: "II. Workshop Enfoques brasileiros (mit T. Kehren, M. Strasser, C. Cardinali)"
+      - name: "6. II. Workshop Enfoques brasileiros (mit T. Kehren, M. Strasser, C. Cardinali)"
         issuer: Portugiesisch-Brasilianisches Institut, UzK
         date: 2025-10
-      - name: "I. Workshop Enfoques brasileiros (mit T. Kehren, M. Strasser, P. Mora Madriñán, C. Cardinali)"
+      - name: "5. I. Workshop Enfoques brasileiros (mit T. Kehren, M. Strasser, P. Mora Madriñán, C. Cardinali)"
         issuer: Johannes Gutenberg-Universität Mainz
         date: 2025-02
-      - name: "Symposium: Roberto Schwarz Beyond Borders (mit M. Strasser, C. Cardinali)"
+      - name: "4. Symposium: Roberto Schwarz Beyond Borders (mit M. Strasser, C. Cardinali)"
         issuer: Portugiesisch-Brasilianisches Institut, UzK
         date: 2024-06
-      - name: "Symposium: „Ficou chato ser moderno?“ (mit P. W. Schulze)"
+      - name: "3. Symposium: „Ficou chato ser moderno?“ (mit P. W. Schulze)"
         issuer: Portugiesisch-Brasilianisches Institut, UzK
         date: 2022-11
-      - name: "Ausstellung: Modernismo & Reverberações / Modernismo & Widerklänge (Kuratierung, mit P. W. Schulze)"
+      - name: "2. Ausstellung: Modernismo & Reverberações / Modernismo & Widerklänge (Kuratierung, mit P. W. Schulze)"
         issuer: Prüfungsamt, Portugiesisch-Brasilianisches Institut, UzK
         date: 2022-11
-      - name: "Lesung: Die brasilianische Militärdiktatur erinnern, mit Bernardo Kucinski (mit S. Zepp-Zwirner)"
+      - name: "1. Lesung: Die brasilianische Militärdiktatur erinnern, mit Bernardo Kucinski (mit S. Zepp-Zwirner)"
         issuer: Freie Universität Berlin
         date: 2018-05
-      - name: "Workshop: de/localizing literature (mit C. Yurgel)"
+      - name: "0. Workshop: de/localizing literature (mit C. Yurgel)"
         issuer: Freie Universität Berlin
         date: 2017-01
-
+        
     Projects:
-      - name: "Diktatur und Revolution — Chico Buarques „Fado Tropical“ und „Tanto Mar“"
-        summary: Institut für Romanistik der Universität Wien
-        start_date: 2024-05-16
-        end_date: 2024-05-16
-      - name: "Unverschämtheit, Volubilität, literarische Akkumulation: Roberto Schwarz' Begriffe"
-        summary: Centre Marc Bloch, Berlin
-        start_date: 2024-04-25
-        end_date: 2024-04-25
-      - name: "A Semana de Arte Moderna de 1922: condições e desdobramentos"
-        summary: Ibero-Amerikanisches Institut, Berlin
-        start_date: 2022-03-24
-        end_date: 2022-03-24
+      - name: "3. Diktatur und Revolution — Chico Buarques „Fado Tropical“ und „Tanto Mar“"
+        summary: "Institut für Romanistik der Universität Wien — 16.05.2024"
+      - name: "2. Unverschämtheit, Volubilität, literarische Akkumulation: Roberto Schwarz' Begriffe"
+        summary: "Centre Marc Bloch, Berlin — 25.04.2024"
+      - name: "1. A Semana de Arte Moderna de 1922: condições e desdobramentos"
+        summary: "Ibero-Amerikanisches Institut, Berlin — 24.03.2022"
 
     Skills:
       - name: "33. Anthropophagy in 20th-century Brazilian literature and critical thinking"
