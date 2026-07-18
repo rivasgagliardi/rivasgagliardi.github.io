@@ -4,12 +4,12 @@ cv:
   email: rivasgagliardi@gmail.com
   location: "Portugiesisch-Brasilianisches Institut, Universität zu Köln, Albertus-Magnus-Platz, 50923 Köln"
   image: assets/img/prof_pic.jpg
-  summary: Wissenschaftliche Mitarbeiterin am Portugiesisch-Brasilianischen Institut der Universität zu Köln. Forschung zu romanischen Literaturen des 19./20. Jahrhunderts, Literaturtheorie und -kritik.
+  summary: Literaturwissenschaftlerin mit Schwerpunkt auf romanischen Literaturen des 19./20. Jahrhunderts, Literaturtheorie und komparatistischer Methode.
   social_networks:
     - network: LinkedIn
       username: laura-rivas-gagliardi-25481733
   sections:
-    Werdegang:
+    Experience:
       - company: Portugiesisch-Brasilianisches Institut, Universität zu Köln
         position: Wissenschaftliche Mitarbeiterin (50%)
         start_date: 2024-09
@@ -35,7 +35,7 @@ cv:
         start_date: 2005-08
         end_date: 2008-12
 
-    Akademische Ausbildung:
+    Education:
       - institution: Freie Universität Berlin
         location: Berlin, Deutschland
         area: Romanische Literaturwissenschaft
@@ -65,7 +65,7 @@ cv:
         highlights:
           - "03/2004–03/2005: Sprachaufenthalt in Berlin"
 
-    Auslandsaufenthalte und Gastprofessuren:
+    Volunteer:
       - company: Universidade de São Paulo (FFLCH)
         position: Gastdozentur, ISAP-Programm DAAD
         start_date: 2025-12
@@ -91,27 +91,12 @@ cv:
         start_date: 2016-06
         end_date: 2016-06
 
-    Drittmittelerfahrung und Gutachtertätigkeit:
-      - company: Deutsche Forschungsgemeinschaft (DFG)
-        position: Emmy-Noether-Programm — in Begutachtung
-        start_date: 2025-09
-        end_date: 2025-09
-      - company: Narodowe Centrum Nauki (NCN), Polen
-        position: Gutachterin
-        start_date: 2025
-        end_date: 2025
-      - company: Deutsche Forschungsgemeinschaft (DFG)
-        position: Einwerbung einer DFG-Eigenen Stelle (36 Monate)
-        start_date: 2021-09
-        end_date: 2024-08
-        summary: "Forschungsprojekt: Neuperspektivierungen nachkolonialer Theorie [Projektnummer 459579268]. Mittel: 246.780 € zzgl. 54.300 € Programmpauschale."
-
-    Preise und Stipendien:
+    Awards:
       - title: Doktorandinnen-Stipendium
-        awarder: Friedrich Schlegel Graduiertenschule, Freie Universität Berlin
+        awarder: Friedrich Schlegel Graduiertenschule, FUB
         date: 2016-10
       - title: Prädoc-Stipendium
-        awarder: Friedrich Schlegel Graduiertenschule, Freie Universität Berlin
+        awarder: Friedrich Schlegel Graduiertenschule, FUB
         date: 2015-10
       - title: Forschungsstipendium (Verlängerung)
         awarder: FAPESP
@@ -126,229 +111,53 @@ cv:
         date: 2003
         summary: Für das Forschungsprojekt über Drummonds Lyrik
 
-    Akademische Selbstverwaltung:
-      - company: Universität zu Köln
-        position: Mitwirkung bei der Erstellung des Online-Self-Assessments für Portugiesisch und Französisch
-        start_date: 2026-02
-        end_date: 2026-03
-      - company: Portugiesisch-Brasilianisches Institut, UzK
-        position: Erstgutachterin einer Bachelorarbeit — Luca Basile, „Marginalização e o 'Cinema Indígena'“
-        start_date: 2025-09-29
-        end_date: 2025-09-29
-      - company: Portugiesisch-Brasilianisches Institut, UzK
-        position: Mitwirkung an der Konzeption des Webauftritts und der Social-Media-Präsenz
-        start_date: 2024-04
-        end_date: 2024-08
-      - company: Universidade de Lisboa
-        position: Mitglied, Projekt „Portugueses de Papel“
-        start_date: 2023
-        end_date: present
-      - company: Universidade de São Paulo
-        position: Mitglied der Masterprüfungskommission — César Marins de Oliveira
-        start_date: 2022-06
-        end_date: 2022-06
+    Publications:
+      - title: Emmy-Noether-Programm — in Begutachtung
+        publisher: Deutsche Forschungsgemeinschaft (DFG)
+        releaseDate: 2025-09
+      - title: Gutachterin
+        publisher: Narodowe Centrum Nauki (NCN), Polen
+        releaseDate: 2025
+      - title: Einwerbung einer DFG-Eigenen Stelle (36 Monate)
+        publisher: Deutsche Forschungsgemeinschaft (DFG)
+        releaseDate: 2021-09
+        summary: "Projekt: Neuperspektivierungen nachkolonialer Theorie [Nr. 459579268]. Mittel: 246.780 € zzgl. 54.300 € Programmpauschale."
 
-    Organisation wissenschaftlicher Veranstaltungen:
-      - company: Portugiesisch-Brasilianisches Institut, UzK
-        position: "II. Workshop des Forschungsnetzwerkes Enfoques brasileiros"
-        start_date: 2025-10
-        end_date: 2025-10
-        summary: Gemeinsam mit Dr. Timo Kehren, Dr. Melanie Strasser und Claudio Cardinali
-      - company: Johannes Gutenberg-Universität Mainz
-        position: "I. Workshop des Forschungsnetzwerkes Enfoques brasileiros"
-        start_date: 2025-02
-        end_date: 2025-02
-        summary: Gemeinsam mit Dr. Timo Kehren, Dr. Melanie Strasser, Pedro Mora Madriñán und Claudio Cardinali
-      - company: Portugiesisch-Brasilianisches Institut, UzK
-        position: "Internationales Symposium: Roberto Schwarz Beyond Borders"
-        start_date: 2024-06
-        end_date: 2024-06
-        summary: Gemeinsam mit Dr. Melanie Strasser und Claudio Cardinali
-      - company: Portugiesisch-Brasilianisches Institut, UzK
-        position: "Internationales Symposium: „Ficou chato ser moderno?“ O modernismo brasileiro em debate"
-        start_date: 2022-11
-        end_date: 2022-11
-        summary: Gemeinsam mit Prof. Dr. Peter W. Schulze
-      - company: Freie Universität Berlin
-        position: "Lesung: Die brasilianische Militärdiktatur erinnern — Lesung und Gespräch mit Bernardo Kucinski"
-        start_date: 2018-05
-        end_date: 2018-05
-        summary: Gemeinsam mit Prof. Dr. Susanne Zepp-Zwirner
-      - company: Freie Universität Berlin
-        position: "Workshop: de/localizing literature"
-        start_date: 2017-01
-        end_date: 2017-01
-        summary: Gemeinsam mit Prof. Dr. Caio Yurgel
+    Certificates:
+      - name: "II. Workshop Enfoques brasileiros (mit T. Kehren, M. Strasser, C. Cardinali)"
+        issuer: Portugiesisch-Brasilianisches Institut, UzK
+        date: 2025-10
+      - name: "I. Workshop Enfoques brasileiros (mit T. Kehren, M. Strasser, P. Mora Madriñán, C. Cardinali)"
+        issuer: Johannes Gutenberg-Universität Mainz
+        date: 2025-02
+      - name: "Symposium: Roberto Schwarz Beyond Borders (mit M. Strasser, C. Cardinali)"
+        issuer: Portugiesisch-Brasilianisches Institut, UzK
+        date: 2024-06
+      - name: "Symposium: „Ficou chato ser moderno?“ (mit P. W. Schulze)"
+        issuer: Portugiesisch-Brasilianisches Institut, UzK
+        date: 2022-11
+      - name: "Lesung: Die brasilianische Militärdiktatur erinnern, mit Bernardo Kucinski (mit S. Zepp-Zwirner)"
+        issuer: Freie Universität Berlin
+        date: 2018-05
+      - name: "Workshop: de/localizing literature (mit C. Yurgel)"
+        issuer: Freie Universität Berlin
+        date: 2017-01
 
-    Gastvorträge:
-      - company: Institut für Romanistik der Universität Wien
-        position: "Diktatur und Revolution in der lusophonen 1970er Jahre am Beispiel von Chico Buarques Liedern „Fado Tropical“ und „Tanto Mar“"
+    Projects:
+      - name: "Diktatur und Revolution — Chico Buarques „Fado Tropical“ und „Tanto Mar“"
+        summary: Institut für Romanistik der Universität Wien
         start_date: 2024-05-16
         end_date: 2024-05-16
-      - company: Centre Marc Bloch, Berlin
-        position: "Unverschämtheit, Volubilität, literarische Akkumulation: Roberto Schwarz' literaturwissenschaftliche Begriffe"
+      - name: "Unverschämtheit, Volubilität, literarische Akkumulation: Roberto Schwarz' Begriffe"
+        summary: Centre Marc Bloch, Berlin
         start_date: 2024-04-25
         end_date: 2024-04-25
-      - company: Ibero-Amerikanisches Institut, Berlin
-        position: "A Semana de Arte Moderna de 1922: condições e desdobramentos"
+      - name: "A Semana de Arte Moderna de 1922: condições e desdobramentos"
+        summary: Ibero-Amerikanisches Institut, Berlin
         start_date: 2022-03-24
         end_date: 2022-03-24
-        summary: "Lecture Series „Knowledge Production and Cultural Transfers in Trans-regional Contexts“"
 
-    Vorträge in wissenschaftlichen Veranstaltungen:
-      - company: Max-Planck-Institut für Rechtsgeschichte und Rechtstheorie, Frankfurt
-        position: "Anthropophagy in 20th-century Brazilian literature and critical thinking"
-        start_date: 2025-10-02
-        end_date: 2025-10-02
-      - company: Johannes Gutenberg-Universität Mainz
-        position: "O sentido da aventura nas crônicas de viagem de Anatol Rosenfeld"
-        start_date: 2025-02
-        end_date: 2025-02
-      - company: Georg-August-Universität Göttingen
-        position: "Dessacralizando a língua dos colonizadores: políticas linguísticas nas vanguardas brasileiras e latino-americanas"
-        start_date: 2025-01-23
-        end_date: 2025-01-24
-      - company: Johannes Gutenberg-Universität Mainz
-        position: "Der literarische Amazonas von Mário de Andrade: Macunaíma und O turista aprendiz"
-        start_date: 2024-07-23
-        end_date: 2024-07-26
-      - company: Kulturwissenschaftliches Institut Essen
-        position: "Faschismus nach lateinamerikanischer Art: Auseinandersetzungen im brasilianischen Kulturfeld, 1930–2020"
-        start_date: 2024-09-19
-        end_date: 2024-09-20
-      - company: Mecila (Online)
-        position: "Anatol Rosenfeld: Mediation and Translation between Brazil and Germany"
-        start_date: 2024-05-10
-        end_date: 2024-05-10
-        summary: Gespräch mit Maud Meyzaud, Flavio Aguiar; Moderation Susanne Klengel
-      - company: Historical Materialism Conference, London
-        position: "Unmaking and remaking the world: Reading Poetry through Marxist Lenses"
-        start_date: 2023-11
-        end_date: 2023-11
-      - company: Leibniz-Zentrum für Literatur- und Kulturforschung, Berlin
-        position: "Koselleck an den Rändern: Begriffsgeschichte in Brasilien"
-        start_date: 2023-10
-        end_date: 2023-10
-      - company: 38. Romanistentag, Leipzig
-        position: "Gregório de Matos entre órdenes y clases"
-        start_date: 2023-09
-        end_date: 2023-09
-      - company: 15. Lusitanistentag, Zwickau
-        position: "Alfredo Bosi pensa o império brasileiro: entre liberalismo e escravidão"
-        start_date: 2023-09
-        end_date: 2023-09
-      - company: IV Congresso ABRE, Lissabon
-        position: "Feminismo e modernização na obra de Gilda de Melo e Souza"
-        start_date: 2023-09
-        end_date: 2023-09
-      - company: Global Jewish Literatures in Portuguese, Freie Universität Berlin
-        position: "A ficção de Anatol Rosenfeld: as crônicas de viagem pelo Brasil"
-        start_date: 2023-06
-        end_date: 2023-06
-      - company: XXIII. Deutscher Hispanistentag, Graz
-        position: "Reapropiaciones literarias de términos indígenas en Macunaíma, de Mário de Andrade"
-        start_date: 2023-02
-        end_date: 2023-02
-      - company: Université de Rennes 2
-        position: "A crítica literária de Mário de Andrade"
-        start_date: 2022-06-08
-        end_date: 2022-06-10
-      - company: Université Clermont Auvergne
-        position: "La critique dialectique mise à jour: la contribution brésilienne"
-        start_date: 2022-05-30
-        end_date: 2022-05-31
-      - company: Université de Lorraine, Metz
-        position: "Teatro em tradução: Schwarz e Brecht"
-        start_date: 2022-05-19
-        end_date: 2022-05-20
-      - company: Justus-Liebig-Universität Gießen / Ciera (Online)
-        position: "Roberto Schwarz, leitor de Adorno"
-        start_date: 2021-10
-        end_date: 2021-10
-      - company: III Congresso ABRE (Online, Prag)
-        position: "O Sentido da Dialética na Crítica de Antonio Candido e de Roberto Schwarz"
-        start_date: 2021-09
-        end_date: 2021-09
-      - company: Université de Lorraine (Online)
-        position: "Sobre a recepção da Escola de Frankfurt no Brasil"
-        start_date: 2021-07-02
-        end_date: 2021-07-03
-      - company: Exeter College, University of Oxford
-        position: "Antonio Candido's 'The Right to Literature'"
-        start_date: 2020-02
-        end_date: 2020-02
-      - company: EHESS, Paris
-        position: "Nacionalismo e escrita da história literária brasileira no século XIX"
-        start_date: 2019-09
-        end_date: 2019-09
-      - company: The Hebrew University of Jerusalem
-        position: "O avesso de si, o outro: tensões históricas e literárias em Clarice Lispector"
-        start_date: 2018-12
-        end_date: 2018-12
-      - company: Humboldt-Universität zu Berlin
-        position: "Die Novara-Expedition in Rio de Janeiro, 1857"
-        start_date: 2018-04
-        end_date: 2018-04
-      - company: Friedrich Schlegel Graduiertenschule, Freie Universität Berlin
-        position: "Literaturgeschichtsschreibung am Beispiel von Le Brésil littéraire (1863)"
-        start_date: 2017-09
-        end_date: 2017-09
-      - company: Friedrich Schlegel Graduiertenschule, Freie Universität Berlin
-        position: "Drummond: das Gefühl der Welt und der Dinge"
-        start_date: 2017-02
-        end_date: 2017-02
-      - company: Freie Universität Berlin
-        position: "Writing Portuguese and Brazilian Literary History: Ferdinand Wolf"
-        start_date: 2016-11
-        end_date: 2016-11
-      - company: Freie Universität Berlin
-        position: "Kontraste des brasilianischen Buchmarkts in den letzten fünf Jahren"
-        start_date: 2016-07
-        end_date: 2016-07
-      - company: Literarisches Colloquium Berlin
-        position: "ViceVersa: Deutsch-Brasilianische Übersetzerwerkstatt — Translating Georg Simmel's Essay 'Brücke und Tür' into Portuguese"
-        start_date: 2013-09
-        end_date: 2013-10
-      - company: 14º Simpósio Internacional de Iniciação Científica da USP
-        position: "Amor infectum: a revolta do singular na lírica de Drummond"
-        start_date: 2006-11
-        end_date: 2006-11
-      - company: 13º Simpósio Internacional de Iniciação Científica da USP
-        position: "Amor infectum: a revolta do singular na lírica de Drummond"
-        start_date: 2005-11
-        end_date: 2005-11
-      - company: 11º Simpósio Internacional de Iniciação Científica da USP
-        position: "Amor infectum: a revolta do singular na lírica de Drummond"
-        start_date: 2003-11
-        end_date: 2003-11
-      - company: III Jornada Científica, Faculdades Integradas de Ribeirão Pires
-        position: "Amor infectum: observações sobre a lírica amorosa de Carlos Drummond de Andrade"
-        start_date: 2002-06
-        end_date: 2002-06
-      - company: 10º Simpósio Internacional de Iniciação Científica da USP
-        position: "Amor infectum: a revolta do singular na lírica de Drummond"
-        start_date: 2002-11
-        end_date: 2002-11
-
-    Ausstellungen:
-      - company: Prüfungsamt, Portugiesisch-Brasilianisches Institut, UzK
-        position: "Modernismo & Reverberações / Modernismo & Widerklänge (Kuratierung)"
-        start_date: 2022-11
-        end_date: 2023-03
-        summary: Gemeinsam mit Prof. Dr. Peter W. Schulze
-
-    Languages:
-      - name: Portugiesisch
-        summary: Erstsprache
-      - name: Deutsch
-        summary: Fließend in Wort und Schrift
-      - name: Französisch
-        summary: Fließend in Wort und Schrift
-      - name: Spanisch
-        summary: Fließend in Wort und Schrift
-      - name: Englisch
-        summary: Sehr gute Kenntnisse
-      - name: Latein
-        summary: Gute Kenntnisse
-      - name: Italienisch
-        summary: Gute Kenntnisse
+    Skills:
+      - name: "Anthropophagy in 20th-century Brazilian literature and critical thinking"
+        keywords: "MPI für Rechtsgeschichte, Frankfurt, 02.10.2025"
+      - name: "O sentido da aventura nas crônicas de viagem de
