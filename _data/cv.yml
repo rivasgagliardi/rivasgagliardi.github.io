@@ -1,189 +1,354 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
-
+  name: Laura Rivas Gagliardi
+  label: Literaturwissenschaftlerin, Romanistin
+  email: rivasgagliardi@gmail.com
+  location: "Portugiesisch-Brasilianisches Institut, Universität zu Köln, Albertus-Magnus-Platz, 50923 Köln"
+  image: assets/img/prof_pic.jpg
+  summary: Wissenschaftliche Mitarbeiterin am Portugiesisch-Brasilianischen Institut der Universität zu Köln. Forschung zu romanischen Literaturen des 19./20. Jahrhunderts, Literaturtheorie und -kritik.
   social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
-
+      username: laura-rivas-gagliardi-25481733
   sections:
-    Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+    Werdegang:
+      - company: Portugiesisch-Brasilianisches Institut, Universität zu Köln
+        position: Wissenschaftliche Mitarbeiterin (50%)
+        start_date: 2024-09
+        end_date: present
         highlights:
-          - Description 1.
-          - Description 2.
-
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+          - "Raum 1.305 (Philosophikum) — Sprechstunde: Vereinbarung per E-Mail (Sommersemester 2026: Di 15–16 Uhr)"
+      - company: Portugiesisch-Brasilianisches Institut, Universität zu Köln
+        position: Wissenschaftliche Mitarbeiterin (DFG-Eigene Stelle)
+        start_date: 2021-09
+        end_date: 2024-08
+      - company: Freiberuflich
+        position: Lektorin und Übersetzerin
+        start_date: 2007
+        end_date: 2013
         highlights:
-          - Description 1.
-          - Description 2.
+          - "07/2011–10/2011: Praktikum beim Suhrkamp Verlag, Lektorat für Internationale Literatur, Berlin"
+      - company: Colégio Santa Cruz, São Paulo
+        position: Lehrassistentin (Gymnasium)
+        start_date: 2009-02
+        end_date: 2010-02
+      - company: Sprachzentrum FFLCH, Universidade de São Paulo
+        position: Lehrerin für Französisch und Deutsch als Fremdsprache
+        start_date: 2005-08
+        end_date: 2008-12
 
-    Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+    Akademische Ausbildung:
+      - institution: Freie Universität Berlin
+        location: Berlin, Deutschland
+        area: Romanische Literaturwissenschaft
+        studyType: Promotion (Dr. phil.)
+        start_date: 2015-10
+        end_date: 2019-09
+        score: summa cum laude
         highlights:
-          - Relativity
-          - Description 2.
-
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+          - "Dissertation: „Le Brésil littéraire (1863) von Ferdinand Wolf. Literaturgeschichte und Ideologie im 19. Jahrhundert“"
+          - "Gutachterinnen: Prof. Dr. Susanne Zepp-Zwirner, Prof. Dr. Joachim Küpper"
+          - Promotionsprogramm der Friedrich Schlegel Graduiertenschule für literaturwissenschaftliche Studien (FSGS)
+      - institution: Freie Universität Berlin
+        location: Berlin, Deutschland
+        area: Angewandte Literaturwissenschaft
+        studyType: Master of Arts
+        start_date: 2010-10
+        end_date: 2013-10
+        score: "1,7"
         highlights:
-          - Description 1.
-          - Description 2.
-
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+          - "Masterarbeit: „Die Präsenz der brasilianischen Literatur auf dem deutschsprachigen Buchmarkt zwischen 1993 und 2013“"
+      - institution: Universidade de São Paulo (FFLCH)
+        location: São Paulo, Brasilien
+        area: Französische und Portugiesische Sprache und Literatur
+        studyType: Bakkalaureus
+        start_date: 2001-02
+        end_date: 2008-03
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - "03/2004–03/2005: Sprachaufenthalt in Berlin"
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+    Auslandsaufenthalte und Gastprofessuren:
+      - company: Universidade de São Paulo (FFLCH)
+        position: Gastdozentur, ISAP-Programm DAAD
+        start_date: 2025-12
+        end_date: 2025-12
+      - company: Universidade de São Paulo (FFLCH)
+        position: Gastdozentur, ISAP-Programm DAAD
+        start_date: 2024-12
+        end_date: 2024-12
+      - company: Universidade de São Paulo (FFLCH)
+        position: Gastprofessur und Postdoc-Forschung
+        start_date: 2020-05
+        end_date: 2020-11
+      - company: University of London, Institute of Latin American Studies (ILAS)
+        position: Postdoc-Forschung
+        start_date: 2019-11
+        end_date: 2019-12
+      - company: Arquivo Nacional, Arquivo Histórico do Itamaraty, Rio de Janeiro
+        position: Archivforschung
+        start_date: 2016-07
+        end_date: 2016-10
+      - company: Österreichische Nationalbibliothek, Wien
+        position: Archivforschung
+        start_date: 2016-06
+        end_date: 2016-06
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+    Drittmittelerfahrung und Gutachtertätigkeit:
+      - company: Deutsche Forschungsgemeinschaft (DFG)
+        position: Emmy-Noether-Programm — in Begutachtung
+        start_date: 2025-09
+        end_date: 2025-09
+      - company: Narodowe Centrum Nauki (NCN), Polen
+        position: Gutachterin
+        start_date: 2025
+        end_date: 2025
+      - company: Deutsche Forschungsgemeinschaft (DFG)
+        position: Einwerbung einer DFG-Eigenen Stelle (36 Monate)
+        start_date: 2021-09
+        end_date: 2024-08
+        summary: "Forschungsprojekt: Neuperspektivierungen nachkolonialer Theorie [Projektnummer 459579268]. Mittel: 246.780 € zzgl. 54.300 € Programmpauschale."
 
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+    Preise und Stipendien:
+      - title: Doktorandinnen-Stipendium
+        awarder: Friedrich Schlegel Graduiertenschule, Freie Universität Berlin
+        date: 2016-10
+      - title: Prädoc-Stipendium
+        awarder: Friedrich Schlegel Graduiertenschule, Freie Universität Berlin
+        date: 2015-10
+      - title: Forschungsstipendium (Verlängerung)
+        awarder: FAPESP
+        date: 2005-05
+        summary: Verlängerung des Forschungsprojekts über Drummonds Lyrik
+      - title: Forschungsstipendium (Iniciação Científica)
+        awarder: FAPESP
+        date: 2002-08
+        summary: Über die Lyrik Carlos Drummond de Andrades
+      - title: Menção Honrosa
+        awarder: USP, Pró-Reitoria de Pesquisa, 11° SICUSP
+        date: 2003
+        summary: Für das Forschungsprojekt über Drummonds Lyrik
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+    Akademische Selbstverwaltung:
+      - company: Universität zu Köln
+        position: Mitwirkung bei der Erstellung des Online-Self-Assessments für Portugiesisch und Französisch
+        start_date: 2026-02
+        end_date: 2026-03
+      - company: Portugiesisch-Brasilianisches Institut, UzK
+        position: Erstgutachterin einer Bachelorarbeit — Luca Basile, „Marginalização e o 'Cinema Indígena'“
+        start_date: 2025-09-29
+        end_date: 2025-09-29
+      - company: Portugiesisch-Brasilianisches Institut, UzK
+        position: Mitwirkung an der Konzeption des Webauftritts und der Social-Media-Präsenz
+        start_date: 2024-04
+        end_date: 2024-08
+      - company: Universidade de Lisboa
+        position: Mitglied, Projekt „Portugueses de Papel“
+        start_date: 2023
+        end_date: present
+      - company: Universidade de São Paulo
+        position: Mitglied der Masterprüfungskommission — César Marins de Oliveira
+        start_date: 2022-06
+        end_date: 2022-06
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+    Organisation wissenschaftlicher Veranstaltungen:
+      - company: Portugiesisch-Brasilianisches Institut, UzK
+        position: "II. Workshop des Forschungsnetzwerkes Enfoques brasileiros"
+        start_date: 2025-10
+        end_date: 2025-10
+        summary: Gemeinsam mit Dr. Timo Kehren, Dr. Melanie Strasser und Claudio Cardinali
+      - company: Johannes Gutenberg-Universität Mainz
+        position: "I. Workshop des Forschungsnetzwerkes Enfoques brasileiros"
+        start_date: 2025-02
+        end_date: 2025-02
+        summary: Gemeinsam mit Dr. Timo Kehren, Dr. Melanie Strasser, Pedro Mora Madriñán und Claudio Cardinali
+      - company: Portugiesisch-Brasilianisches Institut, UzK
+        position: "Internationales Symposium: Roberto Schwarz Beyond Borders"
+        start_date: 2024-06
+        end_date: 2024-06
+        summary: Gemeinsam mit Dr. Melanie Strasser und Claudio Cardinali
+      - company: Portugiesisch-Brasilianisches Institut, UzK
+        position: "Internationales Symposium: „Ficou chato ser moderno?“ O modernismo brasileiro em debate"
+        start_date: 2022-11
+        end_date: 2022-11
+        summary: Gemeinsam mit Prof. Dr. Peter W. Schulze
+      - company: Freie Universität Berlin
+        position: "Lesung: Die brasilianische Militärdiktatur erinnern — Lesung und Gespräch mit Bernardo Kucinski"
+        start_date: 2018-05
+        end_date: 2018-05
+        summary: Gemeinsam mit Prof. Dr. Susanne Zepp-Zwirner
+      - company: Freie Universität Berlin
+        position: "Workshop: de/localizing literature"
+        start_date: 2017-01
+        end_date: 2017-01
+        summary: Gemeinsam mit Prof. Dr. Caio Yurgel
 
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+    Gastvorträge:
+      - company: Institut für Romanistik der Universität Wien
+        position: "Diktatur und Revolution in der lusophonen 1970er Jahre am Beispiel von Chico Buarques Liedern „Fado Tropical“ und „Tanto Mar“"
+        start_date: 2024-05-16
+        end_date: 2024-05-16
+      - company: Centre Marc Bloch, Berlin
+        position: "Unverschämtheit, Volubilität, literarische Akkumulation: Roberto Schwarz' literaturwissenschaftliche Begriffe"
+        start_date: 2024-04-25
+        end_date: 2024-04-25
+      - company: Ibero-Amerikanisches Institut, Berlin
+        position: "A Semana de Arte Moderna de 1922: condições e desdobramentos"
+        start_date: 2022-03-24
+        end_date: 2022-03-24
+        summary: "Lecture Series „Knowledge Production and Cultural Transfers in Trans-regional Contexts“"
 
-    Languages:
-      - name: German
-        summary: "Native speaker"
+    Vorträge in wissenschaftlichen Veranstaltungen:
+      - company: Max-Planck-Institut für Rechtsgeschichte und Rechtstheorie, Frankfurt
+        position: "Anthropophagy in 20th-century Brazilian literature and critical thinking"
+        start_date: 2025-10-02
+        end_date: 2025-10-02
+      - company: Johannes Gutenberg-Universität Mainz
+        position: "O sentido da aventura nas crônicas de viagem de Anatol Rosenfeld"
+        start_date: 2025-02
+        end_date: 2025-02
+      - company: Georg-August-Universität Göttingen
+        position: "Dessacralizando a língua dos colonizadores: políticas linguísticas nas vanguardas brasileiras e latino-americanas"
+        start_date: 2025-01-23
+        end_date: 2025-01-24
+      - company: Johannes Gutenberg-Universität Mainz
+        position: "Der literarische Amazonas von Mário de Andrade: Macunaíma und O turista aprendiz"
+        start_date: 2024-07-23
+        end_date: 2024-07-26
+      - company: Kulturwissenschaftliches Institut Essen
+        position: "Faschismus nach lateinamerikanischer Art: Auseinandersetzungen im brasilianischen Kulturfeld, 1930–2020"
+        start_date: 2024-09-19
+        end_date: 2024-09-20
+      - company: Mecila (Online)
+        position: "Anatol Rosenfeld: Mediation and Translation between Brazil and Germany"
+        start_date: 2024-05-10
+        end_date: 2024-05-10
+        summary: Gespräch mit Maud Meyzaud, Flavio Aguiar; Moderation Susanne Klengel
+      - company: Historical Materialism Conference, London
+        position: "Unmaking and remaking the world: Reading Poetry through Marxist Lenses"
+        start_date: 2023-11
+        end_date: 2023-11
+      - company: Leibniz-Zentrum für Literatur- und Kulturforschung, Berlin
+        position: "Koselleck an den Rändern: Begriffsgeschichte in Brasilien"
+        start_date: 2023-10
+        end_date: 2023-10
+      - company: 38. Romanistentag, Leipzig
+        position: "Gregório de Matos entre órdenes y clases"
+        start_date: 2023-09
+        end_date: 2023-09
+      - company: 15. Lusitanistentag, Zwickau
+        position: "Alfredo Bosi pensa o império brasileiro: entre liberalismo e escravidão"
+        start_date: 2023-09
+        end_date: 2023-09
+      - company: IV Congresso ABRE, Lissabon
+        position: "Feminismo e modernização na obra de Gilda de Melo e Souza"
+        start_date: 2023-09
+        end_date: 2023-09
+      - company: Global Jewish Literatures in Portuguese, Freie Universität Berlin
+        position: "A ficção de Anatol Rosenfeld: as crônicas de viagem pelo Brasil"
+        start_date: 2023-06
+        end_date: 2023-06
+      - company: XXIII. Deutscher Hispanistentag, Graz
+        position: "Reapropiaciones literarias de términos indígenas en Macunaíma, de Mário de Andrade"
+        start_date: 2023-02
+        end_date: 2023-02
+      - company: Université de Rennes 2
+        position: "A crítica literária de Mário de Andrade"
+        start_date: 2022-06-08
+        end_date: 2022-06-10
+      - company: Université Clermont Auvergne
+        position: "La critique dialectique mise à jour: la contribution brésilienne"
+        start_date: 2022-05-30
+        end_date: 2022-05-31
+      - company: Université de Lorraine, Metz
+        position: "Teatro em tradução: Schwarz e Brecht"
+        start_date: 2022-05-19
+        end_date: 2022-05-20
+      - company: Justus-Liebig-Universität Gießen / Ciera (Online)
+        position: "Roberto Schwarz, leitor de Adorno"
+        start_date: 2021-10
+        end_date: 2021-10
+      - company: III Congresso ABRE (Online, Prag)
+        position: "O Sentido da Dialética na Crítica de Antonio Candido e de Roberto Schwarz"
+        start_date: 2021-09
+        end_date: 2021-09
+      - company: Université de Lorraine (Online)
+        position: "Sobre a recepção da Escola de Frankfurt no Brasil"
+        start_date: 2021-07-02
+        end_date: 2021-07-03
+      - company: Exeter College, University of Oxford
+        position: "Antonio Candido's 'The Right to Literature'"
+        start_date: 2020-02
+        end_date: 2020-02
+      - company: EHESS, Paris
+        position: "Nacionalismo e escrita da história literária brasileira no século XIX"
+        start_date: 2019-09
+        end_date: 2019-09
+      - company: The Hebrew University of Jerusalem
+        position: "O avesso de si, o outro: tensões históricas e literárias em Clarice Lispector"
+        start_date: 2018-12
+        end_date: 2018-12
+      - company: Humboldt-Universität zu Berlin
+        position: "Die Novara-Expedition in Rio de Janeiro, 1857"
+        start_date: 2018-04
+        end_date: 2018-04
+      - company: Friedrich Schlegel Graduiertenschule, Freie Universität Berlin
+        position: "Literaturgeschichtsschreibung am Beispiel von Le Brésil littéraire (1863)"
+        start_date: 2017-09
+        end_date: 2017-09
+      - company: Friedrich Schlegel Graduiertenschule, Freie Universität Berlin
+        position: "Drummond: das Gefühl der Welt und der Dinge"
+        start_date: 2017-02
+        end_date: 2017-02
+      - company: Freie Universität Berlin
+        position: "Writing Portuguese and Brazilian Literary History: Ferdinand Wolf"
+        start_date: 2016-11
+        end_date: 2016-11
+      - company: Freie Universität Berlin
+        position: "Kontraste des brasilianischen Buchmarkts in den letzten fünf Jahren"
+        start_date: 2016-07
+        end_date: 2016-07
+      - company: Literarisches Colloquium Berlin
+        position: "ViceVersa: Deutsch-Brasilianische Übersetzerwerkstatt — Translating Georg Simmel's Essay 'Brücke und Tür' into Portuguese"
+        start_date: 2013-09
+        end_date: 2013-10
+      - company: 14º Simpósio Internacional de Iniciação Científica da USP
+        position: "Amor infectum: a revolta do singular na lírica de Drummond"
+        start_date: 2006-11
+        end_date: 2006-11
+      - company: 13º Simpósio Internacional de Iniciação Científica da USP
+        position: "Amor infectum: a revolta do singular na lírica de Drummond"
+        start_date: 2005-11
+        end_date: 2005-11
+      - company: 11º Simpósio Internacional de Iniciação Científica da USP
+        position: "Amor infectum: a revolta do singular na lírica de Drummond"
+        start_date: 2003-11
+        end_date: 2003-11
+      - company: III Jornada Científica, Faculdades Integradas de Ribeirão Pires
+        position: "Amor infectum: observações sobre a lírica amorosa de Carlos Drummond de Andrade"
+        start_date: 2002-06
+        end_date: 2002-06
+      - company: 10º Simpósio Internacional de Iniciação Científica da USP
+        position: "Amor infectum: a revolta do singular na lírica de Drummond"
+        start_date: 2002-11
+        end_date: 2002-11
 
-      - name: English
-        summary: "Fluent"
+    Ausstellungen:
+      - company: Prüfungsamt, Portugiesisch-Brasilianisches Institut, UzK
+        position: "Modernismo & Reverberações / Modernismo & Widerklänge (Kuratierung)"
+        start_date: 2022-11
+        end_date: 2023-03
+        summary: Gemeinsam mit Prof. Dr. Peter W. Schulze
 
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    Sprachen:
+      - name: Portugiesisch
+        summary: Erstsprache
+      - name: Deutsch
+        summary: Fließend in Wort und Schrift
+      - name: Französisch
+        summary: Fließend in Wort und Schrift
+      - name: Spanisch
+        summary: Fließend in Wort und Schrift
+      - name: Englisch
+        summary: Sehr gute Kenntnisse
+      - name: Latein
+        summary: Gute Kenntnisse
+      - name: Italienisch
+        summary: Gute Kenntnisse
