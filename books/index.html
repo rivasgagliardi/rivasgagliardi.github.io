@@ -20,7 +20,29 @@ article {
 .uncategorized {
   visibility: hidden;
 }
-</style> <figure class="cover"> <a class="cover-link" href="/books/wolf/"> <img alt="Literaturgeschichte und Ideologie cover" src="/assets/img/cover_wolf.jpg" style="height:200px"> <figcaption class="uncategorized">UNCATEGORIZED</figcaption> </a> </figure> <figure class="cover"> <a class="cover-link" href="/books/ein_meister/"> <img alt="Ein Meister an der Peripherie des Kapitalismus cover" src="/assets/img/cover_ein_meister.jpg" style="height:200px"> <figcaption class="uncategorized">UNCATEGORIZED</figcaption> </a> </figure> <figure class="cover"> <a class="cover-link" href="/books/beyond_borders/"> <img alt="Roberto Schwarz Beyond Borders cover" src="/assets/img/cover_beyond.jpg" style="height:200px"> <figcaption class="uncategorized">UNCATEGORIZED</figcaption> </a> </figure> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Laura Rivas Gagliardi. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. <a href="https://rivasgagliardi.github.io/impressum/">Impressum</a>. </div> </footer> <script>
+</style> <figure class="cover"> <a class="cover-link" href="/books/wolf/"> <img alt="Literaturgeschichte und Ideologie cover" src="/assets/img/cover_wolf.jpg" style="height:200px"> <figcaption class="uncategorized">UNCATEGORIZED</figcaption> </a> </figure> <figure class="cover"> <a class="cover-link" href="/books/ein_meister/"> <img alt="Ein Meister an der Peripherie des Kapitalismus cover" src="/assets/img/cover_ein_meister.jpg" style="height:200px"> <figcaption class="uncategorized">UNCATEGORIZED</figcaption> </a> </figure> <figure class="cover"> <a class="cover-link" href="/books/beyond_borders/"> <img alt="Roberto Schwarz Beyond Borders cover" src="/assets/img/cover_beyond.jpg" style="height:200px"> <figcaption class="uncategorized">UNCATEGORIZED</figcaption> </a> </figure> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Laura Rivas Gagliardi. footer_text: &gt; Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. <script> document.addEventListener('DOMContentLoaded', function () {
+  var labels = {
+    'Contact Information': 'Kontaktinformationen',
+    'Professional Summary': 'Zusammenfassung',
+    'Name': 'Name',
+    'Professional Title': 'Titel',
+    'Email': 'E-Mail',
+    'Experience': 'Werdegang',
+    'Education': 'Akademische Ausbildung',
+    'Interests': 'Auslandsaufenthalte und Gastprofessuren',
+    'Awards': 'Preise und Stipendien',
+    'Publications': 'Drittmittelerfahrung und Gutachtertätigkeit',
+    'Certificates': 'Organisation wissenschaftlicher Veranstaltungen',
+    'Projects': 'Gastvorträge',
+    'Skills': 'Vorträge in wissenschaftlichen Veranstaltungen',
+    'References': 'Akademische Selbstverwaltung',
+    'Languages': 'Sprachen'
+  };
+  document.querySelectorAll('.cv .card-title, .cv td b').forEach(function (el) {
+    var t = el.textContent.trim();
+    if (labels[t]) { el.textContent = labels[t]; }
+  });
+}); </script> <a href="https://rivasgagliardi.github.io/impressum/">Impressum</a>. </div> </footer> <script>
   window.alFolio = {
     compatBootstrap: false
   };
