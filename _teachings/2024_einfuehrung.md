@@ -5,5 +5,6 @@ description: Grundkurs in literaturwissenschaftliche Methoden und Begriffe am Be
 instructor: Dr. Laura Rivas Gagliardi
 year: 2024
 term: Wintersemester 2024/25
+location: Universität zu Köln
 course_id: uzk-2024-einfuehrung
 ---
