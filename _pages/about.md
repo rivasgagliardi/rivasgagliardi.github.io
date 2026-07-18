@@ -22,7 +22,7 @@ latest_posts:
 <style>
 h2:has(> a[href="/publications/"]) {
   font-size: 0;
-  margin-top: 2.5rem;
+  margin-top: 3.5rem;
 }
 h2:has(> a[href="/publications/"])::before {
   content: "Neueste Publikationen";
