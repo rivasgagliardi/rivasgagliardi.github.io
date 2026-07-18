@@ -18,7 +18,7 @@ Albertus-Magnus-Platz<br>
 **Kontakt**
 
 
-E-Mail: rivasgagliardi@gmail.com
+E-Mail: mail@laurarivasgagliardi.com
 
 
 **Verantwortlich für den Inhalt gemäß § 18 Abs. 2 MStV**
