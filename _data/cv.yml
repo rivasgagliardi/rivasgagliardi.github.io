@@ -35,32 +35,6 @@ cv:
         start_date: 2005-08
         end_date: 2008-12
 
-    Projects:
-      - name: Universidade de São Paulo (FFLCH)
-        summary: Gastdozentur, ISAP-Programm DAAD
-        start_date: 2025-12
-        end_date: 2025-12
-      - name: Universidade de São Paulo (FFLCH)
-        summary: Gastdozentur, ISAP-Programm DAAD
-        start_date: 2024-12
-        end_date: 2024-12
-      - name: Universidade de São Paulo (FFLCH)
-        summary: Gastprofessur und Postdoc-Forschung
-        start_date: 2020-05
-        end_date: 2020-11
-      - name: University of London, Institute of Latin American Studies (ILAS)
-        summary: Postdoc-Forschung
-        start_date: 2019-11
-        end_date: 2019-12
-      - name: Arquivo Nacional, Arquivo Histórico do Itamaraty, Rio de Janeiro
-        summary: Archivforschung
-        start_date: 2016-07
-        end_date: 2016-10
-      - name: Österreichische Nationalbibliothek, Wien
-        summary: Archivforschung
-        start_date: 2016-06
-        end_date: 2016-06
-        
     Education:
       - institution: Freie Universität Berlin
         location: Berlin, Deutschland
@@ -90,6 +64,32 @@ cv:
         end_date: 2008-03
         highlights:
           - "03/2004–03/2005: Sprachaufenthalt in Berlin"
+
+    Interests:
+      - name: Universidade de São Paulo (FFLCH)
+        summary: Gastdozentur, ISAP-Programm DAAD
+        start_date: 2025-12
+        end_date: 2025-12
+      - name: Universidade de São Paulo (FFLCH)
+        summary: Gastdozentur, ISAP-Programm DAAD
+        start_date: 2024-12
+        end_date: 2024-12
+      - name: Universidade de São Paulo (FFLCH)
+        summary: Gastprofessur und Postdoc-Forschung
+        start_date: 2020-05
+        end_date: 2020-11
+      - name: University of London, Institute of Latin American Studies (ILAS)
+        summary: Postdoc-Forschung
+        start_date: 2019-11
+        end_date: 2019-12
+      - name: Arquivo Nacional, Arquivo Histórico do Itamaraty, Rio de Janeiro
+        summary: Archivforschung
+        start_date: 2016-07
+        end_date: 2016-10
+      - name: Österreichische Nationalbibliothek, Wien
+        summary: Archivforschung
+        start_date: 2016-06
+        end_date: 2016-06
 
     Awards:
       - title: Doktorandinnen-Stipendium
@@ -135,6 +135,9 @@ cv:
         date: 2024-06
       - name: "Symposium: „Ficou chato ser moderno?“ (mit P. W. Schulze)"
         issuer: Portugiesisch-Brasilianisches Institut, UzK
+        date: 2022-11
+      - name: "Ausstellung: Modernismo & Reverberações / Modernismo & Widerklänge (Kuratierung, mit P. W. Schulze)"
+        issuer: Prüfungsamt, Portugiesisch-Brasilianisches Institut, UzK
         date: 2022-11
       - name: "Lesung: Die brasilianische Militärdiktatur erinnern, mit Bernardo Kucinski (mit S. Zepp-Zwirner)"
         issuer: Freie Universität Berlin
@@ -224,10 +227,6 @@ cv:
         keywords: "III Jornada Científica, Ribeirão Pires, 06/2002"
       - name: "1. Amor infectum: a revolta do singular na lírica de Drummond"
         keywords: "10º Simpósio Iniciação Científica USP, 11/2002"
-
-    Interests:
-      - name: "Modernismo & Reverberações / Modernismo & Widerklänge (Kuratierung, mit P. W. Schulze)"
-        keywords: "Prüfungsamt, PBI, UzK, 11/2022–03/2023"
 
     References:
       - name: "Mitwirkung Online-Self-Assessment Portugiesisch/Französisch"
