@@ -10,6 +10,14 @@ cv:
       username: laura-rivas-gagliardi-25481733
   sections:
     Experience:
+      - company: Universidade de São Paulo (FFLCH)
+        position: Gastdozentur, ISAP-Programm DAAD
+        start_date: 2025-12
+        end_date: 2025-12
+      - company: Universidade de São Paulo (FFLCH)
+        position: Gastdozentur, ISAP-Programm DAAD
+        start_date: 2024-12
+        end_date: 2024-12
       - company: Portugiesisch-Brasilianisches Institut, Universität zu Köln
         position: Wissenschaftliche Mitarbeiterin (50%)
         start_date: 2024-09
@@ -20,21 +28,37 @@ cv:
         position: Wissenschaftliche Mitarbeiterin (DFG-Eigene Stelle)
         start_date: 2021-09
         end_date: 2024-08
+      - company: Universidade de São Paulo (FFLCH)
+        position: Gastprofessur und Postdoc-Forschung
+        start_date: 2020-05
+        end_date: 2020-11
+      - company: University of London, Institute of Latin American Studies (ILAS)
+        position: Postdoc-Forschung
+        start_date: 2019-11
+        end_date: 2019-12
+      - company: Arquivo Nacional, Arquivo Histórico do Itamaraty, Rio de Janeiro
+        position: Archivforschung
+        start_date: 2016-07
+        end_date: 2016-10
+      - company: Österreichische Nationalbibliothek, Wien
+        position: Archivforschung
+        start_date: 2016-06
+        end_date: 2016-06
+      - company: Colégio Santa Cruz, São Paulo
+        position: Lehrassistentin (Gymnasium)
+        start_date: 2009-02
+        end_date: 2010-02
       - company: Freiberuflich
         position: Lektorin und Übersetzerin
         start_date: 2007
         end_date: 2013
         highlights:
           - "07/2011–10/2011: Praktikum beim Suhrkamp Verlag, Lektorat für Internationale Literatur, Berlin"
-      - company: Colégio Santa Cruz, São Paulo
-        position: Lehrassistentin (Gymnasium)
-        start_date: 2009-02
-        end_date: 2010-02
       - company: Sprachzentrum FFLCH, Universidade de São Paulo
         position: Lehrerin für Französisch und Deutsch als Fremdsprache
         start_date: 2005-08
         end_date: 2008-12
-
+        
     Education:
       - institution: Freie Universität Berlin
         location: Berlin, Deutschland
@@ -64,32 +88,6 @@ cv:
         end_date: 2008-03
         highlights:
           - "03/2004–03/2005: Sprachaufenthalt in Berlin"
-
-    Volunteer:
-      - company: Universidade de São Paulo (FFLCH)
-        position: Gastdozentur, ISAP-Programm DAAD
-        start_date: 2025-12
-        end_date: 2025-12
-      - company: Universidade de São Paulo (FFLCH)
-        position: Gastdozentur, ISAP-Programm DAAD
-        start_date: 2024-12
-        end_date: 2024-12
-      - company: Universidade de São Paulo (FFLCH)
-        position: Gastprofessur und Postdoc-Forschung
-        start_date: 2020-05
-        end_date: 2020-11
-      - company: University of London, Institute of Latin American Studies (ILAS)
-        position: Postdoc-Forschung
-        start_date: 2019-11
-        end_date: 2019-12
-      - company: Arquivo Nacional, Arquivo Histórico do Itamaraty, Rio de Janeiro
-        position: Archivforschung
-        start_date: 2016-07
-        end_date: 2016-10
-      - company: Österreichische Nationalbibliothek, Wien
-        position: Archivforschung
-        start_date: 2016-06
-        end_date: 2016-06
 
     Awards:
       - title: Doktorandinnen-Stipendium
