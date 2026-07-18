@@ -9,6 +9,25 @@ display_categories: [Aktuell, Abgeschlossen]
 horizontal: false
 ---
 
+<style>
+.projects .row.row-cols-1.row-cols-md-3 {
+  position: static !important;
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+}
+.projects .col {
+  position: static !important;
+  width: auto !important;
+  left: auto !important;
+  top: auto !important;
+}
+.projects .card {
+  border-top: 4px solid var(--global-theme-color);
+  height: 100%;
+}
+</style>
+
 <!-- pages/projects.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
