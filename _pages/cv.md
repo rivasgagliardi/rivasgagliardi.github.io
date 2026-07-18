@@ -310,6 +310,9 @@ nav_order: 5
   <div class="cv-sub">Leibniz-Zentrum, Berlin</div>
 </div>
 
+<details>
+<summary style="cursor:pointer; color:var(--global-theme-color); margin: 1rem 0; font-weight:600;">25 weitere Vorträge anzeigen</summary>
+
 <div class="cv-item">
   <div class="cv-date">Sept. 2023</div>
   <div class="cv-title">25. Gregório de Matos entre órdenes y clases</div>
@@ -459,6 +462,8 @@ nav_order: 5
   <div class="cv-title">1. Amor infectum: a revolta do singular na lírica de Drummond</div>
   <div class="cv-sub">10º Simpósio Iniciação Científica USP</div>
 </div>
+
+</details>
 
 ## Akademische Selbstverwaltung
 
