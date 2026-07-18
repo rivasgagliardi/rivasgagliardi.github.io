@@ -4,9 +4,7 @@ permalink: /cv/
 title: Lebenslauf
 nav: true
 nav_order: 5
-cv_pdf: /assets/pdf/example_pdf.pdf # you can also use external links here
-cv_format: rendercv # options: rendercv, jsonresume
-description:
+cv_format: rendercv
 toc:
   sidebar: left
 ---
@@ -21,13 +19,12 @@ document.addEventListener('DOMContentLoaded', function () {
     'Email': 'E-Mail',
     'Experience': 'Werdegang',
     'Education': 'Akademische Ausbildung',
-    'Volunteer': 'Auslandsaufenthalte und Gastprofessuren',
+    'Interests': 'Auslandsaufenthalte und Gastprofessuren',
     'Awards': 'Preise und Stipendien',
     'Publications': 'Drittmittelerfahrung und Gutachtertätigkeit',
     'Certificates': 'Organisation wissenschaftlicher Veranstaltungen',
     'Projects': 'Gastvorträge',
     'Skills': 'Vorträge in wissenschaftlichen Veranstaltungen',
-    'Interests': 'Ausstellungen',
     'References': 'Akademische Selbstverwaltung',
     'Languages': 'Sprachen'
   };
