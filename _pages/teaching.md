@@ -14,6 +14,11 @@ calendar: true
   text-decoration: none;
   cursor: default;
 }
+.course-item {
+  border-left: 3px solid var(--global-theme-color);
+  padding-left: 1rem;
+  margin-bottom: 1.5rem;
+}
 </style>
 
 {% include courses.liquid %}
