@@ -40,7 +40,7 @@ nav_order: 5
 }
 </style>
 
-**Kontakt:** rivasgagliardi@gmail.com &nbsp;·&nbsp; Portugiesisch-Brasilianisches Institut, Universität zu Köln, Albertus-Magnus-Platz, 50923 Köln &nbsp;·&nbsp; Raum 1.305 (Philosophikum) &nbsp;·&nbsp; Sprechstunde: Vereinbarung per E-Mail (Sommersemester 2026: Di 15–16 Uhr)
+**Kontakt:** mail@laurarivasgagliardi.com &nbsp;·&nbsp; Portugiesisch-Brasilianisches Institut, Universität zu Köln, Albertus-Magnus-Platz, 50923 Köln &nbsp;·&nbsp; Raum 1.305 (Philosophikum) &nbsp;·&nbsp; Sprechstunde: Vereinbarung per E-Mail (Sommersemester 2026: Di 15–16 Uhr)
 
 ## Werdegang
 
