@@ -4,7 +4,7 @@ cv:
   email: rivasgagliardi@gmail.com
   location: "Portugiesisch-Brasilianisches Institut, Universität zu Köln, Albertus-Magnus-Platz, 50923 Köln"
   image: assets/img/prof_pic.jpg
-  summary: Literaturwissenschaftlerin mit Schwerpunkt auf romanischen Literaturen des 19./20. Jahrhunderts, Literaturtheorie und komparatistischer Methode.
+  summary: 
   social_networks:
     - network: LinkedIn
       username: laura-rivas-gagliardi-25481733
@@ -12,26 +12,31 @@ cv:
     Experience:
       - company: Portugiesisch-Brasilianisches Institut, Universität zu Köln
         position: Wissenschaftliche Mitarbeiterin (50%)
+        location: Köln, Deutschland
         start_date: 2024-09
         end_date: present
         highlights:
           - "Raum 1.305 (Philosophikum) — Sprechstunde: Vereinbarung per E-Mail (Sommersemester 2026: Di 15–16 Uhr)"
       - company: Portugiesisch-Brasilianisches Institut, Universität zu Köln
         position: Wissenschaftliche Mitarbeiterin (DFG-Eigene Stelle)
+        location: Köln, Deutschland
         start_date: 2021-09
         end_date: 2024-08
       - company: Freiberuflich
         position: Lektorin und Übersetzerin
+        location: São Paulo, Brasilien
         start_date: 2007
         end_date: 2013
         highlights:
           - "07/2011–10/2011: Praktikum beim Suhrkamp Verlag, Lektorat für Internationale Literatur, Berlin"
       - company: Colégio Santa Cruz, São Paulo
         position: Lehrassistentin (Gymnasium)
+        location: São Paulo, Brasilien
         start_date: 2009-02
         end_date: 2010-02
       - company: Sprachzentrum FFLCH, Universidade de São Paulo
         position: Lehrerin für Französisch und Deutsch als Fremdsprache
+        location: São Paulo, Brasilien
         start_date: 2005-08
         end_date: 2008-12
 
