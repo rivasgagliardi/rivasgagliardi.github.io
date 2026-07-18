@@ -5,5 +5,6 @@ description: Proseminar zum vergleichenden Realismus in der portugiesischen, fra
 instructor: Dr. Laura Rivas Gagliardi
 year: 2025
 term: Sommersemester
+location: Universität zu Köln
 course_id: uzk-2025-realismus
 ---
