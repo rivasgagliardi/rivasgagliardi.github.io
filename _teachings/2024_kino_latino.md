@@ -5,5 +5,6 @@ description: Seminar (mit Dr. Janek Scholz) zu lateinamerikanischem Film im Dial
 instructor: Dr. Laura Rivas Gagliardi, Dr. Janek Scholz
 year: 2024
 term: Sommersemester
+location: Universität zu Köln
 course_id: uzk-2024-kino-latino
 ---
