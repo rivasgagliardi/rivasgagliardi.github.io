@@ -28,6 +28,13 @@ h2:has(> a[href="/publications/"])::before {
   content: "Neueste Publikationen";
   font-size: 1.5rem;
 }
+h2:has(> a[href="/news/"]) {
+  font-size: 0;
+}
+h2:has(> a[href="/news/"])::before {
+  content: "Aktuelles";
+  font-size: 1.5rem;
+}
 .contact-icons i {
   font-size: 1.3rem;
 }
@@ -40,17 +47,13 @@ h2:has(> a[href="/publications/"])::before {
 .clearfix p {
   font-size: 1.0625rem;
 }
-
-
-</style>
-
 .news-title {
   pointer-events: none;
   color: inherit;
   text-decoration: none;
   cursor: default;
 }
-
+</style>
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
@@ -63,7 +66,6 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 </script>
-
 
 Laura Rivas Gagliardi ist wissenschaftliche Mitarbeiterin am [Portugiesisch-Brasilianischen Institut der Universität zu Köln](https://pbi.phil-fak.uni-koeln.de/personen/wissenschaftliche-mitarbeiterinnen/laura-rivas-gagliardi).
 
