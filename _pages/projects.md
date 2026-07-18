@@ -23,11 +23,11 @@ horizontal: false
   top: auto !important;
 }
 .projects .card {
-  border-top: 4px solid var(--global-theme-color);
+  border-left: 3px solid var(--global-theme-color);
+  border-top: none;
   height: 100%;
 }
 </style>
-
 <!-- pages/projects.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
