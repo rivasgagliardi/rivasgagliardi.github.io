@@ -13,6 +13,13 @@ h2:has(> a[href="/publications/"])::before {
   content: "Neueste Publikationen";
   font-size: 1.5rem;
 }
+h2:has(> a[href="/news/"]) {
+  font-size: 0;
+}
+h2:has(> a[href="/news/"])::before {
+  content: "Aktuelles";
+  font-size: 1.5rem;
+}
 .contact-icons i {
   font-size: 1.3rem;
 }
@@ -25,9 +32,13 @@ h2:has(> a[href="/publications/"])::before {
 .clearfix p {
   font-size: 1.0625rem;
 }
-
-
-</style> <p>.news-title { pointer-events: none; color: inherit; text-decoration: none; cursor: default; }</p> <script>
+.news-title {
+  pointer-events: none;
+  color: inherit;
+  text-decoration: none;
+  cursor: default;
+}
+</style> <script>
 document.addEventListener('DOMContentLoaded', function () {
   var monthMap = {Jan:'Januar', Feb:'Februar', Mar:'März', Apr:'April', May:'Mai', Jun:'Juni', Jul:'Juli', Aug:'August', Sep:'September', Oct:'Oktober', Nov:'November', Dec:'Dezember'};
   document.querySelectorAll('.news th').forEach(function (th) {
