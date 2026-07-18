@@ -11,7 +11,7 @@ Die drei Autoren setzten sich mit dem Fortbestehen der kolonialen Mentalität au
 
 Obwohl die Ansätze der drei Autoren unterschiedlich sind und auf spezifische historische Probleme reagieren, wurde die Andrade-Candido-Schwarz-Konstellation in dieser Untersuchung vor allem im Hinblick auf zwei Aspekte betrachtet: die Wahrnehmung des kolonialen Erbes und der Umgang damit (als Beispiel ihre Interpretation von *Modernismo* und *antropofagia*) und die Ausarbeitung ihrer literaturwissenschaftlichen Methoden. Der dekolonisierende Ansatz der drei Autoren geht über geografische und disziplinäre Grenzen hinaus und bietet wertvolle Einblicke in zeitgenössische Phänomene.
 
-**Fach:** Romanische Philologie
+**Fach:** Allgemeine und vergleichende Literaturwissenschaft; Kulturwissenschaft
 
 **Förderung:** [Deutsche Forschungsgemeinschaft](https://gepris.dfg.de/gepris/projekt/459579268)
 
