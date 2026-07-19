@@ -74,12 +74,16 @@ document.addEventListener('DOMContentLoaded', function () {
   });
   var list = document.querySelector('#navbar .navbar-menu-list');
   if (list) {
-    var li = document.createElement('li');
-    li.className = 'nav-item';
-    li.innerHTML = '<a class="nav-link" href="/" style="font-weight:600">DE</a>';
+    var liDe = document.createElement('li');
+    liDe.className = 'nav-item';
+    liDe.innerHTML = '<a class="nav-link" href="/">DE</a>';
+    var liEn = document.createElement('li');
+    liEn.className = 'nav-item';
+    liEn.innerHTML = '<a class="nav-link" href="/en/">EN</a>';
     var toggle = list.querySelector('.toggle-container');
-    if (toggle) { list.insertBefore(li, toggle); } else { list.appendChild(li); }
-  }
+    [liDe, liEn].forEach(function (li) {
+      if (toggle) { list.insertBefore(li, toggle); } else { list.appendChild(li); }
+    }
 
   var monthMapPt = {Jan:'janeiro', Feb:'fevereiro', Mar:'março', Apr:'abril', May:'maio', Jun:'junho', Jul:'julho', Aug:'agosto', Sep:'setembro', Oct:'outubro', Nov:'novembro', Dec:'dezembro'};
   document.querySelectorAll('.news th').forEach(function (th) {
