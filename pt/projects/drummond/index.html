@@ -9,6 +9,23 @@
   border-bottom: 1px solid var(--global-divider-color);
   padding-bottom: 0.5rem;
 }
+.lang-switcher {
+  font-size: 0.8rem;
+  white-space: nowrap;
+  margin-left: auto;
+  margin-right: 0.75rem;
+  align-self: center;
+}
+.lang-switcher a {
+  opacity: 0.55;
+  border-bottom: none;
+  color: var(--global-text-color);
+}
+.lang-switcher a.active {
+  opacity: 1;
+  font-weight: 600;
+  pointer-events: none;
+}
 </style> <script>
 document.addEventListener('DOMContentLoaded', function () {
   var map = {
@@ -26,13 +43,14 @@ document.addEventListener('DOMContentLoaded', function () {
       a.href = map[path].href;
     }
   });
-  var list = document.querySelector('#navbar .navbar-menu-list');
-  if (list) {
-    var li = document.createElement('li');
-    li.className = 'nav-item';
-    li.innerHTML = '<a class="nav-link" href="/projects/drummond/" style="font-weight:600">DE</a>';
-    var toggle = list.querySelector('.toggle-container');
-    if (toggle) { list.insertBefore(li, toggle); } else { list.appendChild(li); }
+
+  var container = document.querySelector('#navbar .container');
+  var toggler = document.querySelector('#navbar .navbar-toggler');
+  if (container && toggler) {
+    var langDiv = document.createElement('div');
+    langDiv.className = 'lang-switcher';
+    langDiv.innerHTML = '<a href="/projects/5_drummond/">DE</a> · <a href="/pt/projects/drummond/" class="active">PT</a> · <a href="/en/projects/drummond/">EN</a>';
+    container.insertBefore(langDiv, toggler);
   }
 });
 </script> <p><strong>Universidade de São Paulo, 2002–2006</strong></p> <p>No exame do contexto de recepção crítica da lírica de Drummond, a pergunta sobre como o poeta trata o tema do amor é de importância fundamental. De modo geral, o tratamento desse tema parte de um eu que oscila, em sentido estrito, entre perspectivas sociais e pessoais. O projeto compreendeu duas fases de financiamento.</p> <p>Na primeira fase, o foco da pesquisa recaiu sobre os poemas de amor publicados nas obras <em>Novos poemas</em> (1948), <em>Claro enigma</em> (1951), <em>Fazendeiro do ar</em> (1953) e <em>A vida passada a limpo</em> (1959). Nesses livros, a perspectiva singular que atravessa e constitui o chamado “eu-<em>gauche</em>” de Drummond ganha, por fim, uma primazia teórico-especulativa na temática amorosa. Nessa primeira fase, foi possível elevar a leitura da poética de Drummond a um outro plano reflexivo. O objetivo da pesquisa era justamente revelar a revolta do aspecto individual do sujeito lírico e a afirmação de um novo modo de ser do amor. O sentido e o alcance dessa outra concepção de amor foram designados como “<em>amor infectum</em>”.</p> <p>Na segunda fase da investigação, o foco se voltou para as obras iniciais de Drummond, nas quais a dimensão do amor está claramente vinculada aos primórdios do <em>Modernismo</em>. Isso significa que, aqui, o experimentalismo estético ocupa o primeiro plano, associado à exploração do amor em sua forma concreta — apesar de um eu lírico mais observador e tímido, que se distingue em todos os sentidos do eu lírico presente nos poemas eróticos dos livros posteriores de Drummond. Mas, sobretudo, a experiência concreta do amor se expande para além da dimensão puramente individual, passando a abarcar anseios de transformação social, nos quais o amor representa a chave para o mundo e para a vida futura.</p> <p><strong>Orientação:</strong> Prof.ª Dr.ª Ivone Daré Rabello</p> <p><strong>Área:</strong> Literatura Geral e Comparada</p> <p><strong>Financiamento:</strong> <a href="https://bv.fapesp.br/pt/bolsas/47501/amor-infectum-a-revolta-do-singular-na-lirica-de-drummond/" rel="external nofollow noopener" target="_blank">Fundação de Amparo à Pesquisa do Estado de São Paulo (Fapesp)</a></p> <p><strong>Prêmios:</strong> Menção Honrosa pelo projeto de pesquisa sobre a lírica de Drummond, USP, Pró-Reitoria de Pesquisa, 11º SICUSP, 2003</p> <p><strong>Publicação</strong></p> <ul> <li><a href="/pt/publications/#gagliardi2018drummond">Amor e modernidade na lírica de Drummond</a></li> </ul> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Laura Rivas Gagliardi. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. <a href="https://laurarivasgagliardi.com/impressum/">Impressum</a>. </div> </footer> <script>
