@@ -1,0 +1,128 @@
+---
+layout: about
+title: About
+permalink: /en/
+subtitle: "Romance Studies and Literary Theory"
+profile:
+  align: right
+  image: prof_pic.jpg
+  image_circular: false
+selected_papers: true
+social: true
+announcements:
+  enabled: true
+  scrollable: true
+  limit: 5
+latest_posts:
+  enabled: false
+  scrollable: true
+  limit: 3
+nav: false
+---
+
+<style>
+h2:has(> a[href="/publications/"]) {
+  font-size: 0;
+  margin-top: 2.5rem;
+}
+h2:has(> a[href="/publications/"])::before {
+  content: "Recent Publications";
+  font-size: 1.5rem;
+}
+h2:has(> a[href="/news/"]) {
+  font-size: 0;
+}
+h2:has(> a[href="/news/"])::before {
+  content: "News";
+  font-size: 1.5rem;
+}
+.contact-icons i {
+  font-size: 1.3rem;
+}
+.contact-icons {
+  gap: 0.9rem;
+}
+.col.abbr {
+  display: none;
+}
+.clearfix {
+  margin-bottom: 2.5rem;
+}
+.clearfix p {
+  font-size: 1.0625rem;
+}
+.news-title {
+  pointer-events: none;
+  color: inherit;
+  text-decoration: none;
+  cursor: default;
+}
+#gagliardi2026tropischer .links::after {
+  content: "Open Access";
+  display: inline-block;
+  margin-left: 8px;
+  padding: 2px 8px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: #2e7d32;
+  border-radius: 4px;
+}
+.navbar-brand {
+  display: none;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var map = {
+    '/': { text: 'About', href: '/en/' },
+    '/books/': { text: 'Books', href: '/en/books/' },
+    '/publications/': { text: 'Publications', href: '/en/publications/' },
+    '/projects/': { text: 'Research Projects', href: '/en/projects/' },
+    '/cv/': { text: 'CV', href: '/en/cv/' },
+    '/teaching/': { text: 'Teaching', href: '/en/teaching/' }
+  };
+  document.querySelectorAll('#navbar .nav-link').forEach(function (a) {
+    var path = new URL(a.href).pathname;
+    if (map[path]) {
+      a.childNodes[0].textContent = map[path].text + ' ';
+      a.href = map[path].href;
+    }
+  });
+  var list = document.querySelector('#navbar .navbar-menu-list');
+  if (list) {
+    var liDe = document.createElement('li');
+    liDe.className = 'nav-item';
+    liDe.innerHTML = '<a class="nav-link" href="/">DE</a>';
+    var liPt = document.createElement('li');
+    liPt.className = 'nav-item';
+    liPt.innerHTML = '<a class="nav-link" href="/pt/">PT</a>';
+    var liEn = document.createElement('li');
+    liEn.className = 'nav-item';
+    liEn.innerHTML = '<a class="nav-link" href="/en/" style="font-weight:600">EN</a>';
+    var toggle = list.querySelector('.toggle-container');
+    [liDe, liPt, liEn].forEach(function (li) {
+      if (toggle) { list.insertBefore(li, toggle); } else { list.appendChild(li); }
+    });
+  }
+
+  var pubSection = document.querySelector('.publications');
+  if (pubSection) {
+    var pubWalker = document.createTreeWalker(pubSection, NodeFilter.SHOW_TEXT);
+    var pubNode;
+    while (pubNode = pubWalker.nextNode()) {
+      var t = pubNode.nodeValue;
+      if (t.indexOf('Hg. gemeinsam mit') !== -1) {
+        pubNode.nodeValue = t.replace('Hg. gemeinsam mit', 'Co-edited with').replace(' und ', ' and ');
+      }
+    }
+  }
+});
+</script>
+
+Laura Rivas Gagliardi is a research associate at the [Portuguese-Brazilian Institute of the University of Cologne](https://pbi.phil-fak.uni-koeln.de/personen/wissenschaftliche-mitarbeiterinnen/laura-rivas-gagliardi).
+
+After completing her degree in Portuguese and French Philology at the University of São Paulo (2007) and a Master's in Applied Literary Studies at Freie Universität Berlin (2013), she received her doctorate there in 2019 as a fellow of the Friedrich Schlegel Graduate School of Literary Studies. As a postdoctoral researcher, she worked at the Institute of Latin American Studies in London and at the Department of Modern Languages of the University of São Paulo, before moving to Cologne in 2021, where she led a [research project funded by the German Research Foundation (DFG)](https://gepris.dfg.de/gepris/projekt/459579268) on the critical method of Mário de Andrade, Antonio Candido, and Roberto Schwarz until 2024.
+
+Her current research follows two lines of inquiry: within her habilitation project, she examines the literary construction of female agency in the nineteenth-century European and Latin American novel; in parallel, she works on the life and thought of the literary theorist Anatol Rosenfeld, whose exile-born thinking she reconstructs from a comparative perspective.
