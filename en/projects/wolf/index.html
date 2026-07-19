@@ -9,6 +9,23 @@
   border-bottom: 1px solid var(--global-divider-color);
   padding-bottom: 0.5rem;
 }
+.lang-switcher {
+  font-size: 0.8rem;
+  white-space: nowrap;
+  margin-left: auto;
+  margin-right: 0.75rem;
+  align-self: center;
+}
+.lang-switcher a {
+  opacity: 0.55;
+  border-bottom: none;
+  color: var(--global-text-color);
+}
+.lang-switcher a.active {
+  opacity: 1;
+  font-weight: 600;
+  pointer-events: none;
+}
 </style> <script>
 document.addEventListener('DOMContentLoaded', function () {
   var map = {
@@ -26,18 +43,14 @@ document.addEventListener('DOMContentLoaded', function () {
       a.href = map[path].href;
     }
   });
-  var list = document.querySelector('#navbar .navbar-menu-list');
-  if (list) {
-    var liDe = document.createElement('li');
-    liDe.className = 'nav-item';
-    liDe.innerHTML = '<a class="nav-link" href="/projects/wolf/">DE</a>';
-    var liPt = document.createElement('li');
-    liPt.className = 'nav-item';
-    liPt.innerHTML = '<a class="nav-link" href="/pt/projects/wolf/">PT</a>';
-    var toggle = list.querySelector('.toggle-container');
-    [liDe, liPt].forEach(function (li) {
-      if (toggle) { list.insertBefore(li, toggle); } else { list.appendChild(li); }
-    });
+
+  var container = document.querySelector('#navbar .container');
+  var toggler = document.querySelector('#navbar .navbar-toggler');
+  if (container && toggler) {
+    var langDiv = document.createElement('div');
+    langDiv.className = 'lang-switcher';
+    langDiv.innerHTML = '<a href="/projects/3_wolf/">DE</a> · <a href="/pt/projects/wolf/">PT</a> · <a href="/en/projects/wolf/" class="active">EN</a>';
+    container.insertBefore(langDiv, toggler);
   }
 });
 </script> <p><strong>Freie Universität Berlin, 2014–2019</strong></p> <p>Literary history and ideology in the nineteenth century: this research project was dedicated to reconstructing the genesis of <em>Le Brésil littéraire: histoire de la littérature brésilienne</em> (1863). This first history of Brazilian literature was written in German by the Romance philologist and Imperial and Royal Court Library official Ferdinand Wolf (Vienna, 1796–1866), but was published only in French translation. At the center of the research is a philological comparison of the never-printed German manuscript “Geschichte der brasilianischen Nationalliteratur” with the published French version.</p> <p>The comparison reveals the differences between the two versions and between the paradigms underlying them: in the German text, Wolf’s literary-political project regarding the supremacy of the “German spirit” and the Habsburg monarchy can be clearly identified, whereas this is decisively softened in the French text. The conscious suppression of certain terms and the introduction of vocabulary drawn from an emancipatory tradition of thought stemming from the French Revolution undermine, in the published book, the coherence of Wolf’s conception of history, which operates with the language and thought of German Idealism.</p> <p>Furthermore, Wolf’s correspondence with Brazilian scholars in the service of Emperor Pedro II reveals how they helped shape the genesis of the work. Pedro II’s main interest was to implement a cultural-political agenda aimed at preserving the monarchy and the unity of the country. Above all, this involved narrating the past — particularly the colonial past — from a particular perspective. <em>Le Brésil littéraire</em> thus emerged under the sign of the ideological demands of a transnational elite: (literary) historiography is here employed as a valuable tool for constructing a past and disseminating it as the sole truth. The analysis of the discursive inversion of actual relations shows, however, how such devices can serve to justify and consolidate one’s own position of dominance. Finally, the archival and material-historical approach makes it possible to make available a collection of previously unpublished materials and their transcriptions.</p> <p><strong>Supervisors:</strong> Prof. Dr. Susanne Zepp-Zwirner; Prof. Dr. Joachim Küpper</p> <p><strong>Field:</strong> Romance Philology</p> <p><strong>Funding:</strong> <a href="https://www.geisteswissenschaften.fu-berlin.de/friedrichschlegel/personen/Alumni-Dok/Gagliardi/index.html" rel="external nofollow noopener" target="_blank">Friedrich Schlegel Graduate School of Literary Studies</a></p> <p><strong>Publications</strong></p> <ul> <li><a href="/en/publications/#gagliardi2020literaturgeschichte">Literaturgeschichte und Ideologie: Ferdinand Wolfs literaturpolitisches Projekt «Le Brésil littéraire»</a></li> <li><a href="/en/publications/#gagliardi2020transnationally">Transnationally Forged Nationality</a></li> </ul> <p><strong>Course taught</strong></p> <ul> <li>Summer semester 2020, advanced seminar: História literária e ideologia no século XIX (University of São Paulo)</li> </ul> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Laura Rivas Gagliardi. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. <a href="https://laurarivasgagliardi.com/impressum/">Impressum</a>. </div> </footer> <script>
