@@ -2,7 +2,7 @@
 layout: about
 title: Sobre mim
 permalink: /pt/
-subtitle: "Literaturwissenschaftlerin, Romanistin"
+subtitle: "Pesquisadora e docente em Letras Românicas, Teoria Literária e Literatura Comparada"
 profile:
   align: right
   image: prof_pic.jpg
