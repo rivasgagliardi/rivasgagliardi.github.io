@@ -28,6 +28,23 @@
   margin: 0;
   font-size: 0.95rem;
 }
+.lang-switcher {
+  font-size: 0.8rem;
+  white-space: nowrap;
+  margin-left: auto;
+  margin-right: 0.75rem;
+  align-self: center;
+}
+.lang-switcher a {
+  opacity: 0.55;
+  border-bottom: none;
+  color: var(--global-text-color);
+}
+.lang-switcher a.active {
+  opacity: 1;
+  font-weight: 600;
+  pointer-events: none;
+}
 </style> <script>
 document.addEventListener('DOMContentLoaded', function () {
   var map = {
@@ -45,13 +62,14 @@ document.addEventListener('DOMContentLoaded', function () {
       a.href = map[path].href;
     }
   });
-  var list = document.querySelector('#navbar .navbar-menu-list');
-  if (list) {
-    var li = document.createElement('li');
-    li.className = 'nav-item';
-    li.innerHTML = '<a class="nav-link" href="/teaching/" style="font-weight:600">DE</a>';
-    var toggle = list.querySelector('.toggle-container');
-    if (toggle) { list.insertBefore(li, toggle); } else { list.appendChild(li); }
+
+  var container = document.querySelector('#navbar .container');
+  var toggler = document.querySelector('#navbar .navbar-toggler');
+  if (container && toggler) {
+    var langDiv = document.createElement('div');
+    langDiv.className = 'lang-switcher';
+    langDiv.innerHTML = '<a href="/teaching/">DE</a> · <a href="/pt/teaching/" class="active">PT</a> · <a href="/en/teaching/">EN</a>';
+    container.insertBefore(langDiv, toggler);
   }
 });
 </script> <h2 class="year-label">2026</h2> <div class="course-card"> <h3>Romane von Frauen aus dem 19. Jahrhundert - Sand, Caballero und Lopes de Almeida</h3> <div class="course-meta">Semestre de verão · UzK</div> <p class="course-desc">Seminário avançado sobre autoras do século XIX e sua contribuição para o discurso literário da época.</p> </div> <h2 class="year-label">2025</h2> <div class="course-card"> <h3>Personagens femininas do romantismo ao realismo nas literaturas francesa, espanhola e brasileira</h3> <div class="course-meta">Semestre de inverno 2025/26 · USP</div> <p class="course-desc">Seminário avançado sobre figuras femininas entre o Romantismo e o Realismo, em perspectiva transatlântica comparada.</p> </div> <div class="course-card"> <h3>Kolonisation und Emanzipation - Roberto Schwarz und die Herausforderungen der Kritischen Theorie</h3> <div class="course-meta">Semestre de inverno 2025/26 · com Prof. Dr. Jorge Grespan · UzK</div> <p class="course-desc">Seminário avançado sobre o método crítico de Roberto Schwarz no contexto da Teoria Crítica.</p> </div> <div class="course-card"> <h3>Das Leben der Frauen in den Romanen von Balzac, Clarín und Alencar</h3> <div class="course-meta">Semestre de inverno 2025/26 · UzK</div> <p class="course-desc">Seminário introdutório sobre a representação literária da realidade feminina nos romances francês, espanhol e brasileiro.</p> </div> <div class="course-card"> <h3>Der Realismus bei Eça de Queirós, Émile Zola und Pardo Bazán</h3> <div class="course-meta">Semestre de verão · UzK</div> <p class="course-desc">Seminário introdutório sobre o Realismo comparado nas literaturas portuguesa, francesa e espanhola.</p> </div> <h2 class="year-label">2024</h2> <div class="course-card"> <h3>Kino Latino</h3> <div class="course-meta">Semestre de verão · com Dr. Janek Scholz · UzK</div> <p class="course-desc">Seminário sobre cinema latino-americano em diálogo com a literatura e a sociedade.</p> </div> <div class="course-card"> <h3>Die weiblichen Protagonistinnen von Flaubert, Galdós und Machado de Assis</h3> <div class="course-meta">Semestre de inverno 2024/25 · UzK</div> <p class="course-desc">Seminário avançado sobre protagonistas femininas no romance francês, espanhol e brasileiro do século XIX.</p> </div> <div class="course-card"> <h3>Malandragem e volubilidade</h3> <div class="course-meta">Semestre de inverno 2024/25 · com Prof. Dr. Jorge Grespan · USP</div> <p class="course-desc">Seminário avançado sobre conceitos centrais da crítica literária de Roberto Schwarz.</p> </div> <div class="course-card"> <h3>Einführung in die Literaturwissenschaft Portugiesisch</h3> <div class="course-meta">Semestre de inverno 2024/25 · UzK</div> <p class="course-desc">Curso introdutório aos métodos e conceitos dos estudos literários, com foco na literatura de língua portuguesa.</p> </div> <h2 class="year-label">2020</h2> <div class="course-card"> <h3>História literária e ideologia no século XIX</h3> <div class="course-meta">Semestre de verão · USP</div> <p class="course-desc">Seminário avançado sobre a dimensão ideológica da historiografia literária no século XIX.</p> </div> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Laura Rivas Gagliardi. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. <a href="https://laurarivasgagliardi.com/impressum/">Impressum</a>. </div> </footer> <script>
