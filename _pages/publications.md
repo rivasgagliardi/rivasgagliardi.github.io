@@ -45,13 +45,17 @@ document.addEventListener('DOMContentLoaded', function () {
 
   var list = document.querySelector('#navbar .navbar-menu-list');
   if (list) {
-    var li = document.createElement('li');
-    li.className = 'nav-item';
-    li.innerHTML = '<a class="nav-link" href="/pt/publications/" style="font-weight:600">PT</a>';
+    var liPt = document.createElement('li');
+    liPt.className = 'nav-item';
+    liPt.innerHTML = '<a class="nav-link" href="/pt/publications/">PT</a>';
+    var liEn = document.createElement('li');
+    liEn.className = 'nav-item';
+    liEn.innerHTML = '<a class="nav-link" href="/en/publications/">EN</a>';
     var toggle = list.querySelector('.toggle-container');
-    if (toggle) { list.insertBefore(li, toggle); } else { list.appendChild(li); }
+    [liPt, liEn].forEach(function (li) {
+      if (toggle) { list.insertBefore(li, toggle); } else { list.appendChild(li); }
+    });
   }
-});
 </script>
 <!-- _pages/publications.md -->
 <!-- Bibsearch Feature -->
