@@ -2,7 +2,7 @@
 layout: about
 title: Sobre mim
 permalink: /pt/
-subtitle: "Pesquisadora e docente em Letras Românicas"
+subtitle: "Letras românicas, Teoria literária"
 profile:
   align: right
   image: prof_pic.jpg
