@@ -67,29 +67,16 @@ h2:has(> a[href="/news/"])::before {
   background-color: #2e7d32;
   border-radius: 4px;
 }
+.lang-switch {
+  font-size: 0.85rem;
+  margin-bottom: 1.5rem;
+}
+.lang-switch a {
+  font-weight: 600;
+}
 </style>
 
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-  var monthMap = {Jan:'Januar', Feb:'Februar', Mar:'März', Apr:'April', May:'Mai', Jun:'Juni', Jul:'Juli', Aug:'August', Sep:'September', Oct:'Oktober', Nov:'November', Dec:'Dezember'};
-  document.querySelectorAll('.news th').forEach(function (th) {
-    var m = th.textContent.trim().match(/^([A-Za-z]{3})\s+(\d{1,2}),\s+(\d{4})$/);
-    if (m && monthMap[m[1]]) {
-      th.textContent = m[2] + '. ' + monthMap[m[1]] + ' ' + m[3];
-    }
-  });
-});
-</script>
-
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-  document.querySelectorAll('.links a').forEach(function (a) {
-    if (a.textContent.trim() === 'Website') {
-      a.textContent = 'Webseite';
-    }
-  });
-});
-</script>
+<p class="lang-switch"><strong>DE</strong> · <a href="/pt/">PT</a></p>
 
 Laura Rivas Gagliardi ist wissenschaftliche Mitarbeiterin am [Portugiesisch-Brasilianischen Institut der Universität zu Köln](https://pbi.phil-fak.uni-koeln.de/personen/wissenschaftliche-mitarbeiterinnen/laura-rivas-gagliardi).
 
