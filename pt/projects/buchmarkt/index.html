@@ -9,6 +9,23 @@
   border-bottom: 1px solid var(--global-divider-color);
   padding-bottom: 0.5rem;
 }
+.lang-switcher {
+  font-size: 0.8rem;
+  white-space: nowrap;
+  margin-left: auto;
+  margin-right: 0.75rem;
+  align-self: center;
+}
+.lang-switcher a {
+  opacity: 0.55;
+  border-bottom: none;
+  color: var(--global-text-color);
+}
+.lang-switcher a.active {
+  opacity: 1;
+  font-weight: 600;
+  pointer-events: none;
+}
 </style> <script>
 document.addEventListener('DOMContentLoaded', function () {
   var map = {
@@ -26,13 +43,14 @@ document.addEventListener('DOMContentLoaded', function () {
       a.href = map[path].href;
     }
   });
-  var list = document.querySelector('#navbar .navbar-menu-list');
-  if (list) {
-    var li = document.createElement('li');
-    li.className = 'nav-item';
-    li.innerHTML = '<a class="nav-link" href="/projects/buchmarkt/" style="font-weight:600">DE</a>';
-    var toggle = list.querySelector('.toggle-container');
-    if (toggle) { list.insertBefore(li, toggle); } else { list.appendChild(li); }
+
+  var container = document.querySelector('#navbar .container');
+  var toggler = document.querySelector('#navbar .navbar-toggler');
+  if (container && toggler) {
+    var langDiv = document.createElement('div');
+    langDiv.className = 'lang-switcher';
+    langDiv.innerHTML = '<a href="/projects/4_buchmarkt/">DE</a> · <a href="/pt/projects/buchmarkt/" class="active">PT</a> · <a href="/en/projects/buchmarkt/">EN</a>';
+    container.insertBefore(langDiv, toggler);
   }
 });
 </script> <p><strong>Universidade Livre de Berlim, 2010–2013</strong></p> <p>Os fios que ligam a literatura brasileira à sua mediação em países de língua alemã são, muitas vezes, quase invisíveis. Ainda assim, eles existem: às vezes se rompem, mas voltam a mostrar uma conexão forte e estreita através do Atlântico. As tensões desse movimento fluido, que faz parte da dinâmica da recepção de qualquer cultura, despertam interesse, razão pela qual estão aqui em foco. Este projeto abrange, sobretudo, o lançamento de romances num período de vinte anos, aproximadamente de julho de 1993 a julho de 2013.</p> <p>A escolha desse recorte temporal se justifica facilmente: primeiro, pelas Feiras do Livro de Frankfurt com foco no Brasil em 1994 e 2013; segundo, pela escassez de pesquisas acadêmicas recentes que unam perspectivas literárias e mercadológicas. As últimas contribuições relevantes sobre o tema datam de pouco antes da virada do século; depois disso, instalou-se um silêncio curioso.</p> <p>No espaço de língua alemã, a recepção da literatura brasileira esteve quase sempre vinculada ao termo genérico “América Latina”, o que já representava um problema em si. O Brasil precisou primeiro se desvencilhar dessa associação imediata para depois se afirmar com sua própria literatura, que não tem nada a ver com traços típicos da literatura hispano-americana, como o <em>realismo mágico</em>. Além disso, o chamado boom latino-americano já vivia um declínio nos anos 1990, o que acabou por arrastar o Brasil junto. Um olhar histórico permite refletir sobre o estado atual da pesquisa em estudos brasileiros.</p> <p><strong>Orientação:</strong> Prof.ª Dr.ª Susanne Klengel</p> <p><strong>Área:</strong> Literatura Geral e Comparada</p> <p><strong>Publicação</strong></p> <ul> <li><a href="/pt/publications/#gagliardi2022contrasts">Contrasts in the Brazilian Book Market at the Beginning of the 21st Century</a></li> </ul> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Laura Rivas Gagliardi. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. <a href="https://laurarivasgagliardi.com/impressum/">Impressum</a>. </div> </footer> <script>
