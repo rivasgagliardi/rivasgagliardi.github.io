@@ -37,6 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
       a.href = map[path].href;
     }
   });
+
   var list = document.querySelector('#navbar .navbar-menu-list');
   if (list) {
     var liDe = document.createElement('li');
@@ -50,6 +51,7 @@ document.addEventListener('DOMContentLoaded', function () {
       if (toggle) { list.insertBefore(li, toggle); } else { list.appendChild(li); }
     });
   }
+});
 </script>
 
 <figure class="cover">
