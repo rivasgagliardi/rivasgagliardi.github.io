@@ -68,5 +68,7 @@ Embora as abordagens dos três autores sejam distintas e respondam a problemas h
 
 **Disciplinas ministradas**
 
-- WiSe 2025/26, Hauptseminar: Kolonisation und Emanzipation – Roberto Schwarz und die Herausforderungen der Kritischen Theorie (mit Prof. Dr. Jorge Grespan, UzK)
-- WiSe 2024/25, Hauptseminar: Malandragem e volubilidade (mit Prof. Dr. Jorge Grespan, USP)
+**Disciplinas ministradas**
+
+- Semestre de inverno de 2025/26: Kolonisation und Emanzipation – Roberto Schwarz und die Herausforderungen der Kritischen Theorie (com Prof. Dr. Jorge Grespan, UzK)
+- Semestre de inverno de 2024/25, disciplina de pós-graduação: Malandragem e volubilidade (com Prof. Dr. Jorge Grespan, DH-USP)
