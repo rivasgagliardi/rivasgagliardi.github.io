@@ -40,6 +40,19 @@ nav_order: 5
 }
 </style>
 
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var list = document.querySelector('#navbar .navbar-menu-list');
+  if (list) {
+    var li = document.createElement('li');
+    li.className = 'nav-item';
+    li.innerHTML = '<a class="nav-link" href="/pt/cv/" style="font-weight:600">PT</a>';
+    var toggle = list.querySelector('.toggle-container');
+    if (toggle) { list.insertBefore(li, toggle); } else { list.appendChild(li); }
+  }
+});
+</script>
+
 **Kontakt:** mail@laurarivasgagliardi.com &nbsp;·&nbsp; Portugiesisch-Brasilianisches Institut, Universität zu Köln, Albertus-Magnus-Platz, 50923 Köln &nbsp;·&nbsp; Raum 1.305 (Philosophikum) &nbsp;·&nbsp; Sprechstunde: Vereinbarung per E-Mail (Sommersemester 2026: Di 15–16 Uhr)
 
 ## Werdegang
