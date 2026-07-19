@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /pt/cv/
-title: Lebenslauf
+title: Currículo
 nav: false
 ---
 
