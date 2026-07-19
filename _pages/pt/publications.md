@@ -85,6 +85,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   var textMap = {
     'Website': 'Site',
+    'Hg.': 'Org.',
     'gemeinsam mit': 'em conjunto com',
     'Interview mit': 'Entrevista com',
     'Verweis auf die Heftseite, nicht auf den Einzelartikel': 'Refere-se à página do número, não ao artigo avulso'
