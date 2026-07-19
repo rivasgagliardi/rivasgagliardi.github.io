@@ -31,6 +31,22 @@ nav: false
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
+  var map = {
+    '/': { text: 'Sobre mim', href: '/pt/' },
+    '/books/': { text: 'Livros', href: '/pt/books/' },
+    '/publications/': { text: 'Publicações', href: '/pt/publications/' },
+    '/projects/': { text: 'Projetos de pesquisa', href: '/pt/projects/' },
+    '/cv/': { text: 'Currículo', href: '/pt/cv/' },
+    '/teaching/': { text: 'Ensino', href: '/pt/teaching/' }
+  };
+  document.querySelectorAll('#navbar .nav-link').forEach(function (a) {
+    var path = new URL(a.href).pathname;
+    if (map[path]) {
+      a.childNodes[0].textContent = map[path].text + ' ';
+      a.href = map[path].href;
+    }
+  });
+
   var container = document.querySelector('#navbar .container');
   var toggler = document.querySelector('#navbar .navbar-toggler');
   if (container && toggler) {
