@@ -55,6 +55,23 @@ h2:has(> a[href="/news/"])::before {
 .navbar-brand {
   display: none;
 }
+  .lang-switcher {
+  font-size: 0.8rem;
+  white-space: nowrap;
+  margin-left: auto;
+  margin-right: 0.75rem;
+  align-self: center;
+}
+.lang-switcher a {
+  opacity: 0.55;
+  border-bottom: none;
+  color: var(--global-text-color);
+}
+.lang-switcher a.active {
+  opacity: 1;
+  font-weight: 600;
+  pointer-events: none;
+}
 </style> <script>
 document.addEventListener('DOMContentLoaded', function () {
   var map = {
@@ -72,33 +89,14 @@ document.addEventListener('DOMContentLoaded', function () {
       a.href = map[path].href;
     }
   });
-  var list = document.querySelector('#navbar .navbar-menu-list');
-  if (list) {
-    var liDe = document.createElement('li');
-    liDe.className = 'nav-item';
-    liDe.innerHTML = '<a class="nav-link" href="/">DE</a>';
-    var liPt = document.createElement('li');
-    liPt.className = 'nav-item';
-    liPt.innerHTML = '<a class="nav-link" href="/pt/">PT</a>';
-    var liEn = document.createElement('li');
-    liEn.className = 'nav-item';
-    liEn.innerHTML = '<a class="nav-link" href="/en/" style="font-weight:600">EN</a>';
-    var toggle = list.querySelector('.toggle-container');
-    [liDe, liPt, liEn].forEach(function (li) {
-      if (toggle) { list.insertBefore(li, toggle); } else { list.appendChild(li); }
-    });
-  }
 
-  var pubSection = document.querySelector('.publications');
-  if (pubSection) {
-    var pubWalker = document.createTreeWalker(pubSection, NodeFilter.SHOW_TEXT);
-    var pubNode;
-    while (pubNode = pubWalker.nextNode()) {
-      var t = pubNode.nodeValue;
-      if (t.indexOf('Hg. gemeinsam mit') !== -1) {
-        pubNode.nodeValue = t.replace('Hg. gemeinsam mit', 'Co-edited with').replace(' und ', ' and ');
-      }
-    }
+  var container = document.querySelector('#navbar .container');
+  var toggler = document.querySelector('#navbar .navbar-toggler');
+  if (container && toggler) {
+    var langDiv = document.createElement('div');
+    langDiv.className = 'lang-switcher';
+    langDiv.innerHTML = '<a href="/books/">DE</a> · <a href="/pt/books/">PT</a> · <a href="/en/books/" class="active">EN</a>';
+    container.insertBefore(langDiv, toggler);
   }
 });
 </script> <p>Laura Rivas Gagliardi is a research associate at the <a href="https://pbi.phil-fak.uni-koeln.de/personen/wissenschaftliche-mitarbeiterinnen/laura-rivas-gagliardi" rel="external nofollow noopener" target="_blank">Portuguese-Brazilian Institute of the University of Cologne</a>.</p> <p>After completing her degree in Portuguese and French Philology at the University of São Paulo (2007) and a Master’s in Applied Literary Studies at Freie Universität Berlin (2013), she received her doctorate there in 2019 as a fellow of the Friedrich Schlegel Graduate School of Literary Studies. As a postdoctoral researcher, she worked at the Institute of Latin American Studies in London and at the Department of Modern Languages of the University of São Paulo, before moving to Cologne in 2021, where she led a <a href="https://gepris.dfg.de/gepris/projekt/459579268" rel="external nofollow noopener" target="_blank">research project funded by the German Research Foundation (DFG)</a> on the critical method of Mário de Andrade, Antonio Candido, and Roberto Schwarz until 2024.</p> <p>Her current research follows two lines of inquiry: within her habilitation project, she examines the literary construction of female agency in the nineteenth-century European and Latin American novel; in parallel, she works on the life and thought of the literary theorist Anatol Rosenfeld, whose exile-born thinking she reconstructs from a comparative perspective.</p> </div> <h2> <a href="/news/" style="color: inherit">news</a> </h2> <div class="news"> <div class="table-responsive"> <table class="table table-sm table-borderless"> <tr> <th scope="row" style="width: 20%">Sep 18, 2026</th> <td> <a class="news-title" href="/news/2026-09-kwg-berlin/">Vortrag "In Bewegung denken - Roberto Schwarz' intellektuelle Biografie und sein kritisches Programm für die Literaturwissenschaft", 11. Jahrestagung der Kulturwissenschaftlichen Gesellschaft (KWG), Berlin</a> </td> </tr> </table> </div> </div> <h2> <a href="/publications/" style="color: inherit">selected publications</a> </h2> <div class="publications"> <ol class="bibliography"> <li> <div class="row"> <div class="col col-sm-2 abbr"> <abbr class="badge rounded w-100">2</abbr> </div> <div id="gagliardi2026beyond" class="col-sm-8"> <div class="title">Roberto Schwarz Beyond Borders</div> <div class="author"> </div> <div class="periodical"> 2026 </div> <div class="periodical"> Hg. gemeinsam mit Melanie Strasser und Claudio Cardinali </div> <div class="links"> <a href="https://doi.org/10.1515/9783111610146" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a> </div> </div> </div> </li> <li> <div class="row"> <div class="col col-sm-2 abbr"> <abbr class="badge rounded w-100">18</abbr> </div> <div id="gagliardi2026tropischer" class="col-sm-8"> <div class="title">Tropischer Faschismus? Samba und Tropicália als dialektische Bilder der brasilianischen Diktaturen bei Roberto Schwarz</div> <div class="author"> Laura Rivas Gagliardi </div> <div class="periodical"> <em>In Was war Faschismustheorie?</em>, 2026 </div> <div class="periodical"> </div> <div class="links"> <a href="https://www.verbrecherverlag.de/shop/was-war-faschismustheorie-open-access/" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Website</a> </div> </div> </div> </li> <li> <div class="row"> <div class="col col-sm-2 abbr"> <abbr class="badge rounded w-100">17</abbr> </div> <div id="gagliardi2026dessacralizando" class="col-sm-8"> <div class="title">Dessacralizando a linguagem colonial: a vanguarda argentina e o modernismo brasileiro</div> <div class="author"> Laura Rivas Gagliardi </div> <div class="periodical"> <em>Iberoromania</em>, 2026 </div> <div class="periodical"> </div> <div class="links"> <a href="https://doi.org/10.1515/iber-2026-2006" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a> </div> </div> </div> </li> </ol> </div> <div class="social"> <div class="contact-icons"> <a href="mailto:mail@laurarivasgagliardi.com" title="Email"><i class="fa-solid fa-envelope"></i></a> <a href="https://scholar.google.com/citations?user=T4prrrEAAAAJ" title="Scholar userid" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i></a> <a href="https://orcid.org/0000-0002-3915-6753" title="Orcid id" rel="external nofollow noopener" target="_blank"><i class="ai ai-orcid"></i></a> <a href="https://instagram.com/lauralarivas" title="Instagram id" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-instagram"></i></a> <a href="http://lattes.cnpq.br/3726692042057061" title="Lattes id" rel="external nofollow noopener" target="_blank"><i class="ai ai-lattes"></i></a> <a href="https://www.linkedin.com/in/laura-rivas-gagliardi-25481733" title="Linkedin username" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-linkedin"></i></a> <a href="https://.academia.edu/" title="Academia edu" rel="external nofollow noopener" target="_blank"><i class="ai ai-academia"></i></a> </div> <div class="contact-note">mail@laurarivasgagliardi.com</div> </div> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Laura Rivas Gagliardi. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. <a href="https://laurarivasgagliardi.com/impressum/">Impressum</a>. </div> </footer> <script>
