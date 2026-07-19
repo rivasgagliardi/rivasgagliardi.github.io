@@ -6,7 +6,6 @@ description:
 nav: true
 nav_order: 2
 ---
-
 <style>
   .publications h2.bibliography {
     color: var(--global-text-color);
@@ -15,7 +14,6 @@ nav_order: 2
     padding-top: 0;
     margin-top: 2.5rem;
   }
-
   
   #schwarz2023meister .links::after,
   #gagliardi2026tropischer .links::after,
@@ -37,7 +35,6 @@ nav_order: 2
     border-radius: 4px;
   }
 </style>
-
 <script>
 document.addEventListener('DOMContentLoaded', function () {
   document.querySelectorAll('.links a').forEach(function (a) {
@@ -45,17 +42,20 @@ document.addEventListener('DOMContentLoaded', function () {
       a.textContent = 'Webseite';
     }
   });
+
+  var list = document.querySelector('#navbar .navbar-menu-list');
+  if (list) {
+    var li = document.createElement('li');
+    li.className = 'nav-item';
+    li.innerHTML = '<a class="nav-link" href="/pt/publications/" style="font-weight:600">PT</a>';
+    var toggle = list.querySelector('.toggle-container');
+    if (toggle) { list.insertBefore(li, toggle); } else { list.appendChild(li); }
+  }
 });
 </script>
-
 <!-- _pages/publications.md -->
-
 <!-- Bibsearch Feature -->
-
 {% include bib_search.liquid %}
-
 <div class="publications">
-
 {% bibliography %}
-
 </div>
