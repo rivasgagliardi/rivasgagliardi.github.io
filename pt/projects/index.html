@@ -51,11 +51,19 @@ document.addEventListener('DOMContentLoaded', function () {
   });
   var list = document.querySelector('#navbar .navbar-menu-list');
   if (list) {
-    var li = document.createElement('li');
-    li.className = 'nav-item';
-    li.innerHTML = '<a class="nav-link" href="/projects/" style="font-weight:600">DE</a>';
+    var liDe = document.createElement('li');
+    liDe.className = 'nav-item';
+    liDe.innerHTML = '<a class="nav-link" href="/projects/">DE</a>';
+    var liPt = document.createElement('li');
+    liPt.className = 'nav-item';
+    liPt.innerHTML = '<a class="nav-link" href="/pt/projects/" style="font-weight:600; pointer-events:none;">PT</a>';
+    var liEn = document.createElement('li');
+    liEn.className = 'nav-item';
+    liEn.innerHTML = '<a class="nav-link" href="/en/projects/">EN</a>';
     var toggle = list.querySelector('.toggle-container');
-    if (toggle) { list.insertBefore(li, toggle); } else { list.appendChild(li); }
+    [liDe, liPt, liEn].forEach(function (li) {
+      if (toggle) { list.insertBefore(li, toggle); } else { list.appendChild(li); }
+    });
   }
 });
 </script> <h2 class="section-label">Atual</h2> <div class="projects-grid"> <div class="card"> <a href="/pt/projects/frauenbilder/"><h3>Frauenbilder im Wandel</h3></a> <p>Universidade de Colônia, desde 2024</p> </div> </div> <h2 class="section-label">Concluídos</h2> <div class="projects-grid"> <div class="card"> <a href="/pt/projects/dfg/"><h3>Neuperspektivierungen nachkolonialer Theorie</h3></a> <p>Universidade de Colônia, 2021–2024</p> </div> <div class="card"> <a href="/pt/projects/wolf/"><h3>Le Brésil littéraire (1863) von Ferdinand Wolf</h3></a> <p>Universidade Livre de Berlim, 2014–2019</p> </div> <div class="card"> <a href="/pt/projects/buchmarkt/"><h3>Die Präsenz der brasilianischen Literatur auf dem deutschsprachigen Buchmarkt zwischen 1993 und 2013</h3></a> <p>Universidade Livre de Berlim, 2010–2013</p> </div> <div class="card"> <a href="/pt/projects/drummond/"><h3>Amor infectum – a revolta do singular na lírica de Drummond</h3></a> <p>Universidade de São Paulo, 2002–2006</p> </div> </div> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Laura Rivas Gagliardi. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. <a href="https://laurarivasgagliardi.com/impressum/">Impressum</a>. </div> </footer> <script>
