@@ -21,27 +21,6 @@ nav: false
 ---
 
 <style>
-#navbar .navbar-nav.navbar-menu-list {
-  display: none;
-}
-.custom-nav {
-  display: flex;
-  gap: 1.5rem;
-  padding: 1rem 0;
-  font-size: 0.95rem;
-  flex-wrap: wrap;
-}
-.custom-nav a {
-  color: var(--global-text-color);
-  border-bottom: none;
-}
-.custom-nav a:hover {
-  color: var(--global-theme-color);
-}
-.custom-nav .lang-link {
-  margin-left: auto;
-  font-weight: 600;
-}
 h2:has(> a[href="/publications/"]) {
   font-size: 0;
   margin-top: 2.5rem;
@@ -80,15 +59,33 @@ h2:has(> a[href="/news/"])::before {
 }
 </style>
 
-<nav class="custom-nav">
-  <a href="/pt/">Sobre mim</a>
-  <a href="/pt/books/">Livros</a>
-  <a href="/pt/publications/">Publicações</a>
-  <a href="/pt/projects/">Projetos de pesquisa</a>
-  <a href="/pt/cv/">Currículo</a>
-  <a href="/pt/teaching/">Ensino</a>
-  <a href="/" class="lang-link">DE</a>
-</nav>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var map = {
+    '/': { text: 'Sobre mim', href: '/pt/' },
+    '/books/': { text: 'Livros', href: '/pt/books/' },
+    '/publications/': { text: 'Publicações', href: '/pt/publications/' },
+    '/projects/': { text: 'Projetos de pesquisa', href: '/pt/projects/' },
+    '/cv/': { text: 'Currículo', href: '/pt/cv/' },
+    '/teaching/': { text: 'Ensino', href: '/pt/teaching/' }
+  };
+  document.querySelectorAll('#navbar .nav-link').forEach(function (a) {
+    var path = new URL(a.href).pathname;
+    if (map[path]) {
+      a.childNodes[0].textContent = map[path].text + ' ';
+      a.href = map[path].href;
+    }
+  });
+  var list = document.querySelector('#navbar .navbar-menu-list');
+  if (list) {
+    var li = document.createElement('li');
+    li.className = 'nav-item';
+    li.innerHTML = '<a class="nav-link" href="/" style="font-weight:600">DE</a>';
+    var toggle = list.querySelector('.toggle-container');
+    if (toggle) { list.insertBefore(li, toggle); } else { list.appendChild(li); }
+  }
+});
+</script>
 
 Laura Rivas Gagliardi é pesquisadora e professora assistente do [Instituto Luso-Brasileiro da Universidade de Colônia](https://pbi.phil-fak.uni-koeln.de/pt/equipe/corpo-academico-docente/laura-rivas-gagliardi).
 
