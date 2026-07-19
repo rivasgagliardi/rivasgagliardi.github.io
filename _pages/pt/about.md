@@ -90,6 +90,7 @@ document.addEventListener('DOMContentLoaded', function () {
       a.href = map[path].href;
     }
   });
+
   var list = document.querySelector('#navbar .navbar-menu-list');
   if (list) {
     var liDe = document.createElement('li');
@@ -101,7 +102,8 @@ document.addEventListener('DOMContentLoaded', function () {
     var toggle = list.querySelector('.toggle-container');
     [liDe, liEn].forEach(function (li) {
       if (toggle) { list.insertBefore(li, toggle); } else { list.appendChild(li); }
-    }
+    });
+  }
 
   var monthMapPt = {Jan:'janeiro', Feb:'fevereiro', Mar:'março', Apr:'abril', May:'maio', Jun:'junho', Jul:'julho', Aug:'agosto', Sep:'setembro', Oct:'outubro', Nov:'novembro', Dec:'dezembro'};
   document.querySelectorAll('.news th').forEach(function (th) {
@@ -115,11 +117,17 @@ document.addEventListener('DOMContentLoaded', function () {
     a.textContent = a.textContent.replace('Vortrag', 'Palestra');
   });
 
-  document.querySelectorAll('#gagliardi2026beyond p').forEach(function (p) {
-    if (p.textContent.includes('Hg. gemeinsam mit')) {
-      p.textContent = p.textContent.replace('Hg. gemeinsam mit', 'Coorganizado com').replace(' und ', ' e ');
+  var pubSection = document.querySelector('.publications');
+  if (pubSection) {
+    var pubWalker = document.createTreeWalker(pubSection, NodeFilter.SHOW_TEXT);
+    var pubNode;
+    while (pubNode = pubWalker.nextNode()) {
+      var t = pubNode.nodeValue;
+      if (t.indexOf('Hg. gemeinsam mit') !== -1) {
+        pubNode.nodeValue = t.replace('Hg. gemeinsam mit', 'Coorganizado com').replace(' und ', ' e ');
+      }
     }
-  });
+  }
 });
 </script>
 
