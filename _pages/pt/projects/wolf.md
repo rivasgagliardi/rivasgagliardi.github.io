@@ -48,7 +48,7 @@ A comparação torna visíveis as diferenças entre as duas versões e entre os 
 
 Além disso, a correspondência de Wolf com estudiosos brasileiros a serviço do imperador Pedro II revela como eles ajudaram a moldar a gênese da obra. O principal interesse de Pedro II era implementar uma agenda político-cultural voltada à manutenção da monarquia e da unidade do país. Tratava-se, sobretudo, de narrar o passado — em especial o passado colonial — a partir de uma perspectiva específica. *Le Brésil littéraire* nasceu, portanto, sob o signo das exigências ideológicas de uma elite transnacional: a historiografia (literária) é aqui empregada como instrumento valioso para construir um passado e difundi-lo como verdade única. A análise da inversão discursiva das relações reais mostra, no entanto, como esses recursos podem servir para fundamentar e consolidar a própria posição de dominação. A abordagem arquivística e histórico-material permite, por fim, disponibilizar um conjunto de materiais até então inéditos e suas transcrições.
 
-**Orientação:** Prof. Dr. Susanne Zepp-Zwirner; Prof. Dr. Joachim Küpper
+**Orientação:** Prof.ª Dr.ª Susanne Zepp-Zwirner; Prof. Dr. Joachim Küpper
 
 **Área:** Filologia Românica
 
