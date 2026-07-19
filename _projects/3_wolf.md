@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Le Brésil littéraire (1863) von Ferdinand Wolf
-description: Freie Universität Berlin, 2014–2019
 importance: 3
 category: Abgeschlossen
 ---
@@ -38,6 +37,8 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 });
 </script>
+
+**Freie Universität Berlin, 2014–2019**
 
 Literaturgeschichte und Ideologie im 19. Jahrhundert: Dieses Forschungsprojekt befasst sich mit der Rekonstruktion der Entstehungsgeschichte von *Le Brésil littéraire: histoire de la littérature brésilienne* (1863). Diese erste Literaturgeschichte Brasiliens wurde von dem Romanisten und Beamten bei der kaiserl. kgl. Hofbibliothek Ferdinand Wolf (Wien, 1796–1866) auf Deutsch verfasst, es erschien jedoch nur in französischer Übersetzung. Im Zentrum steht hier der philologische Vergleich des nie gedruckten deutschsprachigen Manuskripts „Geschichte der brasilianischen Nationalliteratur" mit der Übersetzung.
 
