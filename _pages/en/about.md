@@ -71,6 +71,23 @@ h2:has(> a[href="/news/"])::before {
 .navbar-brand {
   display: none;
 }
+  .lang-switcher {
+  font-size: 0.8rem;
+  white-space: nowrap;
+  margin-left: auto;
+  margin-right: 0.75rem;
+  align-self: center;
+}
+.lang-switcher a {
+  opacity: 0.55;
+  border-bottom: none;
+  color: var(--global-text-color);
+}
+.lang-switcher a.active {
+  opacity: 1;
+  font-weight: 600;
+  pointer-events: none;
+}
 </style>
 
 <script>
@@ -90,33 +107,14 @@ document.addEventListener('DOMContentLoaded', function () {
       a.href = map[path].href;
     }
   });
-  var list = document.querySelector('#navbar .navbar-menu-list');
-  if (list) {
-    var liDe = document.createElement('li');
-    liDe.className = 'nav-item';
-    liDe.innerHTML = '<a class="nav-link" href="/">DE</a>';
-    var liPt = document.createElement('li');
-    liPt.className = 'nav-item';
-    liPt.innerHTML = '<a class="nav-link" href="/pt/">PT</a>';
-    var liEn = document.createElement('li');
-    liEn.className = 'nav-item';
-    liEn.innerHTML = '<a class="nav-link" href="/en/" style="font-weight:600">EN</a>';
-    var toggle = list.querySelector('.toggle-container');
-    [liDe, liPt, liEn].forEach(function (li) {
-      if (toggle) { list.insertBefore(li, toggle); } else { list.appendChild(li); }
-    });
-  }
 
-  var pubSection = document.querySelector('.publications');
-  if (pubSection) {
-    var pubWalker = document.createTreeWalker(pubSection, NodeFilter.SHOW_TEXT);
-    var pubNode;
-    while (pubNode = pubWalker.nextNode()) {
-      var t = pubNode.nodeValue;
-      if (t.indexOf('Hg. gemeinsam mit') !== -1) {
-        pubNode.nodeValue = t.replace('Hg. gemeinsam mit', 'Co-edited with').replace(' und ', ' and ');
-      }
-    }
+  var container = document.querySelector('#navbar .container');
+  var toggler = document.querySelector('#navbar .navbar-toggler');
+  if (container && toggler) {
+    var langDiv = document.createElement('div');
+    langDiv.className = 'lang-switcher';
+    langDiv.innerHTML = '<a href="/books/">DE</a> · <a href="/pt/books/">PT</a> · <a href="/en/books/" class="active">EN</a>';
+    container.insertBefore(langDiv, toggler);
   }
 });
 </script>
