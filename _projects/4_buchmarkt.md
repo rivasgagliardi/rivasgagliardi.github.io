@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Die Präsenz der brasilianischen Literatur auf dem deutschsprachigen Buchmarkt zwischen 1993 und 2013
-description: Freie Universität Berlin, 2010–2013
 importance: 4
 category: Abgeschlossen
 ---
@@ -38,6 +37,8 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 });
 </script>
+
+**Freie Universität Berlin, 2010–2013**
 
 Die Fäden zwischen brasilianischer Literatur und ihrer Vermittlung in deutschsprachigen Ländern sind oft kaum sichtbar. Sie existieren jedoch: Manchmal sind sie gerissen, zeigen dann jedoch wieder eine starke und enge Verbindung über den Atlantik hinweg. Die Spannungen dieser fließenden Bewegung, die zur Dynamik der Rezeption jeder Kultur gehört, erwecken Interesse, weswegen sie hier im Fokus stehen. Dieses Projekt umfasst vor allem Neuerscheinungen von Romanen in einem Zeitraum von zwanzig Jahren, ungefähr von Juli 1993 bis Juli 2013.
 
