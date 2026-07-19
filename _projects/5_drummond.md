@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Amor infectum – a revolta do singular na lírica de Drummond
-description: Universidade de São Paulo, 2002–2006
 importance: 5
 category: Abgeschlossen
 ---
@@ -38,6 +37,8 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 });
 </script>
+
+**Universidade de São Paulo, 2002–2006**
 
 Bei der Untersuchung des kritischen Rezeptionskontexts von Drummonds Lyrik ist die Frage, wie der Dichter das Thema Liebe behandelt, von grundlegender Bedeutung. Im Großen und Ganzen geht die Auseinandersetzung mit diesem Thema von einem Ich aus, das streng genommen zwischen sozialen und persönlichen Perspektiven oszilliert. Das Projekt umfasste zwei Finanzierungsphasen.
 
