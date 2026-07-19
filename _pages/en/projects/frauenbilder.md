@@ -30,6 +30,22 @@ nav: false
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
+  var map = {
+    '/': { text: 'About', href: '/en/' },
+    '/books/': { text: 'Books', href: '/en/books/' },
+    '/publications/': { text: 'Publications', href: '/en/publications/' },
+    '/projects/': { text: 'Research Projects', href: '/en/projects/' },
+    '/cv/': { text: 'CV', href: '/en/cv/' },
+    '/teaching/': { text: 'Teaching', href: '/en/teaching/' }
+  };
+  document.querySelectorAll('#navbar .nav-link').forEach(function (a) {
+    var path = new URL(a.href).pathname;
+    if (map[path]) {
+      a.childNodes[0].textContent = map[path].text + ' ';
+      a.href = map[path].href;
+    }
+  });
+
   var container = document.querySelector('#navbar .container');
   var toggler = document.querySelector('#navbar .navbar-toggler');
   if (container && toggler) {
