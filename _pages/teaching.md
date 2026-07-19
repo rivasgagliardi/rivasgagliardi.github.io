@@ -19,6 +19,14 @@ calendar: true
   padding-left: 1rem;
   margin-bottom: 1.5rem;
 }
+.course-list {
+  display: flex !important;
+  flex-direction: column !important;
+}
+.course-item {
+  width: 100% !important;
+}
+
 </style>
 
 {% include courses.liquid %}
