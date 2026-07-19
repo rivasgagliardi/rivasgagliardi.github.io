@@ -56,6 +56,7 @@ document.addEventListener('DOMContentLoaded', function () {
       if (toggle) { list.insertBefore(li, toggle); } else { list.appendChild(li); }
     });
   }
+});
 </script>
 <!-- _pages/publications.md -->
 <!-- Bibsearch Feature -->
