@@ -61,4 +61,4 @@ Além disso, a correspondência de Wolf com estudiosos brasileiros a serviço do
 
 **Disciplina ministrada**
 
-- SoSe 2020, Hauptseminar: História literária e ideologia no século XIX (USP)
+- Semestre de verão de 2020, disciplina de pós-graduação: História literária e ideologia no século XIX (DLM-USP)
