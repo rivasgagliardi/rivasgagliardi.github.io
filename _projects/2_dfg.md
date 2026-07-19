@@ -5,6 +5,40 @@ description: Universität zu Köln, 2021–2024
 importance: 2
 category: Abgeschlossen
 ---
+
+<style>
+.lang-switcher {
+  font-size: 0.8rem;
+  white-space: nowrap;
+  margin-left: auto;
+  margin-right: 0.75rem;
+  align-self: center;
+}
+.lang-switcher a {
+  opacity: 0.55;
+  border-bottom: none;
+  color: var(--global-text-color);
+}
+.lang-switcher a.active {
+  opacity: 1;
+  font-weight: 600;
+  pointer-events: none;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var container = document.querySelector('#navbar .container');
+  var toggler = document.querySelector('#navbar .navbar-toggler');
+  if (container && toggler) {
+    var langDiv = document.createElement('div');
+    langDiv.className = 'lang-switcher';
+    langDiv.innerHTML = '<a href="/projects/2_dfg/" class="active">DE</a> · <a href="/pt/projects/dfg/">PT</a> · <a href="/en/projects/dfg/">EN</a>';
+    container.insertBefore(langDiv, toggler);
+  }
+});
+</script>
+
 Über Geschichte und Erkenntnis in der brasilianischen Literaturwissenschaft: Dieses Forschungsprojekt untersuchte die Entstehung, Entwicklung und Formierung der Literaturwissenschaft im brasilianischen Kontext des 20. und 21. Jahrhunderts aus einer vergleichenden und kritischen Perspektive im Lichte der Kolonialgeschichte. Dabei wurde das Werk von drei kanonischen Autoren berücksichtigt – Mário de Andrade (1893–1945), Antonio Candido (1918–2017) und Roberto Schwarz (1938) – die aus Sicht der Forschung eine Konstellation bilden, die weder in Brasilien noch im Ausland analysiert wurde.
 
 Die drei Autoren setzten sich mit dem Fortbestehen der kolonialen Mentalität auseinander, indem sie die Literatur zu verschiedenen historischen Momenten der brasilianischen und globalen Geschichte theoretisch untersuchten, womit sie in den Bereich der post- und dekolonialen Studien eingeordnet werden kann. Die Untersuchung ergab, dass die Verbindung zwischen ihnen ein immanenter und dialektischer Ansatz für das literarische Phänomen ist, der das Spannungsverhältnis zwischen postkolonialer Realität und Literatur berücksichtigt.
