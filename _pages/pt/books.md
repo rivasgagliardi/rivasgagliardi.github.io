@@ -43,15 +43,17 @@ document.addEventListener('DOMContentLoaded', function () {
     var liDe = document.createElement('li');
     liDe.className = 'nav-item';
     liDe.innerHTML = '<a class="nav-link" href="/books/">DE</a>';
+    var liPt = document.createElement('li');
+    liPt.className = 'nav-item';
+    liPt.innerHTML = '<a class="nav-link" href="/pt/books/" style="font-weight:600; pointer-events:none;">PT</a>';
     var liEn = document.createElement('li');
     liEn.className = 'nav-item';
     liEn.innerHTML = '<a class="nav-link" href="/en/books/">EN</a>';
     var toggle = list.querySelector('.toggle-container');
-    [liDe, liEn].forEach(function (li) {
+    [liDe, liPt, liEn].forEach(function (li) {
       if (toggle) { list.insertBefore(li, toggle); } else { list.appendChild(li); }
     });
   }
-});
 </script>
 
 <figure class="cover">
