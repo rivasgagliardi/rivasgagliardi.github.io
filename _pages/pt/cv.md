@@ -168,7 +168,7 @@ document.addEventListener('DOMContentLoaded', function () {
   <div class="cv-sub">Biblioteca Nacional Austríaca · Viena, Áustria</div>
 </div>
 
-## Prêmios e Bolsas
+## Prêmios e bolsas
 
 <div class="cv-item">
   <div class="cv-date">2016</div>
@@ -268,7 +268,7 @@ document.addEventListener('DOMContentLoaded', function () {
   <div class="cv-sub">Universidade Livre de Berlim · com C. Yurgel</div>
 </div>
 
-## Conferências Convidadas
+## Conferências convidadas
 
 <div class="cv-item">
   <div class="cv-date">16.05.2024</div>
@@ -288,7 +288,7 @@ document.addEventListener('DOMContentLoaded', function () {
   <div class="cv-sub">Instituto Ibero-Americano, Berlim</div>
 </div>
 
-## Comunicações em Eventos Científicos
+## Comunicações em eventos científicos
 
 <div class="cv-item">
   <div class="cv-date">02.10.2025</div>
@@ -493,7 +493,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 </details>
 
-## Gestão Acadêmica
+## Gestão acadêmica
 
 <div class="cv-item">
   <div class="cv-date">2026</div>
