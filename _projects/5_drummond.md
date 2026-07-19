@@ -5,6 +5,40 @@ description: Universidade de São Paulo, 2002–2006
 importance: 5
 category: Abgeschlossen
 ---
+
+<style>
+.lang-switcher {
+  font-size: 0.8rem;
+  white-space: nowrap;
+  margin-left: auto;
+  margin-right: 0.75rem;
+  align-self: center;
+}
+.lang-switcher a {
+  opacity: 0.55;
+  border-bottom: none;
+  color: var(--global-text-color);
+}
+.lang-switcher a.active {
+  opacity: 1;
+  font-weight: 600;
+  pointer-events: none;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var container = document.querySelector('#navbar .container');
+  var toggler = document.querySelector('#navbar .navbar-toggler');
+  if (container && toggler) {
+    var langDiv = document.createElement('div');
+    langDiv.className = 'lang-switcher';
+    langDiv.innerHTML = '<a href="/projects/5_drummond/" class="active">DE</a> · <a href="/pt/projects/drummond/">PT</a> · <a href="/en/projects/drummond/">EN</a>';
+    container.insertBefore(langDiv, toggler);
+  }
+});
+</script>
+
 Bei der Untersuchung des kritischen Rezeptionskontexts von Drummonds Lyrik ist die Frage, wie der Dichter das Thema Liebe behandelt, von grundlegender Bedeutung. Im Großen und Ganzen geht die Auseinandersetzung mit diesem Thema von einem Ich aus, das streng genommen zwischen sozialen und persönlichen Perspektiven oszilliert. Das Projekt umfasste zwei Finanzierungsphasen.
 
 In der ersten Phase lag der Forschungsschwerpunkt auf den Liebesgedichten, die in den Werken *Novos poemas* (1948), *Claro enigma* (1951), *Fazendeiro do ar* (1953) und *A vida passada a limpo* (1959) veröffentlicht wurden. In diesen Büchern gewinnt die einzigartige Perspektive, die das sogenannte „Ich-*gauche*" Drummonds durchzieht und ausmacht, letztendlich einen theoretisch-spekulativen Vorrang in der Liebesthematik. In dieser ersten Phase war es möglich, die Lektüre von Drummonds Poetik auf eine andere reflexive Ebene zu heben. Das Ziel der Forschung bestand nämlich darin, den Aufstand des individuellen Aspekts des lyrischen Subjekts und die Bekräftigung einer neuen Seinsweise der Liebe aufzudecken. Der Sinn und die Tragweite dieser anderen Konzeption von Liebe wurden als „*amor infectum*" bezeichnet.
