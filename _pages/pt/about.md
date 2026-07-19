@@ -2,7 +2,7 @@
 layout: about
 title: Sobre mim
 permalink: /pt/
-subtitle: "Letras românicas, Teoria literária"
+subtitle: "Letras Românicas e Teoria Literária"
 profile:
   align: right
   image: prof_pic.jpg
@@ -21,6 +21,27 @@ nav: false
 ---
 
 <style>
+#navbar .navbar-nav.navbar-menu-list {
+  display: none;
+}
+.custom-nav {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1rem 0;
+  font-size: 0.95rem;
+  flex-wrap: wrap;
+}
+.custom-nav a {
+  color: var(--global-text-color);
+  border-bottom: none;
+}
+.custom-nav a:hover {
+  color: var(--global-theme-color);
+}
+.custom-nav .lang-link {
+  margin-left: auto;
+  font-weight: 600;
+}
 h2:has(> a[href="/publications/"]) {
   font-size: 0;
   margin-top: 2.5rem;
@@ -57,16 +78,17 @@ h2:has(> a[href="/news/"])::before {
   text-decoration: none;
   cursor: default;
 }
-.lang-switch {
-  font-size: 0.85rem;
-  margin-bottom: 1.5rem;
-}
-.lang-switch a {
-  font-weight: 600;
-}
 </style>
 
-<p class="lang-switch"><a href="/">DE</a> · <strong>PT</strong></p>
+<nav class="custom-nav">
+  <a href="/pt/">Sobre mim</a>
+  <a href="/pt/books/">Livros</a>
+  <a href="/pt/publications/">Publicações</a>
+  <a href="/pt/projects/">Projetos de pesquisa</a>
+  <a href="/pt/cv/">Currículo</a>
+  <a href="/pt/teaching/">Ensino</a>
+  <a href="/" class="lang-link">DE</a>
+</nav>
 
 Laura Rivas Gagliardi é pesquisadora e professora assistente do [Instituto Luso-Brasileiro da Universidade de Colônia](https://pbi.phil-fak.uni-koeln.de/pt/equipe/corpo-academico-docente/laura-rivas-gagliardi).
 
