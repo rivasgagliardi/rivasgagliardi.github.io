@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function () {
     liPt.innerHTML = '<a class="nav-link" href="/pt/projects/">PT</a>';
     var liEn = document.createElement('li');
     liEn.className = 'nav-item';
-    liEn.innerHTML = '<a class="nav-link" href="/en/projects/" style="font-weight:600">EN</a>';
+    liEn.innerHTML = '<a class="nav-link" href="/en/projects/" style="font-weight:600; pointer-events:none;">EN</a>';
     var toggle = list.querySelector('.toggle-container');
     [liDe, liPt, liEn].forEach(function (li) {
       if (toggle) { list.insertBefore(li, toggle); } else { list.appendChild(li); }
