@@ -11,14 +11,12 @@ horizontal: false
 <!-- pages/projects.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
   {% for category in page.display_categories %}
   <a id="{{ category }}" href=".#{{ category }}">
     <h2 class="category">{{ category }}</h2>
   </a>
   {% assign categorized_projects = site.projects | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
   {% if page.horizontal %}
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
@@ -36,9 +34,7 @@ horizontal: false
   {% endif %}
   {% endfor %}
 {% else %}
-<!-- Display projects without categories -->
 {% assign sorted_projects = site.projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
 {% if page.horizontal %}
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
@@ -76,25 +72,34 @@ horizontal: false
 .projects h2.category {
   color: var(--global-text-color);
 }
+.lang-switcher {
+  font-size: 0.8rem;
+  white-space: nowrap;
+  margin-left: auto;
+  margin-right: 0.75rem;
+  align-self: center;
+}
+.lang-switcher a {
+  opacity: 0.55;
+  border-bottom: none;
+  color: var(--global-text-color);
+}
+.lang-switcher a.active {
+  opacity: 1;
+  font-weight: 600;
+  pointer-events: none;
+}
 </style>
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-  var list = document.querySelector('#navbar .navbar-menu-list');
-  if (list) {
-    var liDe = document.createElement('li');
-    liDe.className = 'nav-item';
-    liDe.innerHTML = '<a class="nav-link" href="/projects/" style="font-weight:600; pointer-events:none;">DE</a>';
-    var liPt = document.createElement('li');
-    liPt.className = 'nav-item';
-    liPt.innerHTML = '<a class="nav-link" href="/pt/projects/">PT</a>';
-    var liEn = document.createElement('li');
-    liEn.className = 'nav-item';
-    liEn.innerHTML = '<a class="nav-link" href="/en/projects/">EN</a>';
-    var toggle = list.querySelector('.toggle-container');
-    [liDe, liPt, liEn].forEach(function (li) {
-      if (toggle) { list.insertBefore(li, toggle); } else { list.appendChild(li); }
-    });
+  var container = document.querySelector('#navbar .container');
+  var toggler = document.querySelector('#navbar .navbar-toggler');
+  if (container && toggler) {
+    var langDiv = document.createElement('div');
+    langDiv.className = 'lang-switcher';
+    langDiv.innerHTML = '<a href="/projects/" class="active">DE</a> · <a href="/pt/projects/">PT</a> · <a href="/en/projects/">EN</a>';
+    container.insertBefore(langDiv, toggler);
   }
 });
 </script>
