@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Neuperspektivierungen nachkolonialer Theorie
-description: Universität zu Köln, 2021–2024
 importance: 2
 category: Abgeschlossen
 ---
@@ -38,6 +37,8 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 });
 </script>
+
+**Universität zu Köln, 2021–2024**
 
 Über Geschichte und Erkenntnis in der brasilianischen Literaturwissenschaft: Dieses Forschungsprojekt untersuchte die Entstehung, Entwicklung und Formierung der Literaturwissenschaft im brasilianischen Kontext des 20. und 21. Jahrhunderts aus einer vergleichenden und kritischen Perspektive im Lichte der Kolonialgeschichte. Dabei wurde das Werk von drei kanonischen Autoren berücksichtigt – Mário de Andrade (1893–1945), Antonio Candido (1918–2017) und Roberto Schwarz (1938) – die aus Sicht der Forschung eine Konstellation bilden, die weder in Brasilien noch im Ausland analysiert wurde.
 
