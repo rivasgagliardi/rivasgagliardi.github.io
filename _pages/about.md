@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', function () {
     liEn.className = 'nav-item';
     liEn.innerHTML = '<a class="nav-link" href="/en/">EN</a>';
     var toggle = list.querySelector('.toggle-container');
-    [liPt, liEn].forEach(function (li) {
+    [liDe, liPt, liEn].forEach(function (li) {
       if (toggle) { list.insertBefore(li, toggle); } else { list.appendChild(li); }
     });
   }
