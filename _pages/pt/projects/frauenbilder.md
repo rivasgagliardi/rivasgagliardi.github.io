@@ -30,7 +30,6 @@ nav: false
 </style>
 
 <script>
-<script>
 document.addEventListener('DOMContentLoaded', function () {
   var container = document.querySelector('#navbar .container');
   var toggler = document.querySelector('#navbar .navbar-toggler');
