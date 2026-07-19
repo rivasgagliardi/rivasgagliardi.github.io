@@ -50,8 +50,8 @@ Por meio da análise comparativa de um corpus de oito a quinze romances — entr
 
 **Disciplinas ministradas**
 
-- SoSe 2026, Hauptseminar: Romane von Frauen aus dem 19. Jahrhundert: Sand, Caballero und Lopes de Almeida (UzK)
-- WiSe 2025/26, Hauptseminar: Personagens femininas do romantismo ao realismo nas literaturas francesa, espanhola e brasileira (USP)
-- WiSe 2025/26, Proseminar: Das Leben der Frauen in den Romanen von Balzac, Clarín und Alencar (UzK)
-- SoSe 2025, Proseminar: Der Realismus bei Eça de Queirós, Émile Zola und Pardo Bazán (UzK)
-- WiSe 2024/25, Hauptseminar: Die weiblichen Protagonistinnen von Flaubert, Galdós und Machado de Assis (UzK)
+- Semestre de verão de 2026: Romane von Frauen aus dem 19. Jahrhundert: Sand, Caballero und Lopes de Almeida (UzK)
+- Semestre de inverno de 2025/26, disciplina de pós-graduação: Personagens femininas do romantismo ao realismo nas literaturas francesa, espanhola e brasileira (DTLLC-USP)
+- Semestre de inverno de 2025/26: Das Leben der Frauen in den Romanen von Balzac, Clarín und Alencar (UzK)
+- Semestre de verão de 2025: Der Realismus bei Eça de Queirós, Émile Zola und Pardo Bazán (UzK)
+- Semestre de inverno de 2024/25: Die weiblichen Protagonistinnen von Flaubert, Galdós und Machado de Assis (UzK)
