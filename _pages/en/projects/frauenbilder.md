@@ -4,43 +4,39 @@ permalink: /en/projects/frauenbilder/
 title: Frauenbilder im Wandel
 nav: false
 ---
-
 <style>
 .section-label {
   border-bottom: 1px solid var(--global-divider-color);
   padding-bottom: 0.5rem;
 }
+.lang-switcher {
+  font-size: 0.8rem;
+  white-space: nowrap;
+  margin-left: auto;
+  margin-right: 0.75rem;
+  align-self: center;
+}
+.lang-switcher a {
+  opacity: 0.55;
+  border-bottom: none;
+  color: var(--global-text-color);
+}
+.lang-switcher a.active {
+  opacity: 1;
+  font-weight: 600;
+  pointer-events: none;
+}
 </style>
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-  var map = {
-    '/': { text: 'About', href: '/en/' },
-    '/books/': { text: 'Books', href: '/en/books/' },
-    '/publications/': { text: 'Publications', href: '/en/publications/' },
-    '/projects/': { text: 'Research Projects', href: '/en/projects/' },
-    '/cv/': { text: 'CV', href: '/en/cv/' },
-    '/teaching/': { text: 'Teaching', href: '/en/teaching/' }
-  };
-  document.querySelectorAll('#navbar .nav-link').forEach(function (a) {
-    var path = new URL(a.href).pathname;
-    if (map[path]) {
-      a.childNodes[0].textContent = map[path].text + ' ';
-      a.href = map[path].href;
-    }
-  });
-  var list = document.querySelector('#navbar .navbar-menu-list');
-  if (list) {
-    var liDe = document.createElement('li');
-    liDe.className = 'nav-item';
-    liDe.innerHTML = '<a class="nav-link" href="/projects/frauenbilder/">DE</a>';
-    var liPt = document.createElement('li');
-    liPt.className = 'nav-item';
-    liPt.innerHTML = '<a class="nav-link" href="/pt/projects/frauenbilder/">PT</a>';
-    var toggle = list.querySelector('.toggle-container');
-    [liDe, liPt].forEach(function (li) {
-      if (toggle) { list.insertBefore(li, toggle); } else { list.appendChild(li); }
-    });
+  var container = document.querySelector('#navbar .container');
+  var toggler = document.querySelector('#navbar .navbar-toggler');
+  if (container && toggler) {
+    var langDiv = document.createElement('div');
+    langDiv.className = 'lang-switcher';
+    langDiv.innerHTML = '<a href="/projects/1_frauenbilder/">DE</a> · <a href="/pt/projects/frauenbilder/">PT</a> · <a href="/en/projects/frauenbilder/" class="active">EN</a>';
+    container.insertBefore(langDiv, toggler);
   }
 });
 </script>
