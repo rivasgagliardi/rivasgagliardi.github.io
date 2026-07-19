@@ -56,6 +56,9 @@ h2:has(> a[href="/news/"])::before {
 document.addEventListener('DOMContentLoaded', function () {
   var list = document.querySelector('#navbar .navbar-menu-list');
   if (list) {
+    var liDe = document.createElement('li');
+    liDe.className = 'nav-item';
+    liDe.innerHTML = '<a class="nav-link" href="/" style="font-weight:600; pointer-events:none;">DE</a>';
     var liPt = document.createElement('li');
     liPt.className = 'nav-item';
     liPt.innerHTML = '<a class="nav-link" href="/pt/">PT</a>';
