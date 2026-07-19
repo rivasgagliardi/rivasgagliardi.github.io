@@ -9,6 +9,23 @@
   border-bottom: 1px solid var(--global-divider-color);
   padding-bottom: 0.5rem;
 }
+.lang-switcher {
+  font-size: 0.8rem;
+  white-space: nowrap;
+  margin-left: auto;
+  margin-right: 0.75rem;
+  align-self: center;
+}
+.lang-switcher a {
+  opacity: 0.55;
+  border-bottom: none;
+  color: var(--global-text-color);
+}
+.lang-switcher a.active {
+  opacity: 1;
+  font-weight: 600;
+  pointer-events: none;
+}
 </style> <script>
 document.addEventListener('DOMContentLoaded', function () {
   var map = {
@@ -26,13 +43,14 @@ document.addEventListener('DOMContentLoaded', function () {
       a.href = map[path].href;
     }
   });
-  var list = document.querySelector('#navbar .navbar-menu-list');
-  if (list) {
-    var li = document.createElement('li');
-    li.className = 'nav-item';
-    li.innerHTML = '<a class="nav-link" href="/projects/dfg/" style="font-weight:600">DE</a>';
-    var toggle = list.querySelector('.toggle-container');
-    if (toggle) { list.insertBefore(li, toggle); } else { list.appendChild(li); }
+
+  var container = document.querySelector('#navbar .container');
+  var toggler = document.querySelector('#navbar .navbar-toggler');
+  if (container && toggler) {
+    var langDiv = document.createElement('div');
+    langDiv.className = 'lang-switcher';
+    langDiv.innerHTML = '<a href="/projects/2_dfg/">DE</a> · <a href="/pt/projects/dfg/" class="active">PT</a> · <a href="/en/projects/dfg/">EN</a>';
+    container.insertBefore(langDiv, toggler);
   }
 });
 </script> <p><strong>Universidade de Colônia, 2021–2024</strong></p> <p>Sobre história e conhecimento na crítica literária brasileira: este projeto de pesquisa investigou o surgimento, o desenvolvimento e a formação da crítica literária no contexto brasileiro dos séculos XX e XXI, a partir de uma perspectiva comparativa e crítica, à luz da história colonial. Para tanto, considerou-se a obra de três autores canônicos — Mário de Andrade (1893–1945), Antonio Candido (1918–2017) e Roberto Schwarz (1938) —, que, do ponto de vista da pesquisa, formam uma constelação até então não analisada, nem no Brasil nem no exterior.</p> <p>Os três autores se debruçaram sobre a persistência da mentalidade colonial ao examinar teoricamente a literatura em diferentes momentos históricos da história brasileira e global, o que permite situá-los no campo dos estudos pós-coloniais e decoloniais. A pesquisa mostrou que o elo entre eles é uma abordagem imanente e dialética do fenômeno literário, que leva em conta a tensão entre a realidade pós-colonial e a literatura.</p> <p>Embora as abordagens dos três autores sejam distintas e respondam a problemas históricos específicos, a constelação Andrade–Candido–Schwarz foi analisada, nesta pesquisa, principalmente em relação a dois aspectos: a percepção da herança colonial e o modo de lidar com ela (tomando como exemplo sua interpretação do <em>Modernismo</em> e da <em>antropofagia</em>), e a elaboração de seus métodos de crítica literária. A abordagem descolonizadora dos três autores ultrapassa fronteiras geográficas e disciplinares, oferecendo perspectivas valiosas sobre fenômenos contemporâneos.</p> <p><strong>Financiamento:</strong> <a href="https://gepris.dfg.de/gepris/projekt/459579268" rel="external nofollow noopener" target="_blank">Deutsche Forschungsgemeinschaft</a></p> <p><strong>Publicações</strong></p> <ul> <li><a href="/pt/publications/#gagliardi2026beyond">Roberto Schwarz Beyond Borders</a></li> <li><a href="/pt/publications/#schwarz2023meister">Ein Meister an der Peripherie des Kapitalismus</a></li> <li><a href="/pt/publications/#gagliardi2026dessacralizando">Dessacralizando a linguagem colonial: a vanguarda argentina e o modernismo brasileiro</a></li> <li><a href="/pt/publications/#gagliardi2025malandragem">Malandragem and Volubility</a></li> <li><a href="/pt/publications/#gagliardi2025teatro">Teatro em tradução: Schwarz e Brecht</a></li> <li><a href="/pt/publications/#gagliardi2025apropriacoes">Apropriações brechtianas na crítica de Roberto Schwarz</a></li> <li><a href="/pt/publications/#gagliardi2024kolonialgeschichte">Kolonialgeschichte im Rahmen der Begriffsgeschichte</a></li> <li><a href="/pt/publications/#gagliardi2024imperio">O império brasileiro em crise</a></li> <li><a href="/pt/publications/#gagliardi2023critique">Critique dialectique mise à jour</a></li> <li><a href="/pt/publications/#gagliardi2023antropofagia">Antropofagia, ein Grundbegriff der brasilianischen Kulturgeschichte</a></li> <li><a href="/pt/publications/#gagliardi2023einfuehrung">Einführung in Roberto Schwarz’ kritisches Werk</a></li> <li><a href="/pt/publications/#gagliardi2022aspectos">Sobre Aspectos da Literatura Brasileira, de Mário de Andrade</a></li> <li><a href="/pt/publications/#gagliardi2022historia">História literária antes de 1922</a></li> </ul> <p><strong>Disciplinas ministradas</strong></p> <p><strong>Disciplinas ministradas</strong></p> <ul> <li>Semestre de inverno de 2025/26: Kolonisation und Emanzipation – Roberto Schwarz und die Herausforderungen der Kritischen Theorie (com Prof. Dr. Jorge Grespan, UzK)</li> <li>Semestre de inverno de 2024/25, disciplina de pós-graduação: Malandragem e volubilidade (com Prof. Dr. Jorge Grespan, DH-USP)</li> </ul> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Laura Rivas Gagliardi. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. <a href="https://laurarivasgagliardi.com/impressum/">Impressum</a>. </div> </footer> <script>
