@@ -10,6 +10,23 @@ nav: false
   border-bottom: 1px solid var(--global-divider-color);
   padding-bottom: 0.5rem;
 }
+.lang-switcher {
+  font-size: 0.8rem;
+  white-space: nowrap;
+  margin-left: auto;
+  margin-right: 0.75rem;
+  align-self: center;
+}
+.lang-switcher a {
+  opacity: 0.55;
+  border-bottom: none;
+  color: var(--global-text-color);
+}
+.lang-switcher a.active {
+  opacity: 1;
+  font-weight: 600;
+  pointer-events: none;
+}
 </style>
 
 <script>
@@ -29,17 +46,17 @@ document.addEventListener('DOMContentLoaded', function () {
       a.href = map[path].href;
     }
   });
-  var list = document.querySelector('#navbar .navbar-menu-list');
-  if (list) {
-    var li = document.createElement('li');
-    li.className = 'nav-item';
-    li.innerHTML = '<a class="nav-link" href="/projects/dfg/" style="font-weight:600">DE</a>';
-    var toggle = list.querySelector('.toggle-container');
-    if (toggle) { list.insertBefore(li, toggle); } else { list.appendChild(li); }
+
+  var container = document.querySelector('#navbar .container');
+  var toggler = document.querySelector('#navbar .navbar-toggler');
+  if (container && toggler) {
+    var langDiv = document.createElement('div');
+    langDiv.className = 'lang-switcher';
+    langDiv.innerHTML = '<a href="/projects/2_dfg/">DE</a> · <a href="/pt/projects/dfg/" class="active">PT</a> · <a href="/en/projects/dfg/">EN</a>';
+    container.insertBefore(langDiv, toggler);
   }
 });
 </script>
-
 **Universidade de Colônia, 2021–2024**
 
 Sobre história e conhecimento na crítica literária brasileira: este projeto de pesquisa investigou o surgimento, o desenvolvimento e a formação da crítica literária no contexto brasileiro dos séculos XX e XXI, a partir de uma perspectiva comparativa e crítica, à luz da história colonial. Para tanto, considerou-se a obra de três autores canônicos — Mário de Andrade (1893–1945), Antonio Candido (1918–2017) e Roberto Schwarz (1938) —, que, do ponto de vista da pesquisa, formam uma constelação até então não analisada, nem no Brasil nem no exterior.
