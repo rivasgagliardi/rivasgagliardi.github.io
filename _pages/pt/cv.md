@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 **Contato:** mail@laurarivasgagliardi.com &nbsp;·&nbsp; Instituto Luso-Brasileiro, Universidade de Colônia, Albertus-Magnus-Platz, 50923 Köln &nbsp;·&nbsp; Sala 1.305 (Philosophikum) &nbsp;·&nbsp; Atendimento: mediante agendamento por e-mail (semestre de verão de 2026: terças, 15h–16h)
 
-## Trajetória Profissional
+## Atuação profissional
 
 <div class="cv-item">
   <div class="cv-date">2024 – atual</div>
@@ -79,8 +79,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
 <div class="cv-item">
   <div class="cv-date">2021 – 2024</div>
-  <div class="cv-title">Pesquisadora (bolsa própria DFG)</div>
+  <div class="cv-title">Pesquisadora (cargo próprio financiado externamente)</div>
   <div class="cv-sub">Instituto Luso-Brasileiro, Universidade de Colônia · Colônia, Alemanha</div>
+  <ul><li>Financiamento: Deutsche Forschungsgemeinschaft – DFG (German Research Foundation)</li></ul>
 </div>
 
 <div class="cv-item">
@@ -102,15 +103,15 @@ document.addEventListener('DOMContentLoaded', function () {
   <div class="cv-sub">Centro de Línguas, FFLCH, Universidade de São Paulo · São Paulo, Brasil</div>
 </div>
 
-## Formação Acadêmica
+## Formação acadêmica
 
 <div class="cv-item">
   <div class="cv-date">2015 – 2019</div>
-  <div class="cv-title">Doutorado (Dr. phil.), Literatura Comparada Românica</div>
+  <div class="cv-title">Doutorado (Dr. phil.), Literatura Comparada em Línguas Românicas</div>
   <div class="cv-sub">Universidade Livre de Berlim · Berlim, Alemanha · summa cum laude</div>
   <ul>
     <li>Tese: "Le Brésil littéraire (1863) von Ferdinand Wolf. Literaturgeschichte und Ideologie im 19. Jahrhundert"</li>
-    <li>Orientadoras: Prof.ª Dr.ª Susanne Zepp-Zwirner, Prof. Dr. Joachim Küpper</li>
+    <li>Orientadores: Prof.ª Dr.ª Susanne Zepp-Zwirner, Prof. Dr. Joachim Küpper</li>
     <li>Programa de doutorado da Friedrich Schlegel Graduiertenschule für literaturwissenschaftliche Studien (FSGS)</li>
   </ul>
 </div>
@@ -129,23 +130,23 @@ document.addEventListener('DOMContentLoaded', function () {
   <ul><li>03/2004–03/2005: intercâmbio de língua em Berlim</li></ul>
 </div>
 
-## Estadias no Exterior e Professorados Visitantes
+## Estágios de pesquisa e docência no exterior
 
 <div class="cv-item">
   <div class="cv-date">Dez. 2025</div>
-  <div class="cv-title">Docência visitante, Programa ISAP-DAAD</div>
+  <div class="cv-title">Docente visitante, Programa ISAP-DAAD</div>
   <div class="cv-sub">Universidade de São Paulo (FFLCH) · São Paulo, Brasil</div>
 </div>
 
 <div class="cv-item">
   <div class="cv-date">Dez. 2024</div>
-  <div class="cv-title">Docência visitante, Programa ISAP-DAAD</div>
+  <div class="cv-title">Docente visitante, Programa ISAP-DAAD</div>
   <div class="cv-sub">Universidade de São Paulo (FFLCH) · São Paulo, Brasil</div>
 </div>
 
 <div class="cv-item">
   <div class="cv-date">Maio – Nov. 2020</div>
-  <div class="cv-title">Professorado visitante e pesquisa de pós-doutorado</div>
+  <div class="cv-title">Docente visitante e pesquisa de pós-doutorado</div>
   <div class="cv-sub">Universidade de São Paulo (FFLCH) · São Paulo, Brasil</div>
 </div>
 
@@ -177,7 +178,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 <div class="cv-item">
   <div class="cv-date">2015</div>
-  <div class="cv-title">Bolsa pré-doutoral</div>
+  <div class="cv-title">Bolsa de pré-doutoramento</div>
   <div class="cv-sub">Friedrich Schlegel Graduiertenschule, Universidade Livre de Berlim</div>
 </div>
 
@@ -202,7 +203,7 @@ document.addEventListener('DOMContentLoaded', function () {
   <ul><li>Pelo projeto de pesquisa sobre a lírica de Drummond</li></ul>
 </div>
 
-## Experiência com Financiamento e Pareceres
+## Experiência com financiamento e pareceres
 
 <div class="cv-item">
   <div class="cv-date">2025</div>
@@ -218,12 +219,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
 <div class="cv-item">
   <div class="cv-date">2021 – 2024</div>
-  <div class="cv-title">Captação de bolsa própria DFG (36 meses)</div>
-  <div class="cv-sub">Deutsche Forschungsgemeinschaft (DFG)</div>
-  <ul><li>Projeto: Neuperspektivierungen nachkolonialer Theorie [nº 459579268]. Recursos: 246.780 € mais 54.300 € de taxa de programa (Programmpauschale).</li></ul>
+  <div class="cv-title">Captação de cargo próprio financiado (Eigene Stelle), 36 meses</div>
+  <div class="cv-sub">Deutsche Forschungsgemeinschaft – DFG (German Research Foundation)</div>
+  <ul><li>Projeto: Neuperspektivierungen nachkolonialer Theorie [nº 459579268]. Recursos: 246.780 € mais 54.300 € de taxa de programa.</li></ul>
 </div>
 
-## Organização de Eventos Científicos
+## Organização de eventos científicos
 
 <div class="cv-item">
   <div class="cv-date">Out. 2025</div>
@@ -521,4 +522,4 @@ document.addEventListener('DOMContentLoaded', function () {
 
 ## Idiomas
 
-Português (língua materna) · Alemão, Francês, Espanhol (fluência em fala e escrita) · Inglês (muito bom domínio) · Latim, Italiano (bom domínio)
+Português (primeira língua) · Alemão, Francês, Espanhol (fluência em fala e escrita) · Inglês (muito bom domínio) · Latim, Italiano (bom domínio)
