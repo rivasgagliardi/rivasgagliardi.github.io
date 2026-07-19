@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', function () {
   if (list) {
     var li = document.createElement('li');
     li.className = 'nav-item';
-    li.innerHTML = '<a class="nav-link" href="/pt/">PT</a>';
+    li.innerHTML = '<a class="nav-link" href="/pt/" style="font-weight:600">PT</a>';
     var toggle = list.querySelector('.toggle-container');
     if (toggle) { list.insertBefore(li, toggle); } else { list.appendChild(li); }
   }
