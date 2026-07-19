@@ -59,13 +59,19 @@ document.addEventListener('DOMContentLoaded', function () {
       a.href = map[path].href;
     }
   });
+
   var list = document.querySelector('#navbar .navbar-menu-list');
   if (list) {
-    var li = document.createElement('li');
-    li.className = 'nav-item';
-    li.innerHTML = '<a class="nav-link" href="/publications/" style="font-weight:600">DE</a>';
+    var liDe = document.createElement('li');
+    liDe.className = 'nav-item';
+    liDe.innerHTML = '<a class="nav-link" href="/publications/">DE</a>';
+    var liEn = document.createElement('li');
+    liEn.className = 'nav-item';
+    liEn.innerHTML = '<a class="nav-link" href="/en/publications/">EN</a>';
     var toggle = list.querySelector('.toggle-container');
-    if (toggle) { list.insertBefore(li, toggle); } else { list.appendChild(li); }
+    [liDe, liEn].forEach(function (li) {
+      if (toggle) { list.insertBefore(li, toggle); } else { list.appendChild(li); }
+    });
   }
 
   var catMap = {
