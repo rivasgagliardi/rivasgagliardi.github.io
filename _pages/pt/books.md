@@ -49,17 +49,17 @@ document.addEventListener('DOMContentLoaded', function () {
 </script>
 
 <figure class="cover">
-  <a href="/publications/#gagliardi2020literaturgeschichte">
+  <a href="/pt/publications/#gagliardi2020literaturgeschichte">
     <img alt="Literaturgeschichte und Ideologie cover" src="/assets/img/cover_wolf.jpg">
   </a>
 </figure>
 <figure class="cover">
-  <a href="/publications/#schwarz2023meister">
+  <a href="/pt/publications/#schwarz2023meister">
     <img alt="Ein Meister an der Peripherie des Kapitalismus cover" src="/assets/img/cover_ein_meister.jpg">
   </a>
 </figure>
 <figure class="cover">
-  <a href="/publications/#gagliardi2026beyond">
+  <a href="/pt/publications/#gagliardi2026beyond">
     <img alt="Roberto Schwarz Beyond Borders cover" src="/assets/img/cover_beyond.jpg">
   </a>
 </figure>
