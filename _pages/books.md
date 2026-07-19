@@ -19,7 +19,17 @@ article {
   border-radius: 6px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.15);
 }
+
+.lang-switch {
+  font-size: 0.85rem;
+  margin-bottom: 1.5rem;
+}
+.lang-switch a {
+  font-weight: 600;
+}
 </style>
+
+<p class="lang-switch"><strong>DE</strong> · <a href="/pt/books/">PT</a></p>
 
 <figure class="cover">
   <a href="/publications/#gagliardi2020literaturgeschichte">
