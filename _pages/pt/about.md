@@ -95,6 +95,24 @@ document.addEventListener('DOMContentLoaded', function () {
     var toggle = list.querySelector('.toggle-container');
     if (toggle) { list.insertBefore(li, toggle); } else { list.appendChild(li); }
   }
+
+  var monthMapPt = {Jan:'janeiro', Feb:'fevereiro', Mar:'março', Apr:'abril', May:'maio', Jun:'junho', Jul:'julho', Aug:'agosto', Sep:'setembro', Oct:'outubro', Nov:'novembro', Dec:'dezembro'};
+  document.querySelectorAll('.news th').forEach(function (th) {
+    var m = th.textContent.trim().match(/^([A-Za-z]{3})\s+(\d{1,2}),\s+(\d{4})$/);
+    if (m && monthMapPt[m[1]]) {
+      th.textContent = m[2] + ' de ' + monthMapPt[m[1]] + ' de ' + m[3];
+    }
+  });
+
+  document.querySelectorAll('.news-title').forEach(function (a) {
+    a.textContent = a.textContent.replace('Vortrag', 'Palestra');
+  });
+
+  document.querySelectorAll('#gagliardi2026beyond p').forEach(function (p) {
+    if (p.textContent.includes('Hg. gemeinsam mit')) {
+      p.textContent = p.textContent.replace('Hg. gemeinsam mit', 'Coorganizado com').replace(' und ', ' e ');
+    }
+  });
 });
 </script>
 
