@@ -4,7 +4,6 @@ permalink: /en/books/
 title: Books
 nav: false
 ---
-
 <style>
 article {
   display: flex;
@@ -18,7 +17,7 @@ article {
   border-radius: 6px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.15);
 }
-  .lang-switcher {
+.lang-switcher {
   font-size: 0.8rem;
   white-space: nowrap;
   margin-left: auto;
@@ -36,7 +35,6 @@ article {
   pointer-events: none;
 }
 </style>
-
 <script>
 document.addEventListener('DOMContentLoaded', function () {
   var map = {
@@ -54,30 +52,16 @@ document.addEventListener('DOMContentLoaded', function () {
       a.href = map[path].href;
     }
   });
-
   var container = document.querySelector('#navbar .container');
   var toggler = document.querySelector('#navbar .navbar-toggler');
   if (container && toggler) {
     var langDiv = document.createElement('div');
     langDiv.className = 'lang-switcher';
-    langDiv.innerHTML = '<a href="/">DE</a> · <a href="/pt/">PT</a> · <a href="/en/" class="active">EN</a>';
+    langDiv.innerHTML = '<a href="/books/">DE</a> · <a href="/pt/books/">PT</a> · <a href="/en/books/" class="active">EN</a>';
     container.insertBefore(langDiv, toggler);
-  }
-
-  var pubSection = document.querySelector('.publications');
-  if (pubSection) {
-    var pubWalker = document.createTreeWalker(pubSection, NodeFilter.SHOW_TEXT);
-    var pubNode;
-    while (pubNode = pubWalker.nextNode()) {
-      var t = pubNode.nodeValue;
-      if (t.indexOf('Hg. gemeinsam mit') !== -1) {
-        pubNode.nodeValue = t.replace('Hg. gemeinsam mit', 'Co-edited with').replace(' und ', ' and ');
-      }
-    }
   }
 });
 </script>
-
 <figure class="cover">
   <a href="/en/publications/#gagliardi2020literaturgeschichte">
     <img alt="Literaturgeschichte und Ideologie cover" src="/assets/img/cover_wolf.jpg">
