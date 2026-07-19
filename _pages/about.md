@@ -67,16 +67,20 @@ h2:has(> a[href="/news/"])::before {
   background-color: #2e7d32;
   border-radius: 4px;
 }
-.lang-switch {
-  font-size: 0.85rem;
-  margin-bottom: 1.5rem;
-}
-.lang-switch a {
-  font-weight: 600;
-}
 </style>
 
-<p class="lang-switch"><strong>DE</strong> · <a href="/pt/">PT</a></p>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var list = document.querySelector('#navbar .navbar-menu-list');
+  if (list) {
+    var li = document.createElement('li');
+    li.className = 'nav-item';
+    li.innerHTML = '<a class="nav-link" href="/pt/">PT</a>';
+    var toggle = list.querySelector('.toggle-container');
+    if (toggle) { list.insertBefore(li, toggle); } else { list.appendChild(li); }
+  }
+});
+</script>
 
 Laura Rivas Gagliardi ist wissenschaftliche Mitarbeiterin am [Portugiesisch-Brasilianischen Institut der Universität zu Köln](https://pbi.phil-fak.uni-koeln.de/personen/wissenschaftliche-mitarbeiterinnen/laura-rivas-gagliardi).
 
