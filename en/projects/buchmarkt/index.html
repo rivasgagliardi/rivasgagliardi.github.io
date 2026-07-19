@@ -9,6 +9,23 @@
   border-bottom: 1px solid var(--global-divider-color);
   padding-bottom: 0.5rem;
 }
+.lang-switcher {
+  font-size: 0.8rem;
+  white-space: nowrap;
+  margin-left: auto;
+  margin-right: 0.75rem;
+  align-self: center;
+}
+.lang-switcher a {
+  opacity: 0.55;
+  border-bottom: none;
+  color: var(--global-text-color);
+}
+.lang-switcher a.active {
+  opacity: 1;
+  font-weight: 600;
+  pointer-events: none;
+}
 </style> <script>
 document.addEventListener('DOMContentLoaded', function () {
   var map = {
@@ -26,18 +43,14 @@ document.addEventListener('DOMContentLoaded', function () {
       a.href = map[path].href;
     }
   });
-  var list = document.querySelector('#navbar .navbar-menu-list');
-  if (list) {
-    var liDe = document.createElement('li');
-    liDe.className = 'nav-item';
-    liDe.innerHTML = '<a class="nav-link" href="/projects/buchmarkt/">DE</a>';
-    var liPt = document.createElement('li');
-    liPt.className = 'nav-item';
-    liPt.innerHTML = '<a class="nav-link" href="/pt/projects/buchmarkt/">PT</a>';
-    var toggle = list.querySelector('.toggle-container');
-    [liDe, liPt].forEach(function (li) {
-      if (toggle) { list.insertBefore(li, toggle); } else { list.appendChild(li); }
-    });
+
+  var container = document.querySelector('#navbar .container');
+  var toggler = document.querySelector('#navbar .navbar-toggler');
+  if (container && toggler) {
+    var langDiv = document.createElement('div');
+    langDiv.className = 'lang-switcher';
+    langDiv.innerHTML = '<a href="/projects/4_buchmarkt/">DE</a> · <a href="/pt/projects/buchmarkt/">PT</a> · <a href="/en/projects/buchmarkt/" class="active">EN</a>';
+    container.insertBefore(langDiv, toggler);
   }
 });
 </script> <p><strong>Freie Universität Berlin, 2010–2013</strong></p> <p>The threads connecting Brazilian literature to its mediation in German-speaking countries are often barely visible. Yet they exist: sometimes they break, only to reveal, once again, a strong and close connection across the Atlantic. The tensions of this fluid movement, which is part of the dynamics of reception in any culture, are of particular interest, which is why they are the focus here. This project covers, above all, the publication of new novels over a period of twenty years, roughly from July 1993 to July 2013.</p> <p>The choice of this time frame is easily justified: first, by the Frankfurt Book Fairs with a focus on Brazil in 1994 and 2013; second, by the scarcity of recent academic research combining literary and market-based perspectives. The last relevant contributions on the subject date from shortly before the turn of the century; after that, a curious silence set in.</p> <p>In the German-speaking world, the reception of Brazilian literature was almost always tied to the umbrella term “Latin America,” which was itself already a problem. Brazil first had to detach itself from this immediate association before it could assert itself through its own literature — one that has nothing to do with the typical features of Spanish American literature, such as <em>magical realism</em>. Moreover, the so-called Latin American boom was already in decline by the 1990s, which ultimately drew Brazil down with it. A historical perspective allows for reflection on the current state of research in Brazilian studies.</p> <p><strong>Supervisor:</strong> Prof. Dr. Susanne Klengel</p> <p><strong>Field:</strong> General and Comparative Literature</p> <p><strong>Publication</strong></p> <ul> <li><a href="/en/publications/#gagliardi2022contrasts">Contrasts in the Brazilian Book Market at the Beginning of the 21st Century</a></li> </ul> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Laura Rivas Gagliardi. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. <a href="https://laurarivasgagliardi.com/impressum/">Impressum</a>. </div> </footer> <script>
