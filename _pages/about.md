@@ -71,21 +71,13 @@ h2:has(> a[href="/news/"])::before {
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-  var list = document.querySelector('#navbar .navbar-menu-list');
-  if (list) {
-    var liDe = document.createElement('li');
-    liDe.className = 'nav-item';
-    liDe.innerHTML = '<a class="nav-link" href="/" style="font-weight:600; pointer-events:none;">DE</a>';
-    var liPt = document.createElement('li');
-    liPt.className = 'nav-item';
-    liPt.innerHTML = '<a class="nav-link" href="/pt/">PT</a>';
-    var liEn = document.createElement('li');
-    liEn.className = 'nav-item';
-    liEn.innerHTML = '<a class="nav-link" href="/en/">EN</a>';
-    var toggle = list.querySelector('.toggle-container');
-    [liDe, liPt, liEn].forEach(function (li) {
-      if (toggle) { list.insertBefore(li, toggle); } else { list.appendChild(li); }
-    });
+  var container = document.querySelector('#navbar .container');
+  var toggler = document.querySelector('#navbar .navbar-toggler');
+  if (container && toggler) {
+    var langDiv = document.createElement('div');
+    langDiv.className = 'lang-switcher';
+    langDiv.innerHTML = '<a href="/" class="active">DE</a> · <a href="/pt/">PT</a> · <a href="/en/">EN</a>';
+    container.insertBefore(langDiv, toggler);
   }
 });
 </script>
