@@ -113,8 +113,20 @@ document.addEventListener('DOMContentLoaded', function () {
   if (container && toggler) {
     var langDiv = document.createElement('div');
     langDiv.className = 'lang-switcher';
-    langDiv.innerHTML = '<a href="/books/">DE</a> · <a href="/pt/books/">PT</a> · <a href="/en/books/" class="active">EN</a>';
+    langDiv.innerHTML = '<a href="/">DE</a> · <a href="/pt/">PT</a> · <a href="/en/" class="active">EN</a>';
     container.insertBefore(langDiv, toggler);
+  }
+
+  var pubSection = document.querySelector('.publications');
+  if (pubSection) {
+    var pubWalker = document.createTreeWalker(pubSection, NodeFilter.SHOW_TEXT);
+    var pubNode;
+    while (pubNode = pubWalker.nextNode()) {
+      var t = pubNode.nodeValue;
+      if (t.indexOf('Hg. gemeinsam mit') !== -1) {
+        pubNode.nodeValue = t.replace('Hg. gemeinsam mit', 'Co-edited with').replace(' und ', ' and ');
+      }
+    }
   }
 });
 </script>
