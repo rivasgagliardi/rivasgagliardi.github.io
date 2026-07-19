@@ -5,72 +5,35 @@ permalink: /projects/
 description:
 nav: true
 nav_order: 3
-display_categories: [Aktuell, Abgeschlossen]
-horizontal: false
 ---
-<!-- pages/projects.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
-{% else %}
-{% assign sorted_projects = site.projects | sort: "importance" %}
-{% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
-</div>
 
 <style>
-.projects .row.row-cols-1.row-cols-md-3 {
-  display: grid !important;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)) !important;
-  gap: 24px !important;
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 24px;
+  margin-bottom: 1rem;
 }
-.projects .row.row-cols-1.row-cols-md-3 > .col {
-  flex: none !important;
-  max-width: none !important;
-  width: 100% !important;
-  position: static !important;
-}
-.projects .card {
+.projects-grid .card {
   border-left: 3px solid var(--global-theme-color);
-  height: 100%;
+  padding: 1rem 1.25rem;
 }
-.projects h2.category {
-  color: var(--global-text-color);
+.projects-grid .card a {
+  border-bottom: none;
+}
+.projects-grid h3 {
+  margin: 0 0 0.3rem;
+  font-size: 1.1rem;
+}
+.projects-grid p {
+  margin: 0;
+  opacity: 0.75;
+  font-size: 0.9rem;
+}
+.section-label {
+  margin-top: 2.5rem;
+  border-bottom: 1px solid var(--global-divider-color);
+  padding-bottom: 0.5rem;
 }
 .lang-switcher {
   font-size: 0.8rem;
@@ -103,3 +66,33 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 });
 </script>
+
+<h2 class="section-label">Aktuell</h2>
+
+<div class="projects-grid">
+  <div class="card">
+    <a href="/projects/frauenbilder/"><h3>Frauenbilder im Wandel</h3></a>
+    <p>Universität zu Köln, seit 2024</p>
+  </div>
+</div>
+
+<h2 class="section-label">Abgeschlossen</h2>
+
+<div class="projects-grid">
+  <div class="card">
+    <a href="/projects/dfg/"><h3>Neuperspektivierungen nachkolonialer Theorie</h3></a>
+    <p>Universität zu Köln, 2021–2024</p>
+  </div>
+  <div class="card">
+    <a href="/projects/wolf/"><h3>Le Brésil littéraire (1863) von Ferdinand Wolf</h3></a>
+    <p>Freie Universität Berlin, 2014–2019</p>
+  </div>
+  <div class="card">
+    <a href="/projects/buchmarkt/"><h3>Die Präsenz der brasilianischen Literatur auf dem deutschsprachigen Buchmarkt zwischen 1993 und 2013</h3></a>
+    <p>Freie Universität Berlin, 2010–2013</p>
+  </div>
+  <div class="card">
+    <a href="/projects/drummond/"><h3>Amor infectum – a revolta do singular na lírica de Drummond</h3></a>
+    <p>Universidade de São Paulo, 2002–2006</p>
+  </div>
+</div>
