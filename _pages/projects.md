@@ -82,11 +82,19 @@ horizontal: false
 document.addEventListener('DOMContentLoaded', function () {
   var list = document.querySelector('#navbar .navbar-menu-list');
   if (list) {
-    var li = document.createElement('li');
-    li.className = 'nav-item';
-    li.innerHTML = '<a class="nav-link" href="/pt/projects/" style="font-weight:600">PT</a>';
+    var liDe = document.createElement('li');
+    liDe.className = 'nav-item';
+    liDe.innerHTML = '<a class="nav-link" href="/projects/" style="font-weight:600; pointer-events:none;">DE</a>';
+    var liPt = document.createElement('li');
+    liPt.className = 'nav-item';
+    liPt.innerHTML = '<a class="nav-link" href="/pt/projects/">PT</a>';
+    var liEn = document.createElement('li');
+    liEn.className = 'nav-item';
+    liEn.innerHTML = '<a class="nav-link" href="/en/projects/">EN</a>';
     var toggle = list.querySelector('.toggle-container');
-    if (toggle) { list.insertBefore(li, toggle); } else { list.appendChild(li); }
+    [liDe, liPt, liEn].forEach(function (li) {
+      if (toggle) { list.insertBefore(li, toggle); } else { list.appendChild(li); }
+    });
   }
 });
 </script>
