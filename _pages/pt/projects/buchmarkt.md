@@ -48,7 +48,7 @@ A escolha desse recorte temporal se justifica facilmente: primeiro, pelas Feiras
 
 No espaço de língua alemã, a recepção da literatura brasileira esteve quase sempre vinculada ao termo genérico "América Latina", o que já representava um problema em si. O Brasil precisou primeiro se desvencilhar dessa associação imediata para depois se afirmar com sua própria literatura, que não tem nada a ver com traços típicos da literatura hispano-americana, como o *realismo mágico*. Além disso, o chamado boom latino-americano já vivia um declínio nos anos 1990, o que acabou por arrastar o Brasil junto. Um olhar histórico permite refletir sobre o estado atual da pesquisa em estudos brasileiros.
 
-**Orientação:** Prof. Dr. Susanne Klengel
+**Orientação:** Prof.ª Dr.ª Susanne Klengel
 
 **Área:** Literatura Geral e Comparada
 
