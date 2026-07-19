@@ -17,7 +17,7 @@ article {
   border-radius: 6px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.15);
 }
-  .lang-switcher {
+.lang-switcher {
   font-size: 0.8rem;
   white-space: nowrap;
   margin-left: auto;
@@ -51,26 +51,13 @@ document.addEventListener('DOMContentLoaded', function () {
       a.href = map[path].href;
     }
   });
-
   var container = document.querySelector('#navbar .container');
   var toggler = document.querySelector('#navbar .navbar-toggler');
   if (container && toggler) {
     var langDiv = document.createElement('div');
     langDiv.className = 'lang-switcher';
-    langDiv.innerHTML = '<a href="/">DE</a> · <a href="/pt/">PT</a> · <a href="/en/" class="active">EN</a>';
+    langDiv.innerHTML = '<a href="/books/">DE</a> · <a href="/pt/books/">PT</a> · <a href="/en/books/" class="active">EN</a>';
     container.insertBefore(langDiv, toggler);
-  }
-
-  var pubSection = document.querySelector('.publications');
-  if (pubSection) {
-    var pubWalker = document.createTreeWalker(pubSection, NodeFilter.SHOW_TEXT);
-    var pubNode;
-    while (pubNode = pubWalker.nextNode()) {
-      var t = pubNode.nodeValue;
-      if (t.indexOf('Hg. gemeinsam mit') !== -1) {
-        pubNode.nodeValue = t.replace('Hg. gemeinsam mit', 'Co-edited with').replace(' und ', ' and ');
-      }
-    }
   }
 });
 </script> <figure class="cover"> <a href="/en/publications/#gagliardi2020literaturgeschichte"> <img alt="Literaturgeschichte und Ideologie cover" src="/assets/img/cover_wolf.jpg"> </a> </figure> <figure class="cover"> <a href="/en/publications/#schwarz2023meister"> <img alt="Ein Meister an der Peripherie des Kapitalismus cover" src="/assets/img/cover_ein_meister.jpg"> </a> </figure> <figure class="cover"> <a href="/en/publications/#gagliardi2026beyond"> <img alt="Roberto Schwarz Beyond Borders cover" src="/assets/img/cover_beyond.jpg"> </a> </figure> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Laura Rivas Gagliardi. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. <a href="https://laurarivasgagliardi.com/impressum/">Impressum</a>. </div> </footer> <script>
