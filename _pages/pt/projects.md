@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', function () {
     <p>Universidade Livre de Berlim, 2014–2019</p>
   </div>
   <div class="card">
-    <a href="/pt/projects/buchmarkt/"><h3>A presença da literatura brasileira no mercado editorial de língua alemã (1993–2013)</h3></a>
+    <a href="/pt/projects/buchmarkt/"><h3>Die Präsenz der brasilianischen Literatur auf dem deutschsprachigen Buchmarkt zwischen 1993 und 2013</h3></a>
     <p>Universidade Livre de Berlim, 2010–2013</p>
   </div>
   <div class="card">
