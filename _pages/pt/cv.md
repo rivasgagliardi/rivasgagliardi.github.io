@@ -338,6 +338,9 @@ document.addEventListener('DOMContentLoaded', function () {
   <div class="cv-sub">Leibniz-Zentrum, Berlim</div>
 </div>
 
+<details>
+<summary style="cursor:pointer; color:var(--global-theme-color); margin: 1rem 0; font-weight:600;">Mostrar mais 25 comunicações</summary>
+
 <div class="cv-item">
   <div class="cv-date">Set. 2023</div>
   <div class="cv-title">25. Gregório de Matos entre órdenes y clases</div>
@@ -487,6 +490,8 @@ document.addEventListener('DOMContentLoaded', function () {
   <div class="cv-title">1. Amor infectum: a revolta do singular na lírica de Drummond</div>
   <div class="cv-sub">10º Simpósio Internacional de Iniciação Científica da USP</div>
 </div>
+
+</details>
 
 ## Gestão Acadêmica
 
