@@ -98,6 +98,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }
   var social = document.querySelector('.social');
   if (social) { social.id = 'contact'; }
+  }
 });
 </script>
 
