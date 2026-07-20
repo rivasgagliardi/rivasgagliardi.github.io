@@ -96,6 +96,13 @@ document.addEventListener('DOMContentLoaded', function () {
     langDiv.innerHTML = '<a href="/" class="active">DE</a> · <a href="/pt/">PT</a> · <a href="/en/">EN</a>';
     container.insertBefore(langDiv, toggler);
   }
+  var profileDiv = document.querySelector('.profile');
+  if (profileDiv) {
+    var contactLine = document.createElement('p');
+    contactLine.style.cssText = 'text-align:right; font-size:0.85rem; opacity:0.7; margin-top:0.5rem;';
+    contactLine.textContent = 'mail@laurarivasgagliardi.com';
+    profileDiv.insertAdjacentElement('afterend', contactLine);
+  }
 });
 </script>
 
