@@ -141,7 +141,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 </script>
 
-Sou pesquisadora no [Instituto Luso-Brasileiro da Universidade de Colônia](https://pbi.phil-fak.uni-koeln.de/pt/equipe/corpo-academico-docente/laura-rivas-gagliardi).
+Sou pesquisadora e professora assistente no [Instituto Luso-Brasileiro da Universidade de Colônia](https://pbi.phil-fak.uni-koeln.de/pt/equipe/corpo-academico-docente/laura-rivas-gagliardi).
 
 Depois de estudar Filologia Portuguesa e Francesa na Universidade de São Paulo (2007) e concluir o mestrado em Literatura Comparada na Universidade Livre de Berlim (2013), doutorei-me lá em 2019, como bolsista da Friedrich Schlegel Graduate School of Literary Studies. No pós-doutoramento, pesquisei no Institute of Latin American Studies, em Londres, e no Departamento de Letras Modernas da Universidade de São Paulo, antes de coordenar em Colônia, entre 2021 e 2024, um [projeto de pesquisa financiado pela DFG](https://gepris.dfg.de/gepris/projekt/459579268)sobre o método crítico de Mário de Andrade, Antonio Candido e Roberto Schwarz.
 
