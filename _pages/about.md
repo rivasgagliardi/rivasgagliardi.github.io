@@ -96,10 +96,10 @@ document.addEventListener('DOMContentLoaded', function () {
     langDiv.className = 'lang-switcher';
     langDiv.innerHTML = '<a href="/" class="active">DE</a> · <a href="/pt/">PT</a> · <a href="/en/">EN</a>';
     container.insertBefore(langDiv, toggler);
-  }
   var social = document.querySelector('.social');
   if (social) { social.id = 'contact'; }
   }
+}
 });
 </script>
 
