@@ -3,7 +3,7 @@ layout: about
 title: Über mich
 permalink: /
 subtitle: "Literaturwissenschaftlerin, Romanistin" 
-<p style="font-size:0.85rem; margin-top:-1rem;"><a href="#contact">Kontakt ↓</a></p>
+  <p style="font-size:0.85rem; margin-top:-1rem;"><a href="#contact">Kontakt ↓</a></p>
 profile:
   align: right
   image: prof_pic.jpg
