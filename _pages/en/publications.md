@@ -5,14 +5,12 @@ title: Publications
 description:
 nav: false
 ---
-
 <!-- _pages/publications.md -->
 <!-- Bibsearch Feature -->
 {% include bib_search.liquid %}
 <div class="publications">
 {% bibliography %}
 </div>
-
 <style>
   .publications h2.bibliography {
     color: var(--global-text-color);
@@ -58,7 +56,6 @@ nav: false
     pointer-events: none;
   }
 </style>
-
 <script>
 document.addEventListener('DOMContentLoaded', function () {
   var map = {
@@ -76,6 +73,29 @@ document.addEventListener('DOMContentLoaded', function () {
       a.href = map[path].href;
     }
   });
+
+  var covers = {
+    'gagliardi2020literaturgeschichte': '/assets/img/cover_wolf.jpg',
+    'schwarz2023meister': '/assets/img/cover_ein_meister.jpg',
+    'gagliardi2026beyond': '/assets/img/cover_beyond.jpg'
+  };
+  for (var id in covers) {
+    var entry = document.getElementById(id);
+    if (entry) {
+      var img = document.createElement('img');
+      img.src = covers[id];
+      img.style.cssText = 'width:90px; height:auto; border-radius:3px; box-shadow:0 1px 4px rgba(0,0,0,0.2); flex-shrink:0;';
+      var wrapper = document.createElement('div');
+      while (entry.firstChild) {
+        wrapper.appendChild(entry.firstChild);
+      }
+      entry.appendChild(img);
+      entry.appendChild(wrapper);
+      entry.style.display = 'flex';
+      entry.style.gap = '14px';
+      entry.style.alignItems = 'flex-start';
+    }
+  }
 
   var container = document.querySelector('#navbar .container');
   var toggler = document.querySelector('#navbar .navbar-toggler');
