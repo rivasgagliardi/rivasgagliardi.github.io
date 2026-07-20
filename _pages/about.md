@@ -96,12 +96,12 @@ document.addEventListener('DOMContentLoaded', function () {
     langDiv.innerHTML = '<a href="/" class="active">DE</a> · <a href="/pt/">PT</a> · <a href="/en/">EN</a>';
     container.insertBefore(langDiv, toggler);
   }
-  var profileDiv = document.querySelector('.profile');
+ var profileDiv = document.querySelector('.profile');
   if (profileDiv) {
-    var contactLine = document.createElement('p');
-    contactLine.style.cssText = 'text-align:right; font-size:0.85rem; opacity:0.7; margin-top:0.5rem;';
-    contactLine.textContent = 'mail@laurarivasgagliardi.com';
-    profileDiv.insertAdjacentElement('afterend', contactLine);
+    var contactBox = document.createElement('div');
+    contactBox.style.cssText = 'text-align:right; font-size:0.82rem; margin-top:0.8rem; padding-top:0.8rem; border-top:1px solid var(--global-divider-color); line-height:1.6;';
+    contactBox.innerHTML = '<strong>E-Mail:</strong> mail@laurarivasgagliardi.com<br><strong>Institut:</strong> Portugiesisch-Brasilianisches Institut<br>Universität zu Köln';
+    profileDiv.insertAdjacentElement('afterend', contactBox);
   }
 });
 </script>
