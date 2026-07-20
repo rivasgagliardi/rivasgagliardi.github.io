@@ -96,7 +96,6 @@ document.addEventListener('DOMContentLoaded', function () {
     langDiv.innerHTML = '<a href="/" class="active">DE</a> · <a href="/pt/">PT</a> · <a href="/en/">EN</a>';
     container.insertBefore(langDiv, toggler);
     }
-  }
 });
 </script>
 
