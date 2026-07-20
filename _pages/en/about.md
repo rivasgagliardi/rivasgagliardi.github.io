@@ -7,6 +7,8 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false
+more_info: >
+  <p>Contact: <a href="mailto:mail@laurarivasgagliardi.com">mail@laurarivasgagliardi.com</a></p>
 selected_papers: true
 social: true
 announcements:
