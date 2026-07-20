@@ -52,6 +52,7 @@ nav_order: 2
     pointer-events: none;
   }
 </style>
+
 <script>
 document.addEventListener('DOMContentLoaded', function () {
   document.querySelectorAll('.links a').forEach(function (a) {
@@ -60,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 
-var covers = {
+  var covers = {
     'gagliardi2020literaturgeschichte': '/assets/img/cover_wolf.jpg',
     'schwarz2023meister': '/assets/img/cover_ein_meister.jpg',
     'gagliardi2026beyond': '/assets/img/cover_beyond.jpg'
@@ -78,12 +79,7 @@ var covers = {
       entry.style.display = 'flex';
       entry.style.gap = '14px';
       entry.style.alignItems = 'flex-start';
+    }
   }
 });
 </script>
-<!-- _pages/publications.md -->
-<!-- Bibsearch Feature -->
-{% include bib_search.liquid %}
-<div class="publications">
-{% bibliography %}
-</div>
