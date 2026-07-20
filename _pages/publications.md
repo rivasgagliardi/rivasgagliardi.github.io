@@ -60,15 +60,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 
-  var container = document.querySelector('#navbar .container');
-  var toggler = document.querySelector('#navbar .navbar-toggler');
-  if (container && toggler) {
-    var langDiv = document.createElement('div');
-    langDiv.className = 'lang-switcher';
-    langDiv.innerHTML = '<a href="/publications/" class="active">DE</a> · <a href="/pt/publications/">PT</a> · <a href="/en/publications/">EN</a>';
-    container.insertBefore(langDiv, toggler);
-  }
-  var covers = {
+var covers = {
     'gagliardi2020literaturgeschichte': '/assets/img/cover_wolf.jpg',
     'schwarz2023meister': '/assets/img/cover_ein_meister.jpg',
     'gagliardi2026beyond': '/assets/img/cover_beyond.jpg'
@@ -78,9 +70,14 @@ document.addEventListener('DOMContentLoaded', function () {
     if (entry) {
       var img = document.createElement('img');
       img.src = covers[id];
-      img.style.cssText = 'float:left; width:60px; height:auto; margin-right:14px; border-radius:3px; box-shadow:0 1px 4px rgba(0,0,0,0.2);';
-      entry.insertBefore(img, entry.firstChild);
-    }
+      img.style.cssText = 'width:90px; height:auto; border-radius:3px; box-shadow:0 1px 4px rgba(0,0,0,0.2); flex-shrink:0;';
+      var wrapper = document.createElement('div');
+      while (entry.firstChild) { wrapper.appendChild(entry.firstChild); }
+      entry.appendChild(img);
+      entry.appendChild(wrapper);
+      entry.style.display = 'flex';
+      entry.style.gap = '14px';
+      entry.style.alignItems = 'flex-start';
   }
 });
 </script>
