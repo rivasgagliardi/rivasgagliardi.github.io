@@ -68,6 +68,20 @@ document.addEventListener('DOMContentLoaded', function () {
     langDiv.innerHTML = '<a href="/publications/" class="active">DE</a> · <a href="/pt/publications/">PT</a> · <a href="/en/publications/">EN</a>';
     container.insertBefore(langDiv, toggler);
   }
+  var covers = {
+    'gagliardi2020literaturgeschichte': '/assets/img/cover_wolf.jpg',
+    'schwarz2023meister': '/assets/img/cover_ein_meister.jpg',
+    'gagliardi2026beyond': '/assets/img/cover_beyond.jpg'
+  };
+  for (var id in covers) {
+    var entry = document.getElementById(id);
+    if (entry) {
+      var img = document.createElement('img');
+      img.src = covers[id];
+      img.style.cssText = 'float:left; width:60px; height:auto; margin-right:14px; border-radius:3px; box-shadow:0 1px 4px rgba(0,0,0,0.2);';
+      entry.insertBefore(img, entry.firstChild);
+    }
+  }
 });
 </script>
 <!-- _pages/publications.md -->
