@@ -84,6 +84,28 @@ h2:has(> a[href="/news/"])::before {
   font-weight: 600;
   pointer-events: none;
 }
+.about-columns {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+.about-columns .clearfix {
+  flex: 1;
+  margin-bottom: 0;
+}
+.about-columns .profile {
+  width: 270px;
+  flex-shrink: 0;
+  float: none !important;
+}
+.about-columns .social {
+  margin-top: 1.5rem;
+}
+@media (max-width: 650px) {
+  .about-columns {
+    flex-direction: column;
+  }
+}
 </style>
 
 <script>
@@ -96,6 +118,19 @@ document.addEventListener('DOMContentLoaded', function () {
     langDiv.innerHTML = '<a href="/" class="active">DE</a> · <a href="/pt/">PT</a> · <a href="/en/">EN</a>';
     container.insertBefore(langDiv, toggler);
     }
+  var profileDiv = document.querySelector('.profile');
+  var bioDiv = document.querySelector('.clearfix');
+  if (profileDiv && bioDiv) {
+    var wrapper = document.createElement('div');
+    wrapper.className = 'about-columns';
+    bioDiv.parentNode.insertBefore(wrapper, bioDiv);
+    wrapper.appendChild(bioDiv);
+    wrapper.appendChild(profileDiv);
+  }
+  var socialDiv = document.querySelector('.social');
+  if (socialDiv && profileDiv) {
+    profileDiv.appendChild(socialDiv);
+  }
 });
 </script>
 
