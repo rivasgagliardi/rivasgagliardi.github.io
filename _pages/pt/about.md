@@ -71,7 +71,7 @@ h2:has(> a[href="/news/"])::before {
 .navbar-brand {
   display: none;
 }
-  .lang-switcher {
+.lang-switcher {
   font-size: 0.8rem;
   white-space: nowrap;
   margin-left: auto;
@@ -88,10 +88,56 @@ h2:has(> a[href="/news/"])::before {
   font-weight: 600;
   pointer-events: none;
 }
+.about-columns {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  margin-bottom: 2.5rem;
+}
+.about-columns .clearfix {
+  flex: 1;
+  margin-bottom: 0;
+}
+.about-columns .profile {
+  width: 300px;
+  flex-shrink: 0;
+  float: none !important;
+  position: sticky;
+  top: 90px;
+}
+.about-columns .social {
+  margin-top: 1.5rem;
+}
+.about-columns .profile .contact-icons i {
+  font-size: 1.6rem;
+}
+.about-columns .profile .contact-note {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+@media (max-width: 650px) {
+  .about-columns {
+    flex-direction: column;
+  }
+}
 </style>
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
+  var profileDiv = document.querySelector('.profile');
+  var bioDiv = document.querySelector('.clearfix');
+  if (profileDiv && bioDiv) {
+    var wrapper = document.createElement('div');
+    wrapper.className = 'about-columns';
+    bioDiv.parentNode.insertBefore(wrapper, bioDiv);
+    wrapper.appendChild(bioDiv);
+    wrapper.appendChild(profileDiv);
+  }
+  var socialDiv = document.querySelector('.social');
+  if (socialDiv && profileDiv) {
+    profileDiv.appendChild(socialDiv);
+  }
+
   var map = {
     '/': { text: 'Sobre mim', href: '/pt/' },
     '/books/': { text: 'Livros', href: '/pt/books/' },
