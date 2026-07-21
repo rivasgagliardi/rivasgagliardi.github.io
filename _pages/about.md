@@ -95,7 +95,6 @@ h2:has(> a[href="/news/"])::before {
   margin-bottom: 0;
 }
 .about-columns .profile {
-  .about-columns .profile {
   width: 300px;
   flex-shrink: 0;
   float: none !important;
@@ -105,16 +104,16 @@ h2:has(> a[href="/news/"])::before {
 .about-columns .social {
   margin-top: 1.5rem;
 }
-@media (max-width: 650px) {
-  .about-columns {
-    flex-direction: column;
-}
 .about-columns .profile .contact-icons i {
   font-size: 1.6rem;
 }
 .about-columns .profile .contact-note {
   font-size: 1rem;
   margin-top: 0.5rem;
+}
+@media (max-width: 650px) {
+  .about-columns {
+    flex-direction: column;
   }
 }
 </style>
