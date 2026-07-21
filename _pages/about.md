@@ -95,7 +95,7 @@ h2:has(> a[href="/news/"])::before {
   margin-bottom: 0;
 }
 .about-columns .profile {
-  width: 220px;
+  width: 300px;
   flex-shrink: 0;
   float: none !important;
 }
