@@ -96,13 +96,6 @@ document.addEventListener('DOMContentLoaded', function () {
     langDiv.innerHTML = '<a href="/" class="active">DE</a> · <a href="/pt/">PT</a> · <a href="/en/">EN</a>';
     container.insertBefore(langDiv, toggler);
     }
-  var profileDiv = document.querySelector('.profile');
-  if (profileDiv) {
-    var contactLine = document.createElement('p');
-    contactLine.style.cssText = 'font-size:0.85rem; opacity:0.75; margin-top:-1rem;';
-    contactLine.innerHTML = 'mail@laurarivasgagliardi.com<br>Portugiesisch-Brasilianisches Institut, Universität zu Köln';
-    profileDiv.insertAdjacentElement('afterend', contactLine);
-    }
 });
 </script>
 
