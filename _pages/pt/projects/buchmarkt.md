@@ -4,31 +4,15 @@ permalink: /pt/projects/buchmarkt/
 title: Die Präsenz der brasilianischen Literatur auf dem deutschsprachigen Buchmarkt zwischen 1993 und 2013
 nav: false
 ---
+<link rel="stylesheet" href="/assets/css/custom.css">
+<script src="/assets/js/custom.js"></script>
 
 <style>
 .section-label {
   border-bottom: 1px solid var(--global-divider-color);
   padding-bottom: 0.5rem;
 }
-.lang-switcher {
-  font-size: 0.8rem;
-  white-space: nowrap;
-  margin-left: auto;
-  margin-right: 0.75rem;
-  align-self: center;
-}
-.lang-switcher a {
-  opacity: 0.55;
-  border-bottom: none;
-  color: var(--global-text-color);
-}
-.lang-switcher a.active {
-  opacity: 1;
-  font-weight: 600;
-  pointer-events: none;
-}
 </style>
-
 <script>
 document.addEventListener('DOMContentLoaded', function () {
   var map = {
@@ -39,22 +23,8 @@ document.addEventListener('DOMContentLoaded', function () {
     '/cv/': { text: 'Currículo', href: '/pt/cv/' },
     '/teaching/': { text: 'Ensino', href: '/pt/teaching/' }
   };
-  document.querySelectorAll('#navbar .nav-link').forEach(function (a) {
-    var path = new URL(a.href).pathname;
-    if (map[path]) {
-      a.childNodes[0].textContent = map[path].text + ' ';
-      a.href = map[path].href;
-    }
-  });
-
-  var container = document.querySelector('#navbar .container');
-  var toggler = document.querySelector('#navbar .navbar-toggler');
-  if (container && toggler) {
-    var langDiv = document.createElement('div');
-    langDiv.className = 'lang-switcher';
-    langDiv.innerHTML = '<a href="/projects/4_buchmarkt/">DE</a> · <a href="/pt/projects/buchmarkt/" class="active">PT</a> · <a href="/en/projects/buchmarkt/">EN</a>';
-    container.insertBefore(langDiv, toggler);
-  }
+  translateNav(map);
+  insertLangSwitcher('/projects/4_buchmarkt/', '/pt/projects/buchmarkt/', '/en/projects/buchmarkt/', 'pt');
 });
 </script>
 
