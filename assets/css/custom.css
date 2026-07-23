@@ -41,7 +41,7 @@
   margin: 0.3rem 0 0;
   padding-left: 1.1rem;
 }
-.cv-section-title, .year-label, .section-label {
+ .year-label, .section-label {
   margin-top: 2.5rem;
   border-bottom: 1px solid var(--global-divider-color);
   padding-bottom: 0.5rem;
