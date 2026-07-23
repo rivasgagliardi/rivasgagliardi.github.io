@@ -6,62 +6,12 @@ description:
 nav: true
 nav_order: 3
 ---
-<style>
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 24px;
-  margin-bottom: 1rem;
-}
-.projects-grid .card {
-  border-left: 3px solid var(--global-theme-color);
-  padding: 1rem 1.25rem;
-}
-.projects-grid .card a {
-  border-bottom: none;
-}
-.projects-grid h3 {
-  margin: 0 0 0.3rem;
-  font-size: 1.1rem;
-}
-.projects-grid p {
-  margin: 0;
-  opacity: 0.75;
-  font-size: 0.9rem;
-}
-.section-label {
-  margin-top: 2.5rem;
-  border-bottom: 1px solid var(--global-divider-color);
-  padding-bottom: 0.5rem;
-}
-.lang-switcher {
-  font-size: 0.8rem;
-  white-space: nowrap;
-  margin-left: auto;
-  margin-right: 0.75rem;
-  align-self: center;
-}
-.lang-switcher a {
-  opacity: 0.55;
-  border-bottom: none;
-  color: var(--global-text-color);
-}
-.lang-switcher a.active {
-  opacity: 1;
-  font-weight: 600;
-  pointer-events: none;
-}
-</style>
+<link rel="stylesheet" href="/assets/css/custom.css">
+<script src="/assets/js/custom.js"></script>
+
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-  var container = document.querySelector('#navbar .container');
-  var toggler = document.querySelector('#navbar .navbar-toggler');
-  if (container && toggler) {
-    var langDiv = document.createElement('div');
-    langDiv.className = 'lang-switcher';
-    langDiv.innerHTML = '<a href="/projects/" class="active">DE</a> · <a href="/pt/projects/">PT</a> · <a href="/en/projects/">EN</a>';
-    container.insertBefore(langDiv, toggler);
-  }
+  insertLangSwitcher('/projects/', '/pt/projects/', '/en/projects/', 'de');
 });
 </script>
 <h2 class="section-label">Aktuell</h2>
