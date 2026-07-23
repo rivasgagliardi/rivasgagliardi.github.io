@@ -4,37 +4,12 @@ title: Le Brésil littéraire (1863) von Ferdinand Wolf
 importance: 3
 category: Abgeschlossen
 ---
-
-<style>
-.lang-switcher {
-  font-size: 0.8rem;
-  white-space: nowrap;
-  margin-left: auto;
-  margin-right: 0.75rem;
-  align-self: center;
-}
-.lang-switcher a {
-  opacity: 0.55;
-  border-bottom: none;
-  color: var(--global-text-color);
-}
-.lang-switcher a.active {
-  opacity: 1;
-  font-weight: 600;
-  pointer-events: none;
-}
-</style>
+<link rel="stylesheet" href="/assets/css/custom.css">
+<script src="/assets/js/custom.js"></script>
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-  var container = document.querySelector('#navbar .container');
-  var toggler = document.querySelector('#navbar .navbar-toggler');
-  if (container && toggler) {
-    var langDiv = document.createElement('div');
-    langDiv.className = 'lang-switcher';
-    langDiv.innerHTML = '<a href="/projects/3_wolf/" class="active">DE</a> · <a href="/pt/projects/wolf/">PT</a> · <a href="/en/projects/wolf/">EN</a>';
-    container.insertBefore(langDiv, toggler);
-  }
+  insertLangSwitcher('/projects/3_wolf/', '/pt/projects/wolf/', '/en/projects/wolf/', 'de');
 });
 </script>
 
