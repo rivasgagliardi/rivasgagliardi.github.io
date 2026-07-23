@@ -247,6 +247,18 @@ document.addEventListener('DOMContentLoaded', function () {
 ## Comunicações em eventos científicos
 
 <div class="cv-item">
+  <div class="cv-date">09.10.2026</div>
+  <div class="cv-title">35. Der Sarao als Erkenntnisraum in María de Zayas' Desengaños amorosos (1647)</div>
+  <div class="cv-sub">7. transphilologische Jahrestagung Femmes de Lettres der FONTE-Stiftung: „Erkenntnisräume. Narrative weiblicher Selbstbestimmung in Gesprächsinszenierungen europäischer Autorinnen der Frühen Neuzeit“, Humboldt-Universität zu Berlin</div>
+</div>
+
+<div class="cv-item">
+  <div class="cv-date">18.09.2026</div>
+  <div class="cv-title">34. In Bewegung denken - Roberto Schwarz' intellektuelle Biografie und sein kritisches Programm für die Literaturwissenschaft</div>
+  <div class="cv-sub">11. Jahrestagung der Kulturwissenschaftlichen Gesellschaft (KWG), Berlin</div>
+</div>
+
+<div class="cv-item">
   <div class="cv-date">02.10.2025</div>
   <div class="cv-title">33. Anthropophagy in 20th-century Brazilian literature and critical thinking</div>
   <div class="cv-sub">Instituto Max Planck de História e Teoria do Direito, Frankfurt</div>
