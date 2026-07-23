@@ -76,6 +76,13 @@ h2:has(> a[href="/news/"])::before {
 document.addEventListener('DOMContentLoaded', function () {
   setupAboutColumns();
   insertLangSwitcher('/', '/pt/', '/en/', 'de');
+  var monthMapDe = {Jan:'Januar', Feb:'Februar', Mar:'März', Apr:'April', May:'Mai', Jun:'Juni', Jul:'Juli', Aug:'August', Sep:'September', Oct:'Oktober', Nov:'November', Dec:'Dezember'};
+  document.querySelectorAll('.news th').forEach(function (th) {
+    var m = th.textContent.trim().match(/^([A-Za-z]{3})\s+(\d{1,2}),\s+(\d{4})$/);
+    if (m && monthMapDe[m[1]]) {
+      th.textContent = m[2] + '. ' + monthMapDe[m[1]] + ' ' + m[3];
+    }
+  });
 });
 </script>
 
