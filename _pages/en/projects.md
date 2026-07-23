@@ -4,53 +4,8 @@ permalink: /en/projects/
 title: Research Projects
 nav: false
 ---
-
-<style>
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 24px;
-  margin-bottom: 1rem;
-}
-.projects-grid .card {
-  border-left: 3px solid var(--global-theme-color);
-  padding: 1rem 1.25rem;
-}
-.projects-grid .card a {
-  border-bottom: none;
-}
-.projects-grid h3 {
-  margin: 0 0 0.3rem;
-  font-size: 1.1rem;
-}
-.projects-grid p {
-  margin: 0;
-  opacity: 0.75;
-  font-size: 0.9rem;
-}
-.section-label {
-  margin-top: 2.5rem;
-  border-bottom: 1px solid var(--global-divider-color);
-  padding-bottom: 0.5rem;
-}
-.lang-switcher {
-  font-size: 0.8rem;
-  white-space: nowrap;
-  margin-left: auto;
-  margin-right: 0.75rem;
-  align-self: center;
-}
-.lang-switcher a {
-  opacity: 0.55;
-  border-bottom: none;
-  color: var(--global-text-color);
-}
-.lang-switcher a.active {
-  opacity: 1;
-  font-weight: 600;
-  pointer-events: none;
-}
-</style>
+<link rel="stylesheet" href="/assets/css/custom.css">
+<script src="/assets/js/custom.js"></script>
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
@@ -62,35 +17,18 @@ document.addEventListener('DOMContentLoaded', function () {
     '/cv/': { text: 'CV', href: '/en/cv/' },
     '/teaching/': { text: 'Teaching', href: '/en/teaching/' }
   };
-  document.querySelectorAll('#navbar .nav-link').forEach(function (a) {
-    var path = new URL(a.href).pathname;
-    if (map[path]) {
-      a.childNodes[0].textContent = map[path].text + ' ';
-      a.href = map[path].href;
-    }
-  });
-  var container = document.querySelector('#navbar .container');
-  var toggler = document.querySelector('#navbar .navbar-toggler');
-  if (container && toggler) {
-    var langDiv = document.createElement('div');
-    langDiv.className = 'lang-switcher';
-    langDiv.innerHTML = '<a href="/projects/">DE</a> · <a href="/pt/projects/">PT</a> · <a href="/en/projects/" class="active">EN</a>';
-    container.insertBefore(langDiv, toggler);
-  }
+  translateNav(map);
+  insertLangSwitcher('/projects/', '/pt/projects/', '/en/projects/', 'en');
 });
 </script>
-
 <h2 class="section-label">Current</h2>
-
 <div class="projects-grid">
   <div class="card">
     <a href="/en/projects/frauenbilder/"><h3>Frauenbilder im Wandel</h3></a>
     <p>University of Cologne, since 2024</p>
   </div>
 </div>
-
 <h2 class="section-label">Completed</h2>
-
 <div class="projects-grid">
   <div class="card">
     <a href="/en/projects/dfg/"><h3>Neuperspektivierungen nachkolonialer Theorie</h3></a>
