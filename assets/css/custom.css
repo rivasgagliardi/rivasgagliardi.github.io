@@ -117,4 +117,9 @@
   .about-columns {
     flex-direction: column;
   }
+  .about-columns .profile {
+    order: -1;
+    position: static;
+    width: 100%;
+  }
 }
