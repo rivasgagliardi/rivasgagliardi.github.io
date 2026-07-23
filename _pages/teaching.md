@@ -6,59 +6,12 @@ nav: true
 nav_order: 6
 ---
 
-<style>
-.year-label {
-  margin-top: 2.5rem;
-  border-bottom: 1px solid var(--global-divider-color);
-  padding-bottom: 0.5rem;
-}
-.course-card {
-  border-left: 3px solid var(--global-theme-color);
-  padding-left: 1rem;
-  margin-bottom: 1.5rem;
-}
-.course-card h3 {
-  margin: 0 0 0.2rem;
-  font-size: 1.05rem;
-}
-.course-meta {
-  font-size: 0.85rem;
-  opacity: 0.7;
-  margin-bottom: 0.3rem;
-}
-.course-desc {
-  margin: 0;
-  font-size: 0.95rem;
-}
-.lang-switcher {
-  font-size: 0.8rem;
-  white-space: nowrap;
-  margin-left: auto;
-  margin-right: 0.75rem;
-  align-self: center;
-}
-.lang-switcher a {
-  opacity: 0.55;
-  border-bottom: none;
-  color: var(--global-text-color);
-}
-.lang-switcher a.active {
-  opacity: 1;
-  font-weight: 600;
-  pointer-events: none;
-}
-</style>
+<link rel="stylesheet" href="/assets/css/custom.css">
+<script src="/assets/js/custom.js"></script>
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-  var container = document.querySelector('#navbar .container');
-  var toggler = document.querySelector('#navbar .navbar-toggler');
-  if (container && toggler) {
-    var langDiv = document.createElement('div');
-    langDiv.className = 'lang-switcher';
-    langDiv.innerHTML = '<a href="/teaching/" class="active">DE</a> · <a href="/pt/teaching/">PT</a> · <a href="/en/teaching/">EN</a>';
-    container.insertBefore(langDiv, toggler);
-  }
+  insertLangSwitcher('/teaching/', '/pt/teaching/', '/en/teaching/', 'de');
 });
 </script>
 
