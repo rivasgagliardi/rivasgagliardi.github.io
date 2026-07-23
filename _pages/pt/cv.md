@@ -5,56 +5,8 @@ title: Currículo
 nav: false
 ---
 
-<style>
-.cv-item {
-  border-left: 3px solid var(--global-theme-color);
-  padding-left: 1rem;
-  margin-bottom: 1.5rem;
-}
-.cv-date {
-  font-size: 0.8rem;
-  color: var(--global-theme-color);
-  font-weight: 600;
-  text-transform: uppercase;
-  margin-bottom: 0.2rem;
-}
-.cv-title {
-  font-weight: 700;
-  font-size: 1.05rem;
-}
-.cv-sub {
-  color: var(--global-text-color);
-  opacity: 0.7;
-  font-size: 0.9rem;
-  margin-bottom: 0.4rem;
-}
-.cv-item ul {
-  margin: 0.3rem 0 0;
-  padding-left: 1.1rem;
-}
-.cv-section-title {
-  margin-top: 2.5rem;
-  border-bottom: 1px solid var(--global-divider-color);
-  padding-bottom: 0.5rem;
-}
-.lang-switcher {
-  font-size: 0.8rem;
-  white-space: nowrap;
-  margin-left: auto;
-  margin-right: 0.75rem;
-  align-self: center;
-}
-.lang-switcher a {
-  opacity: 0.55;
-  border-bottom: none;
-  color: var(--global-text-color);
-}
-.lang-switcher a.active {
-  opacity: 1;
-  font-weight: 600;
-  pointer-events: none;
-}
-</style>
+<link rel="stylesheet" href="/assets/css/custom.css">
+<script src="/assets/js/custom.js"></script>
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
@@ -66,22 +18,8 @@ document.addEventListener('DOMContentLoaded', function () {
     '/cv/': { text: 'Currículo', href: '/pt/cv/' },
     '/teaching/': { text: 'Ensino', href: '/pt/teaching/' }
   };
-  document.querySelectorAll('#navbar .nav-link').forEach(function (a) {
-    var path = new URL(a.href).pathname;
-    if (map[path]) {
-      a.childNodes[0].textContent = map[path].text + ' ';
-      a.href = map[path].href;
-    }
-  });
-
-  var container = document.querySelector('#navbar .container');
-  var toggler = document.querySelector('#navbar .navbar-toggler');
-  if (container && toggler) {
-    var langDiv = document.createElement('div');
-    langDiv.className = 'lang-switcher';
-    langDiv.innerHTML = '<a href="/cv/">DE</a> · <a href="/pt/cv/" class="active">PT</a> · <a href="/en/cv/">EN</a>';
-    container.insertBefore(langDiv, toggler);
-  }
+  translateNav(map);
+  insertLangSwitcher('/cv/', '/pt/cv/', '/en/cv/', 'pt');
 });
 </script>
 
