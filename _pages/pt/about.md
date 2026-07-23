@@ -20,6 +20,9 @@ latest_posts:
 nav: false
 ---
 
+<link rel="stylesheet" href="/assets/css/custom.css">
+<script src="/assets/js/custom.js"></script>
+
 <style>
 h2:has(> a[href="/publications/"]) {
   font-size: 0;
@@ -71,72 +74,12 @@ h2:has(> a[href="/news/"])::before {
 .navbar-brand {
   display: none;
 }
-.lang-switcher {
-  font-size: 0.8rem;
-  white-space: nowrap;
-  margin-left: auto;
-  margin-right: 0.75rem;
-  align-self: center;
-}
-.lang-switcher a {
-  opacity: 0.55;
-  border-bottom: none;
-  color: var(--global-text-color);
-}
-.lang-switcher a.active {
-  opacity: 1;
-  font-weight: 600;
-  pointer-events: none;
-}
-.about-columns {
-  display: flex;
-  gap: 2rem;
-  align-items: flex-start;
-  margin-bottom: 2.5rem;
-}
-.about-columns .clearfix {
-  flex: 1;
-  margin-bottom: 0;
-}
-.about-columns .profile {
-  width: 300px;
-  flex-shrink: 0;
-  float: none !important;
-  position: sticky;
-  top: 90px;
-}
-.about-columns .social {
-  margin-top: 1.5rem;
-}
-.about-columns .profile .contact-icons i {
-  font-size: 1.6rem;
-}
-.about-columns .profile .contact-note {
-  font-size: 1rem;
-  margin-top: 0.5rem;
-}
-@media (max-width: 650px) {
-  .about-columns {
-    flex-direction: column;
-  }
-}
 </style>
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-  var profileDiv = document.querySelector('.profile');
-  var bioDiv = document.querySelector('.clearfix');
-  if (profileDiv && bioDiv) {
-    var wrapper = document.createElement('div');
-    wrapper.className = 'about-columns';
-    bioDiv.parentNode.insertBefore(wrapper, bioDiv);
-    wrapper.appendChild(bioDiv);
-    wrapper.appendChild(profileDiv);
-  }
-  var socialDiv = document.querySelector('.social');
-  if (socialDiv && profileDiv) {
-    profileDiv.appendChild(socialDiv);
-  }
+  setupAboutColumns();
+  insertLangSwitcher('/', '/pt/', '/en/', 'pt');
 
   var map = {
     '/': { text: 'Sobre mim', href: '/pt/' },
@@ -146,22 +89,7 @@ document.addEventListener('DOMContentLoaded', function () {
     '/cv/': { text: 'Currículo', href: '/pt/cv/' },
     '/teaching/': { text: 'Ensino', href: '/pt/teaching/' }
   };
-  document.querySelectorAll('#navbar .nav-link').forEach(function (a) {
-    var path = new URL(a.href).pathname;
-    if (map[path]) {
-      a.childNodes[0].textContent = map[path].text + ' ';
-      a.href = map[path].href;
-    }
-  });
-
-  var container = document.querySelector('#navbar .container');
-  var toggler = document.querySelector('#navbar .navbar-toggler');
-  if (container && toggler) {
-    var langDiv = document.createElement('div');
-    langDiv.className = 'lang-switcher';
-    langDiv.innerHTML = '<a href="/">DE</a> · <a href="/pt/" class="active">PT</a> · <a href="/en/">EN</a>';
-    container.insertBefore(langDiv, toggler);
-  }
+  translateNav(map);
 
   var monthMapPt = {Jan:'janeiro', Feb:'fevereiro', Mar:'março', Apr:'abril', May:'maio', Jun:'junho', Jul:'julho', Aug:'agosto', Sep:'setembro', Oct:'outubro', Nov:'novembro', Dec:'dezembro'};
   document.querySelectorAll('.news th').forEach(function (th) {
