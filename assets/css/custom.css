@@ -1,0 +1,120 @@
+.lang-switcher {
+  font-size: 0.8rem;
+  white-space: nowrap;
+  margin-left: auto;
+  margin-right: 0.75rem;
+  align-self: center;
+}
+.lang-switcher a {
+  opacity: 0.55;
+  border-bottom: none;
+  color: var(--global-text-color);
+}
+.lang-switcher a.active {
+  opacity: 1;
+  font-weight: 600;
+  pointer-events: none;
+}
+.cv-item {
+  border-left: 3px solid var(--global-theme-color);
+  padding-left: 1rem;
+  margin-bottom: 1.5rem;
+}
+.cv-date {
+  font-size: 0.8rem;
+  color: var(--global-theme-color);
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 0.2rem;
+}
+.cv-title {
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+.cv-sub {
+  color: var(--global-text-color);
+  opacity: 0.7;
+  font-size: 0.9rem;
+  margin-bottom: 0.4rem;
+}
+.cv-item ul {
+  margin: 0.3rem 0 0;
+  padding-left: 1.1rem;
+}
+.cv-section-title, .year-label, .section-label {
+  margin-top: 2.5rem;
+  border-bottom: 1px solid var(--global-divider-color);
+  padding-bottom: 0.5rem;
+}
+.course-card {
+  border-left: 3px solid var(--global-theme-color);
+  padding-left: 1rem;
+  margin-bottom: 1.5rem;
+}
+.course-card h3 {
+  margin: 0 0 0.2rem;
+  font-size: 1.05rem;
+}
+.course-meta {
+  font-size: 0.85rem;
+  opacity: 0.7;
+  margin-bottom: 0.3rem;
+}
+.course-desc {
+  margin: 0;
+  font-size: 0.95rem;
+}
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 24px;
+  margin-bottom: 1rem;
+}
+.projects-grid .card {
+  border-left: 3px solid var(--global-theme-color);
+  padding: 1rem 1.25rem;
+}
+.projects-grid .card a {
+  border-bottom: none;
+}
+.projects-grid h3 {
+  margin: 0 0 0.3rem;
+  font-size: 1.1rem;
+}
+.projects-grid p {
+  margin: 0;
+  opacity: 0.75;
+  font-size: 0.9rem;
+}
+.about-columns {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  margin-bottom: 2.5rem;
+}
+.about-columns .clearfix {
+  flex: 1;
+  margin-bottom: 0;
+}
+.about-columns .profile {
+  width: 300px;
+  flex-shrink: 0;
+  float: none !important;
+  position: sticky;
+  top: 90px;
+}
+.about-columns .social {
+  margin-top: 1.5rem;
+}
+.about-columns .profile .contact-icons i {
+  font-size: 1.6rem;
+}
+.about-columns .profile .contact-note {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+@media (max-width: 650px) {
+  .about-columns {
+    flex-direction: column;
+  }
+}
