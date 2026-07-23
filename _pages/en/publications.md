@@ -5,6 +5,9 @@ title: Publications
 description:
 nav: false
 ---
+<link rel="stylesheet" href="/assets/css/custom.css">
+<script src="/assets/js/custom.js"></script>
+
 <!-- _pages/publications.md -->
 <!-- Bibsearch Feature -->
 {% include bib_search.liquid %}
@@ -38,23 +41,6 @@ nav: false
     background-color: #2e7d32;
     border-radius: 4px;
   }
-  .lang-switcher {
-    font-size: 0.8rem;
-    white-space: nowrap;
-    margin-left: auto;
-    margin-right: 0.75rem;
-    align-self: center;
-  }
-  .lang-switcher a {
-    opacity: 0.55;
-    border-bottom: none;
-    color: var(--global-text-color);
-  }
-  .lang-switcher a.active {
-    opacity: 1;
-    font-weight: 600;
-    pointer-events: none;
-  }
 </style>
 <script>
 document.addEventListener('DOMContentLoaded', function () {
@@ -66,45 +52,15 @@ document.addEventListener('DOMContentLoaded', function () {
     '/cv/': { text: 'CV', href: '/en/cv/' },
     '/teaching/': { text: 'Teaching', href: '/en/teaching/' }
   };
-  document.querySelectorAll('#navbar .nav-link').forEach(function (a) {
-    var path = new URL(a.href).pathname;
-    if (map[path]) {
-      a.childNodes[0].textContent = map[path].text + ' ';
-      a.href = map[path].href;
-    }
-  });
+  translateNav(map);
 
-  var covers = {
+  insertCovers({
     'gagliardi2020literaturgeschichte': '/assets/img/cover_wolf.jpg',
     'schwarz2023meister': '/assets/img/cover_ein_meister.jpg',
     'gagliardi2026beyond': '/assets/img/cover_beyond.jpg'
-  };
-  for (var id in covers) {
-    var entry = document.getElementById(id);
-    if (entry) {
-      var img = document.createElement('img');
-      img.src = covers[id];
-      img.style.cssText = 'width:90px; height:auto; border-radius:3px; box-shadow:0 1px 4px rgba(0,0,0,0.2); flex-shrink:0;';
-      var wrapper = document.createElement('div');
-      while (entry.firstChild) {
-        wrapper.appendChild(entry.firstChild);
-      }
-      entry.appendChild(img);
-      entry.appendChild(wrapper);
-      entry.style.display = 'flex';
-      entry.style.gap = '14px';
-      entry.style.alignItems = 'flex-start';
-    }
-  }
+  });
 
-  var container = document.querySelector('#navbar .container');
-  var toggler = document.querySelector('#navbar .navbar-toggler');
-  if (container && toggler) {
-    var langDiv = document.createElement('div');
-    langDiv.className = 'lang-switcher';
-    langDiv.innerHTML = '<a href="/publications/">DE</a> · <a href="/pt/publications/">PT</a> · <a href="/en/publications/" class="active">EN</a>';
-    container.insertBefore(langDiv, toggler);
-  }
+  insertLangSwitcher('/publications/', '/pt/publications/', '/en/publications/', 'en');
 
   var catMap = {
     '1. Monografien': '1. Monographs',
