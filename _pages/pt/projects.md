@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
 <h2 class="section-label">Atual</h2>
 <div class="projects-grid">
   <div class="card">
-    <a href="/pt/projects/frauenbilder/"><h3>Frauenbilder im Wandel</h3></a>
+    <a href="/pt/projects/frauenbilder/"><h3>Licentia. Fala feminina e saber crítico em Marguerite de Navarre e María de Zayas</h3></a>
     <p>Universidade de Colônia, desde 2024</p>
   </div>
 </div>
