@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /pt/projects/frauenbilder/
-title: Licentia. A fala feminina e o saber crítico nas coleções de novelas de Marguerite de Navarre e María de Zayas
+title: Licentia. Fala feminina e saber crítico em Marguerite de Navarre e María de Zayas
 nav: false
 ---
 <link rel="stylesheet" href="/assets/css/custom.css">
