@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /pt/projects/frauenbilder/
-title: Frauenbilder im Wandel
+title: Licentia. A fala feminina e o saber crítico nas coleções de novelas de Marguerite de Navarre e María de Zayas
 nav: false
 ---
 <link rel="stylesheet" href="/assets/css/custom.css">
@@ -30,11 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 **Universidade de Colônia, desde 2024**
 
-O projeto de livre-docência (Habilitation) "Frauenbilder im Wandel" dedica-se a um estudo comparativo de figuras femininas em romances franceses, espanhóis, portugueses e brasileiros do século XIX. Partindo da pergunta de como e por que personagens femininas funcionam como pontos de cristalização da crítica literária à sociedade, o trabalho investiga as funções narrativas de diferentes tipos de personagens no campo de tensão entre ideais burgueses e realidades materiais. Uma comparação transatlântica permite identificar semelhanças e diferenças em aspectos centrais da realidade da vida das mulheres — como trabalho, casamento, educação, sexualidade e participação pública — e relacioná-las com discursos históricos de emancipação.
-
-Metodologicamente, o projeto se orienta pela análise crítica da literatura e da sociedade de Antonio Candido e Roberto Schwarz. O objetivo é ir além da pesquisa de motivos ou de cor local, e ler a estrutura formal dos romances (perspectiva narrativa, construção do enredo, estilo) como expressão de diferentes configurações sociais. Nesse sentido, dá-se atenção especial à relação de tensão descrita por Schwarz entre a adoção de modelos romanescos europeus e a realidade social específica do Brasil.
-
-Por meio da análise comparativa de um corpus de oito a quinze romances — entre eles obras de Gustave Flaubert, Emilia Pardo Bazán, Eça de Queirós e Machado de Assis — leituras canônicas tradicionais não são apenas relativizadas, mas a própria teoria crítica é ampliada por uma perspectiva de gênero. Além disso, é um objetivo central do projeto incluir autoras como George Sand, Fernán Caballero e Júlia Lopes de Almeida, tornando visível sua contribuição ao discurso literário do século XIX e abrindo o olhar para a diversidade da agência feminina e da criação literária.
+Meu projeto de Habilitation investiga como autoras da primeira modernidade românica — Marguerite de Navarre (L’Heptaméron, 1559) e María de Zayas (Novelas amorosas y ejemplares, 1637; Desengaños amorosos, 1647) — fizeram da narrativa-moldura um espaço de fala e de juízo femininos. No centro está a pergunta sobre quem pode tomar a palavra na conversação encenada — no cadre, no sarao —, diante de quem e com que pretensão de conhecimento: narrar aparece aí como forma de saber crítico sobre o amor, o casamento, a violência e a ordem social. O projeto articula narratologia, história de gênero e a tradição da querelle des femmes — e pergunta, por fim, pelo destino desses espaços da palavra feminina, o salão, a tertúlia, quando o romance do século XIX os reocupa.
 
 **Disciplinas ministradas**
 
