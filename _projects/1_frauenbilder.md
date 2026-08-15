@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Licentia. Weibliche Rede und kritisches Wissen in den Rahmennovellensammlungen Marguerite de Navarres und María de Zayas’
+title: Licentia. Weibliche Rede und kritisches Wissen bei Marguerite de Navarre und María de Zayas
 importance: 1
 category: Aktuell
 ---
