@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /en/projects/frauenbilder/
-title: Licentia. Female Speech and Critical Knowledge in the Frame-Novella Collections of Marguerite de Navarre and María de Zayas
+title: Licentia. Female Speech and Critical Knowledge in Marguerite de Navarre and María de Zayas
 nav: false
 ---
 <link rel="stylesheet" href="/assets/css/custom.css">
