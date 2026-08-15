@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Frauenbilder im Wandel
+title: Licentia. Weibliche Rede und kritisches Wissen in den Rahmennovellensammlungen Marguerite de Navarres und María de Zayas’
 importance: 1
 category: Aktuell
 ---
@@ -15,11 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 **Universität zu Köln, seit 2024**
 
-Das Habilitationsvorhaben „Frauenbilder im Wandel" widmet sich einer vergleichenden Studie weiblicher Figuren in französischen, spanischen, portugiesischen und brasilianischen Romanen des 19. Jahrhunderts. Ausgehend von der Frage, wie und warum Frauenfiguren als Kristallisationspunkte literarischer Gesellschaftskritik fungieren, untersucht die Arbeit die narrativen Funktionen verschiedener Figurentypen im Spannungsfeld zwischen bürgerlichen Idealen und materiellen Realitäten. Ein transatlantischer Vergleich ermöglicht es, Ähnlichkeiten und Differenzen hinsichtlich zentraler Aspekte weiblicher Lebensrealität – wie Arbeit, Ehe, Bildung, Sexualität und öffentlicher Teilhabe – herauszuarbeiten und diese mit historischen Emanzipationsdiskursen in Beziehung zu setzen.
-
-Methodisch orientiert sich das Projekt an der kritischen Literatur- und Gesellschaftsanalyse von Antonio Candido und Roberto Schwarz. Ziel ist es, über die reine Motiv- oder Lokalkolorit-Forschung hinauszugehen und die formale Struktur der Romane (Erzählperspektive, Handlungsaufbau, Stil) als Ausdruck unterschiedlicher sozialer Konfigurationen zu lesen. Dabei gilt besonderes Augenmerk dem von Schwarz beschriebenen Spannungsverhältnis zwischen der Übernahme europäischer Romanmodelle und der spezifischen gesellschaftlichen Realität in Brasilien.
-
-Durch die vergleichende Analyse eines Korpus von acht bis fünfzehn Romanen – darunter Werke von Gustave Flaubert, Emilia Pardo Bazán, Eça de Queirós und Machado de Assis – werden tradierte kanonische Lesarten nicht nur relativiert, sondern die kritische Theorie auch um eine Gender-Perspektive erweitert. Zudem ist es ein zentrales Anliegen, Autorinnen wie George Sand, Fernán Caballero und Júlia Lopes de Almeida aufzunehmen, um ihren Beitrag zum literarischen Diskurs des 19. Jahrhunderts sichtbar zu machen und den Blick für die Diversität weiblicher Handlungsmacht und literarischer Gestaltung zu öffnen.
+In meinem Habilitationsprojekt untersuche ich, wie Autorinnen der romanischen Frühen Neuzeit — Marguerite de Navarre (L’Heptaméron, 1559) und María de Zayas (Novelas amorosas y ejemplares, 1637; Desengaños amorosos, 1647) — die Rahmenerzählung zu einem Raum weiblichen Sprechens und Urteilens gestalten. Im Zentrum steht die Frage, wer im inszenierten Gespräch — im cadre, im sarao — das Wort ergreifen darf, vor wem und mit welchem Erkenntnisanspruch: Erzählen erscheint hier als Form kritischen Wissens über Liebe, Ehe, Gewalt und gesellschaftliche Ordnung. Das Projekt verbindet Narratologie, Geschlechtergeschichte und die Tradition der Querelle des Femmes — und fragt zugleich, was aus den Räumen weiblicher Rede, dem Salon, der Tertulia, wird, wenn der Roman des 19. Jahrhunderts sie neu besetzt.
 
 **Lehrveranstaltungen**
 
