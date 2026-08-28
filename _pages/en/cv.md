@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 </script>
 
-**Contact:** mail@laurarivasgagliardi.com &nbsp;·&nbsp; Portuguese-Brazilian Institute, University of Cologne, Albertus-Magnus-Platz, 50923 Cologne &nbsp;·&nbsp; Room 1.305 (Philosophikum) &nbsp;·&nbsp; Office hours: by appointment via email (Summer semester 2026: Tue 15:00–16:00)
+**Contact:** mail@laurarivasgagliardi.com &nbsp;·&nbsp; Portuguese-Brazilian Institute, University of Cologne
 
 ## Professional Career
 
