@@ -20,13 +20,19 @@ document.addEventListener('DOMContentLoaded', function () {
 ## Werdegang
 
 <div class="cv-item">
-  <div class="cv-date">2024 – heute</div>
+  <div class="cv-date">seit 09/2026</div>
+  <div class="cv-title">Gastwissenschaftlerin</div>
+  <div class="cv-sub">Portugiesisch-Brasilianisches Institut, Universität zu Köln · Köln, Deutschland</div>
+</div>
+
+<div class="cv-item">
+  <div class="cv-date">09/2024 – 08/2026</div>
   <div class="cv-title">Wissenschaftliche Mitarbeiterin (50%)</div>
   <div class="cv-sub">Portugiesisch-Brasilianisches Institut, Universität zu Köln · Köln, Deutschland</div>
 </div>
 
 <div class="cv-item">
-  <div class="cv-date">2021 – 2024</div>
+  <div class="cv-date">09/2021 – 08/2024</div>
   <div class="cv-title">Wissenschaftliche Mitarbeiterin (DFG-Eigene Stelle)</div>
   <div class="cv-sub">Portugiesisch-Brasilianisches Institut, Universität zu Köln · Köln, Deutschland</div>
 </div>
