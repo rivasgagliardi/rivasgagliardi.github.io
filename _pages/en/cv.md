@@ -28,13 +28,19 @@ document.addEventListener('DOMContentLoaded', function () {
 ## Professional Career
 
 <div class="cv-item">
-  <div class="cv-date">2024 – present</div>
+  <div class="cv-date">since 09/2026</div>
+  <div class="cv-title">Visiting Researcher</div>
+  <div class="cv-sub">Portuguese-Brazilian Institute, University of Cologne · Cologne, Germany</div>
+</div>
+
+<div class="cv-item">
+  <div class="cv-date">09/2024 – 08/2026</div>
   <div class="cv-title">Research Associate (50%)</div>
   <div class="cv-sub">Portuguese-Brazilian Institute, University of Cologne · Cologne, Germany</div>
 </div>
 
 <div class="cv-item">
-  <div class="cv-date">2021 – 2024</div>
+  <div class="cv-date">09/2021 – 08/2024</div>
   <div class="cv-title">Research Associate (externally funded position)</div>
   <div class="cv-sub">Portuguese-Brazilian Institute, University of Cologne · Cologne, Germany</div>
   <ul><li>Funding: German Research Foundation (DFG) — Temporary Position for Principal Investigators ("Eigene Stelle")</li></ul>
