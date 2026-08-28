@@ -28,13 +28,19 @@ document.addEventListener('DOMContentLoaded', function () {
 ## Atuação profissional
 
 <div class="cv-item">
-  <div class="cv-date">2024 – atual</div>
+  <div class="cv-date">desde 09/2026</div>
+  <div class="cv-title">Pesquisadora visitante</div>
+  <div class="cv-sub">Instituto Luso-Brasileiro, Universidade de Colônia · Colônia, Alemanha</div>
+</div>
+
+<div class="cv-item">
+  <div class="cv-date">09/2024 – 08/2026</div>
   <div class="cv-title">Pesquisadora (50%)</div>
   <div class="cv-sub">Instituto Luso-Brasileiro, Universidade de Colônia · Colônia, Alemanha</div>
 </div>
 
 <div class="cv-item">
-  <div class="cv-date">2021 – 2024</div>
+  <div class="cv-date">09/2021 – 08/2024</div>
   <div class="cv-title">Pesquisadora (cargo próprio financiado externamente)</div>
   <div class="cv-sub">Instituto Luso-Brasileiro, Universidade de Colônia · Colônia, Alemanha</div>
   <ul><li>Financiamento: Deutsche Forschungsgemeinschaft – DFG (German Research Foundation)</li></ul>
