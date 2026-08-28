@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 </script>
 
-**Contato:** mail@laurarivasgagliardi.com &nbsp;·&nbsp; Instituto Luso-Brasileiro, Universidade de Colônia, Albertus-Magnus-Platz, 50923 Köln &nbsp;·&nbsp; Sala 1.305 (Philosophikum) &nbsp;·&nbsp; Atendimento: mediante agendamento por e-mail (semestre de verão de 2026: terças, 15h–16h)
+**Contato:** mail@laurarivasgagliardi.com &nbsp;·&nbsp; Instituto Luso-Brasileiro, Universidade de Colônia
 
 ## Atuação profissional
 
