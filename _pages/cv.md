@@ -152,7 +152,7 @@ document.addEventListener('DOMContentLoaded', function () {
 <div class="cv-item">
   <div class="cv-date">2003</div>
   <div class="cv-title">Menção Honrosa</div>
-  <div class="cv-sub">USP, Pró-Reitoria de Pesquisa, 11° SICUSP</div>
+  <div class="cv-sub">USP, Pró-Reitoria de Pesquisa, 11° SIICUSP</div>
   <ul><li>Für das Forschungsprojekt über Drummonds Lyrik</li></ul>
 </div>
 
