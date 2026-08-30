@@ -30,7 +30,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
 **Universidade de Colônia, desde 2024**
 
-Meu projeto de Habilitation investiga como autoras da primeira modernidade românica — Marguerite de Navarre (L’Heptaméron, 1559) e María de Zayas (Novelas amorosas y ejemplares, 1637; Desengaños amorosos, 1647) — fizeram da narrativa-moldura um espaço de fala e de juízo femininos. No centro está a pergunta sobre quem pode tomar a palavra na conversação encenada — no cadre, no sarao —, diante de quem e com que pretensão de conhecimento: narrar aparece aí como forma de saber crítico sobre o amor, o casamento, a violência e a ordem social. O projeto articula narratologia, história de gênero e a tradição da querelle des femmes — e pergunta, por fim, pelo destino desses espaços da palavra feminina, o salão, a tertúlia, quando o romance do século XIX os reocupa.
+Como uma mulher chegava à palavra na primeira modernidade, e que conhecimento nascia dessa fala? É a pergunta que orienta o projeto, dedicado às coletâneas de novelas com narrativa-moldura: obras que encenam o próprio narrar como fala em sociedade, com regras para quem narra, quem escuta e quem julga. No centro estão o *Heptaméron* (1559) de Marguerite de Navarre e as duas coletâneas de María de Zayas: as *Novelas amorosas y ejemplares* (1637) e os *Desengaños amorosos* (1647). Marguerite de Navarre (1492–1549), rainha de Navarra e irmã de Francisco I da França, deixou o *Heptaméron* inacabado, publicado postumamente. De María de Zayas, madrilena do Siglo de Oro, quase nada se sabe além de seus livros, que estiveram entre os mais lidos do século. O termo *licentia*, que dá título ao projeto, designava na época duas coisas: uma liberdade de fala e uma permissão que era preciso obter.
+
+Três abordagens se articulam em minha análise: a semântica histórica de *licentia*, da tradição retórica aos dicionários da época, a narratologia da moldura, que permite determinar quem escuta e quem fala nesses textos, e a leitura das figuras femininas secundárias, nas quais se medem o alcance e o limite desse conhecimento feminino encenado.
 
 **Disciplinas ministradas**
 
