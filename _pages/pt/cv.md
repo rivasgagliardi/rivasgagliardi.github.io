@@ -169,12 +169,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
 <div class="cv-item">
   <div class="cv-date">2025</div>
-  <div class="cv-title">Programa Emmy Noether — em avaliação</div>
-  <div class="cv-sub">Deutsche Forschungsgemeinschaft (DFG)</div>
-</div>
-
-<div class="cv-item">
-  <div class="cv-date">2025</div>
   <div class="cv-title">Parecerista</div>
   <div class="cv-sub">Narodowe Centrum Nauki (NCN), Polônia</div>
 </div>
