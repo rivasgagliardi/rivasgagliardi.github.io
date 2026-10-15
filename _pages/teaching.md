@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
 <h2 class="year-label">2026</h2>
 
 <div class="course-card">
-  <h3>Brazilian Society after Independence: Culture, Society and the Debate of the 1950s–1970s</h3>
+  <h3>Brazil after Independence: Culture, Society and the Debate of the 1950s–1970s</h3>
   <div class="course-meta">Wintersemester 2026/27 · mit Prof. Dr. Jorge Grespan · UzK</div>
   <p class="course-desc">Hauptseminar zur Debatte über die brasilianische Gesellschaft nach der Unabhängigkeit, anhand von Antonio Candido, Florestan Fernandes und Emília Viotti da Costa vor und nach dem Putsch von 1964.</p>
 </div>
