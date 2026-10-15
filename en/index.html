@@ -70,6 +70,10 @@ document.addEventListener('DOMContentLoaded', function () {
   };
   translateNav(map);
 
+  document.querySelectorAll('.news-title').forEach(function (a) {
+    a.textContent = a.textContent.replace('Vortrag', 'Talk').replace('Tagung', 'Conference');
+  });
+
   var pubSection = document.querySelector('.publications');
   if (pubSection) {
     var pubWalker = document.createTreeWalker(pubSection, NodeFilter.SHOW_TEXT);
