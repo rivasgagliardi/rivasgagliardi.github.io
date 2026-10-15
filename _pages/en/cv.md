@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function () {
   <div class="cv-date">09/2021 – 08/2024</div>
   <div class="cv-title">Research Associate (externally funded position)</div>
   <div class="cv-sub">Portuguese-Brazilian Institute, University of Cologne · Cologne, Germany</div>
-  <ul><li>Funding: German Research Foundation (DFG) — Temporary Position for Principal Investigators ("Eigene Stelle")</li></ul>
+  <ul><li>Funding: German Research Foundation (DFG): Temporary Position for Principal Investigators (“Eigene Stelle”)</li></ul>
 </div>
 
 <div class="cv-item">
@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function () {
   <div class="cv-title">PhD (Dr. phil.), Romance Literary Studies</div>
   <div class="cv-sub">Freie Universität Berlin · Berlin, Germany · summa cum laude</div>
   <ul>
-    <li>Dissertation: "Le Brésil littéraire (1863) von Ferdinand Wolf. Literaturgeschichte und Ideologie im 19. Jahrhundert"</li>
+    <li>Dissertation: “Le Brésil littéraire (1863) von Ferdinand Wolf. Literaturgeschichte und Ideologie im 19. Jahrhundert”</li>
     <li>Supervisors: Prof. Dr. Susanne Zepp-Zwirner, Prof. Dr. Joachim Küpper</li>
     <li>Doctoral program of the Friedrich Schlegel Graduate School of Literary Studies (FSGS)</li>
   </ul>
@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', function () {
   <div class="cv-date">2010 – 2013</div>
   <div class="cv-title">Master of Arts, Applied Literary Studies</div>
   <div class="cv-sub">Freie Universität Berlin · Berlin, Germany · grade: 1.7 (German scale)</div>
-  <ul><li>Thesis: "Die Präsenz der brasilianischen Literatur auf dem deutschsprachigen Buchmarkt zwischen 1993 und 2013"</li></ul>
+  <ul><li>Thesis: “Die Präsenz der brasilianischen Literatur auf dem deutschsprachigen Buchmarkt zwischen 1993 und 2013”</li></ul>
 </div>
 
 <div class="cv-item">
@@ -152,17 +152,17 @@ document.addEventListener('DOMContentLoaded', function () {
 </div>
 
 <div class="cv-item">
-  <div class="cv-date">2002</div>
-  <div class="cv-title">Undergraduate Research Fellowship</div>
-  <div class="cv-sub">São Paulo Research Foundation (FAPESP)</div>
-  <ul><li>On the poetry of Carlos Drummond de Andrade</li></ul>
-</div>
-
-<div class="cv-item">
   <div class="cv-date">2003</div>
   <div class="cv-title">Honorable Mention</div>
   <div class="cv-sub">University of São Paulo, Office of the Provost for Research, 11th SICUSP</div>
   <ul><li>For the research project on Drummond's poetry</li></ul>
+</div>
+
+<div class="cv-item">
+  <div class="cv-date">2002</div>
+  <div class="cv-title">Undergraduate Research Fellowship</div>
+  <div class="cv-sub">São Paulo Research Foundation (FAPESP)</div>
+  <ul><li>On the poetry of Carlos Drummond de Andrade</li></ul>
 </div>
 
 ## Funding and Peer Review Experience
@@ -175,7 +175,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 <div class="cv-item">
   <div class="cv-date">2021 – 2024</div>
-  <div class="cv-title">Acquisition of a Temporary Position for Principal Investigators ("Eigene Stelle"), 36 months</div>
+  <div class="cv-title">Acquisition of a Temporary Position for Principal Investigators (“Eigene Stelle”), 36 months</div>
   <div class="cv-sub">German Research Foundation (DFG)</div>
   <ul><li>Project: Neuperspektivierungen nachkolonialer Theorie [no. 459579268]. Funding: €246,780 plus €54,300 programme allowance (Programmpauschale).</li></ul>
 </div>
@@ -202,7 +202,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 <div class="cv-item">
   <div class="cv-date">Nov. 2022</div>
-  <div class="cv-title">4. International Symposium: "Ficou chato ser moderno?"</div>
+  <div class="cv-title">4. International Symposium: “Ficou chato ser moderno?”</div>
   <div class="cv-sub">Portuguese-Brazilian Institute, University of Cologne · with P. W. Schulze</div>
 </div>
 
@@ -228,7 +228,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 <div class="cv-item">
   <div class="cv-date">16.05.2024</div>
-  <div class="cv-title">3. Dictatorship and Revolution in the Lusophone 1970s: Chico Buarque's Songs "Fado Tropical" and "Tanto Mar"</div>
+  <div class="cv-title">3. Dictatorship and Revolution in the Lusophone 1970s: Chico Buarque's Songs “Fado Tropical” and “Tanto Mar”</div>
   <div class="cv-sub">Institute for Romance Studies, University of Vienna</div>
 </div>
 
@@ -247,9 +247,15 @@ document.addEventListener('DOMContentLoaded', function () {
 ## Conference Presentations
 
 <div class="cv-item">
+  <div class="cv-date">09.12.2026</div>
+  <div class="cv-title">36. Between Empires and Decolonisation: Anatol Rosenfeld, Intellectual Hospitality, and the Critique of Colonial Thought in Brazil</div>
+  <div class="cv-sub">Conference “The Age of Humanitarianism. Jewish and other global migrations between Empire and Decolonisation”, Dubnow Institute, Leipzig</div>
+</div>
+
+<div class="cv-item">
   <div class="cv-date">09.10.2026</div>
   <div class="cv-title">35. Der Sarao als Erkenntnisraum in María de Zayas' Desengaños amorosos (1647)</div>
-  <div class="cv-sub">7. transphilologische Jahrestagung Femmes de Lettres der FONTE-Stiftung: „Erkenntnisräume. Narrative weiblicher Selbstbestimmung in Gesprächsinszenierungen europäischer Autorinnen der Frühen Neuzeit“, Humboldt-Universität zu Berlin</div>
+  <div class="cv-sub">7. transphilologische Jahrestagung Femmes de Lettres der FONTE-Stiftung: “Erkenntnisräume. Narrative weiblicher Selbstbestimmung in Gesprächsinszenierungen europäischer Autorinnen der Frühen Neuzeit”, Humboldt-Universität zu Berlin</div>
 </div>
 
 <div class="cv-item">
@@ -277,15 +283,15 @@ document.addEventListener('DOMContentLoaded', function () {
 </div>
 
 <div class="cv-item">
-  <div class="cv-date">Jul. 2024</div>
-  <div class="cv-title">30. Der literarische Amazonas von Mário de Andrade</div>
-  <div class="cv-sub">Summer School, University of Mainz</div>
+  <div class="cv-date">Sept. 2024</div>
+  <div class="cv-title">30. Faschismus nach lateinamerikanischer Art</div>
+  <div class="cv-sub">Institute for Cultural Studies Essen</div>
 </div>
 
 <div class="cv-item">
-  <div class="cv-date">Sept. 2024</div>
-  <div class="cv-title">29. Faschismus nach lateinamerikanischer Art</div>
-  <div class="cv-sub">Institute for Cultural Studies Essen</div>
+  <div class="cv-date">Jul. 2024</div>
+  <div class="cv-title">29. Der literarische Amazonas von Mário de Andrade</div>
+  <div class="cv-sub">Summer School, University of Mainz</div>
 </div>
 
 <div class="cv-item">
@@ -300,14 +306,15 @@ document.addEventListener('DOMContentLoaded', function () {
   <div class="cv-sub">Historical Materialism Conference, London</div>
 </div>
 
+
+<details>
+<summary style="cursor:pointer; color:var(--global-theme-color); margin: 1rem 0; font-weight:600;">Show 26 more presentations</summary>
+
 <div class="cv-item">
   <div class="cv-date">Oct. 2023</div>
   <div class="cv-title">26. Koselleck an den Rändern: Begriffsgeschichte in Brasilien</div>
   <div class="cv-sub">Leibniz Center, Berlin</div>
 </div>
-
-<details>
-<summary style="cursor:pointer; color:var(--global-theme-color); margin: 1rem 0; font-weight:600;">Show 25 more presentations</summary>
 
 <div class="cv-item">
   <div class="cv-date">Sept. 2023</div>
@@ -377,7 +384,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 <div class="cv-item">
   <div class="cv-date">Feb. 2020</div>
-  <div class="cv-title">14. Antonio Candido's 'The Right to Literature'</div>
+  <div class="cv-title">14. Antonio Candido's “The Right to Literature”</div>
   <div class="cv-sub">Exeter College, University of Oxford</div>
 </div>
 
@@ -425,7 +432,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 <div class="cv-item">
   <div class="cv-date">Sept.–Oct. 2013</div>
-  <div class="cv-title">6. ViceVersa Translation Workshop: Georg Simmel's "Brücke und Tür"</div>
+  <div class="cv-title">6. ViceVersa Translation Workshop: Georg Simmel's “Brücke und Tür”</div>
   <div class="cv-sub">Literarisches Colloquium Berlin</div>
 </div>
 
@@ -448,15 +455,15 @@ document.addEventListener('DOMContentLoaded', function () {
 </div>
 
 <div class="cv-item">
-  <div class="cv-date">Jun. 2002</div>
-  <div class="cv-title">2. Amor infectum: observações sobre a lírica amorosa de Drummond</div>
-  <div class="cv-sub">III Jornada Científica, Faculdades Integradas de Ribeirão Pires</div>
+  <div class="cv-date">Nov. 2002</div>
+  <div class="cv-title">2. Amor infectum: a revolta do singular na lírica de Drummond</div>
+  <div class="cv-sub">10th International Symposium on Undergraduate Research, USP</div>
 </div>
 
 <div class="cv-item">
-  <div class="cv-date">Nov. 2002</div>
-  <div class="cv-title">1. Amor infectum: a revolta do singular na lírica de Drummond</div>
-  <div class="cv-sub">10th International Symposium on Undergraduate Research, USP</div>
+  <div class="cv-date">Jun. 2002</div>
+  <div class="cv-title">1. Amor infectum: observações sobre a lírica amorosa de Drummond</div>
+  <div class="cv-sub">III Jornada Científica, Faculdades Integradas de Ribeirão Pires</div>
 </div>
 
 </details>
@@ -471,7 +478,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 <div class="cv-item">
   <div class="cv-date">2025</div>
-  <div class="cv-title">4. First Examiner, Bachelor's Thesis — Luca Basile</div>
+  <div class="cv-title">4. First Examiner, Bachelor's Thesis: Luca Basile</div>
   <div class="cv-sub">Portuguese-Brazilian Institute, University of Cologne, 29.09.2025</div>
 </div>
 
@@ -483,14 +490,29 @@ document.addEventListener('DOMContentLoaded', function () {
 
 <div class="cv-item">
   <div class="cv-date">since 2023</div>
-  <div class="cv-title">2. Member, Project "Portugueses de Papel"</div>
+  <div class="cv-title">2. Member, Project “Portugueses de Papel”</div>
   <div class="cv-sub">University of Lisbon</div>
 </div>
 
 <div class="cv-item">
   <div class="cv-date">2022</div>
-  <div class="cv-title">1. Member, Master's Examination Committee — César Marins de Oliveira</div>
+  <div class="cv-title">1. Member, Master's Examination Committee: César Marins de Oliveira</div>
   <div class="cv-sub">University of São Paulo, Jun. 2022</div>
+</div>
+
+## Honorary Positions
+
+<div class="cv-item">
+  <div class="cv-date">since 10/2026</div>
+  <div class="cv-title">1. Chair, GLPS e. V.</div>
+  <div class="cv-sub">Supporting association of the Zentrum Portugiesischsprachige Welt (ZPW, Centre for the Portuguese-Speaking World), an affiliated institute of the University of Cologne</div>
+</div>
+
+## Memberships
+
+<div class="cv-item">
+  <div class="cv-date">since 2026</div>
+  <div class="cv-title">1. Member, Gesellschaft für Exilforschung (Society for Exile Studies)</div>
 </div>
 
 ## Languages
