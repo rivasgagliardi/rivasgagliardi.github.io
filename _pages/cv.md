@@ -238,6 +238,12 @@ document.addEventListener('DOMContentLoaded', function () {
 ## Vorträge in wissenschaftlichen Veranstaltungen
 
 <div class="cv-item">
+  <div class="cv-date">09.12.2026</div>
+  <div class="cv-title">36. Between Empires and Decolonisation: Anatol Rosenfeld, Intellectual Hospitality, and the Critique of Colonial Thought in Brazil</div>
+  <div class="cv-sub">Tagung „The Age of Humanitarianism. Jewish and other global migrations between Empire and Decolonisation“, Dubnow-Institut, Leipzig</div>
+</div>
+
+<div class="cv-item">
   <div class="cv-date">09.10.2026</div>
   <div class="cv-title">35. Der Sarao als Erkenntnisraum in María de Zayas' Desengaños amorosos (1647)</div>
   <div class="cv-sub">7. transphilologische Jahrestagung Femmes de Lettres der FONTE-Stiftung: „Erkenntnisräume. Narrative weiblicher Selbstbestimmung in Gesprächsinszenierungen europäischer Autorinnen der Frühen Neuzeit“, Humboldt-Universität zu Berlin</div>
@@ -291,14 +297,14 @@ document.addEventListener('DOMContentLoaded', function () {
   <div class="cv-sub">Historical Materialism Conference, London</div>
 </div>
 
+<details>
+<summary style="cursor:pointer; color:var(--global-theme-color); margin: 1rem 0; font-weight:600;">26 weitere Vorträge anzeigen</summary>
+
 <div class="cv-item">
   <div class="cv-date">Okt. 2023</div>
   <div class="cv-title">26. Koselleck an den Rändern: Begriffsgeschichte in Brasilien</div>
   <div class="cv-sub">Leibniz-Zentrum, Berlin</div>
 </div>
-
-<details>
-<summary style="cursor:pointer; color:var(--global-theme-color); margin: 1rem 0; font-weight:600;">25 weitere Vorträge anzeigen</summary>
 
 <div class="cv-item">
   <div class="cv-date">Sept. 2023</div>
@@ -482,6 +488,21 @@ document.addEventListener('DOMContentLoaded', function () {
   <div class="cv-date">2022</div>
   <div class="cv-title">1. Mitglied Masterprüfungskommission — César Marins de Oliveira</div>
   <div class="cv-sub">Universidade de São Paulo, 06/2022</div>
+</div>
+
+## Ehrenamtliche Funktionen
+
+<div class="cv-item">
+  <div class="cv-date">seit 10/2026</div>
+  <div class="cv-title">1. Vorsitzende der GLPS e. V.</div>
+  <div class="cv-sub">Trägerverein des Zentrums Portugiesischsprachige Welt (ZPW), An-Institut der Universität zu Köln</div>
+</div>
+
+## Mitgliedschaften
+
+<div class="cv-item">
+  <div class="cv-date">seit 2026</div>
+  <div class="cv-title">1. Mitglied der Gesellschaft für Exilforschung e.V.</div>
 </div>
 
 ## Sprachen
