@@ -80,6 +80,12 @@ document.addEventListener('DOMContentLoaded', function () {
 <h2 class="year-label">2026</h2>
 
 <div class="course-card">
+  <h3>Brazilian Society after Independence: Culture, Society and the Debate of the 1950s–1970s</h3>
+  <div class="course-meta">Semestre de inverno 2026/27 · com Prof. Dr. Jorge Grespan · UzK</div>
+  <p class="course-desc">Seminário avançado sobre o debate acerca da sociedade brasileira após a Independência, a partir de Antonio Candido, Florestan Fernandes e Emília Viotti da Costa, antes e depois do golpe de 1964.</p>
+</div>
+
+<div class="course-card">
   <h3>Romane von Frauen aus dem 19. Jahrhundert - Sand, Caballero und Lopes de Almeida</h3>
   <div class="course-meta">Semestre de verão · UzK</div>
   <p class="course-desc">Seminário avançado sobre autoras do século XIX e sua contribuição para o discurso literário da época.</p>
