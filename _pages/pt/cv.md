@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function () {
   <div class="cv-title">Doutorado (Dr. phil.), Literatura Comparada em Línguas Românicas</div>
   <div class="cv-sub">Universidade Livre de Berlim · Berlim, Alemanha · summa cum laude</div>
   <ul>
-    <li>Tese: "Le Brésil littéraire (1863) von Ferdinand Wolf. Literaturgeschichte und Ideologie im 19. Jahrhundert"</li>
+    <li>Tese: “Le Brésil littéraire (1863) von Ferdinand Wolf. Literaturgeschichte und Ideologie im 19. Jahrhundert”</li>
     <li>Orientadores: Prof.ª Dr.ª Susanne Zepp-Zwirner, Prof. Dr. Joachim Küpper</li>
     <li>Programa de doutorado da Friedrich Schlegel Graduiertenschule für literaturwissenschaftliche Studien (FSGS)</li>
   </ul>
@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', function () {
   <div class="cv-date">2010 – 2013</div>
   <div class="cv-title">Mestrado, Literatura Aplicada</div>
   <div class="cv-sub">Universidade Livre de Berlim · Berlim, Alemanha · nota: 1,7</div>
-  <ul><li>Dissertação: "Die Präsenz der brasilianischen Literatur auf dem deutschsprachigen Buchmarkt zwischen 1993 und 2013"</li></ul>
+  <ul><li>Dissertação: “Die Präsenz der brasilianischen Literatur auf dem deutschsprachigen Buchmarkt zwischen 1993 und 2013”</li></ul>
 </div>
 
 <div class="cv-item">
@@ -152,17 +152,17 @@ document.addEventListener('DOMContentLoaded', function () {
 </div>
 
 <div class="cv-item">
-  <div class="cv-date">2002</div>
-  <div class="cv-title">Bolsa de Iniciação Científica</div>
-  <div class="cv-sub">FAPESP</div>
-  <ul><li>Sobre a lírica de Carlos Drummond de Andrade</li></ul>
-</div>
-
-<div class="cv-item">
   <div class="cv-date">2003</div>
   <div class="cv-title">Menção Honrosa</div>
   <div class="cv-sub">USP, Pró-Reitoria de Pesquisa, 11º SICUSP</div>
   <ul><li>Pelo projeto de pesquisa sobre a lírica de Drummond</li></ul>
+</div>
+
+<div class="cv-item">
+  <div class="cv-date">2002</div>
+  <div class="cv-title">Bolsa de Iniciação Científica</div>
+  <div class="cv-sub">FAPESP</div>
+  <ul><li>Sobre a lírica de Carlos Drummond de Andrade</li></ul>
 </div>
 
 ## Experiência com financiamento e pareceres
@@ -202,7 +202,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 <div class="cv-item">
   <div class="cv-date">Nov. 2022</div>
-  <div class="cv-title">4. Simpósio Internacional: "Ficou chato ser moderno?"</div>
+  <div class="cv-title">4. Simpósio Internacional: “Ficou chato ser moderno?”</div>
   <div class="cv-sub">Instituto Luso-Brasileiro, UzK · com P. W. Schulze</div>
 </div>
 
@@ -228,7 +228,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 <div class="cv-item">
   <div class="cv-date">16.05.2024</div>
-  <div class="cv-title">3. Ditadura e revolução na lusofonia dos anos 1970, a partir das canções "Fado Tropical" e "Tanto Mar", de Chico Buarque</div>
+  <div class="cv-title">3. Ditadura e revolução na lusofonia dos anos 1970, a partir das canções “Fado Tropical” e “Tanto Mar”, de Chico Buarque</div>
   <div class="cv-sub">Instituto de Romanística da Universidade de Viena</div>
 </div>
 
@@ -247,9 +247,15 @@ document.addEventListener('DOMContentLoaded', function () {
 ## Comunicações em eventos científicos
 
 <div class="cv-item">
+  <div class="cv-date">09.12.2026</div>
+  <div class="cv-title">36. Between Empires and Decolonisation: Anatol Rosenfeld, Intellectual Hospitality, and the Critique of Colonial Thought in Brazil</div>
+  <div class="cv-sub">Congresso “The Age of Humanitarianism. Jewish and other global migrations between Empire and Decolonisation”, Dubnow-Institut, Leipzig</div>
+</div>
+
+<div class="cv-item">
   <div class="cv-date">09.10.2026</div>
   <div class="cv-title">35. Der Sarao als Erkenntnisraum in María de Zayas' Desengaños amorosos (1647)</div>
-  <div class="cv-sub">7. transphilologische Jahrestagung Femmes de Lettres der FONTE-Stiftung: „Erkenntnisräume. Narrative weiblicher Selbstbestimmung in Gesprächsinszenierungen europäischer Autorinnen der Frühen Neuzeit“, Humboldt-Universität zu Berlin</div>
+  <div class="cv-sub">7. transphilologische Jahrestagung Femmes de Lettres der FONTE-Stiftung: “Erkenntnisräume. Narrative weiblicher Selbstbestimmung in Gesprächsinszenierungen europäischer Autorinnen der Frühen Neuzeit”, Humboldt-Universität zu Berlin</div>
 </div>
 
 <div class="cv-item">
@@ -277,15 +283,15 @@ document.addEventListener('DOMContentLoaded', function () {
 </div>
 
 <div class="cv-item">
-  <div class="cv-date">Jul. 2024</div>
-  <div class="cv-title">30. O Amazonas literário de Mário de Andrade</div>
-  <div class="cv-sub">Escola de Verão, Universidade de Mainz</div>
+  <div class="cv-date">Set. 2024</div>
+  <div class="cv-title">30. Fascismo à latino-americana</div>
+  <div class="cv-sub">Instituto de Estudos Culturais de Essen</div>
 </div>
 
 <div class="cv-item">
-  <div class="cv-date">Set. 2024</div>
-  <div class="cv-title">29. Fascismo à latino-americana</div>
-  <div class="cv-sub">Instituto de Estudos Culturais de Essen</div>
+  <div class="cv-date">Jul. 2024</div>
+  <div class="cv-title">29. O Amazonas literário de Mário de Andrade</div>
+  <div class="cv-sub">Escola de Verão, Universidade de Mainz</div>
 </div>
 
 <div class="cv-item">
@@ -300,14 +306,14 @@ document.addEventListener('DOMContentLoaded', function () {
   <div class="cv-sub">Historical Materialism Conference, Londres</div>
 </div>
 
+<details>
+<summary style="cursor:pointer; color:var(--global-theme-color); margin: 1rem 0; font-weight:600;">Mostrar mais 26 comunicações</summary>
+
 <div class="cv-item">
   <div class="cv-date">Out. 2023</div>
   <div class="cv-title">26. Koselleck nas margens: história dos conceitos no Brasil</div>
   <div class="cv-sub">Leibniz-Zentrum, Berlim</div>
 </div>
-
-<details>
-<summary style="cursor:pointer; color:var(--global-theme-color); margin: 1rem 0; font-weight:600;">Mostrar mais 25 comunicações</summary>
 
 <div class="cv-item">
   <div class="cv-date">Set. 2023</div>
@@ -377,7 +383,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 <div class="cv-item">
   <div class="cv-date">Fev. 2020</div>
-  <div class="cv-title">14. Antonio Candido's 'The Right to Literature'</div>
+  <div class="cv-title">14. Antonio Candido's “The Right to Literature”</div>
   <div class="cv-sub">Exeter College, University of Oxford</div>
 </div>
 
@@ -425,7 +431,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 <div class="cv-item">
   <div class="cv-date">Set.–Out. 2013</div>
-  <div class="cv-title">6. Oficina de tradução ViceVersa: "Brücke und Tür", de Georg Simmel</div>
+  <div class="cv-title">6. Oficina de tradução ViceVersa: “Brücke und Tür”, de Georg Simmel</div>
   <div class="cv-sub">Literarisches Colloquium Berlin</div>
 </div>
 
@@ -448,15 +454,15 @@ document.addEventListener('DOMContentLoaded', function () {
 </div>
 
 <div class="cv-item">
-  <div class="cv-date">Jun. 2002</div>
-  <div class="cv-title">2. Amor infectum: observações sobre a lírica amorosa de Carlos Drummond de Andrade</div>
-  <div class="cv-sub">III Jornada Científica, Faculdades Integradas de Ribeirão Pires</div>
+  <div class="cv-date">Nov. 2002</div>
+  <div class="cv-title">2. Amor infectum: a revolta do singular na lírica de Drummond</div>
+  <div class="cv-sub">10º Simpósio Internacional de Iniciação Científica da USP</div>
 </div>
 
 <div class="cv-item">
-  <div class="cv-date">Nov. 2002</div>
-  <div class="cv-title">1. Amor infectum: a revolta do singular na lírica de Drummond</div>
-  <div class="cv-sub">10º Simpósio Internacional de Iniciação Científica da USP</div>
+  <div class="cv-date">Jun. 2002</div>
+  <div class="cv-title">1. Amor infectum: observações sobre a lírica amorosa de Carlos Drummond de Andrade</div>
+  <div class="cv-sub">III Jornada Científica, Faculdades Integradas de Ribeirão Pires</div>
 </div>
 
 </details>
@@ -471,7 +477,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 <div class="cv-item">
   <div class="cv-date">2025</div>
-  <div class="cv-title">4. Primeira examinadora de trabalho de conclusão de curso — Luca Basile</div>
+  <div class="cv-title">4. Primeira examinadora de trabalho de conclusão de curso: Luca Basile</div>
   <div class="cv-sub">Instituto Luso-Brasileiro, UzK, 29.09.2025</div>
 </div>
 
@@ -483,14 +489,29 @@ document.addEventListener('DOMContentLoaded', function () {
 
 <div class="cv-item">
   <div class="cv-date">desde 2023</div>
-  <div class="cv-title">2. Membro do projeto "Portugueses de Papel"</div>
+  <div class="cv-title">2. Membro do projeto “Portugueses de Papel”</div>
   <div class="cv-sub">Universidade de Lisboa</div>
 </div>
 
 <div class="cv-item">
   <div class="cv-date">2022</div>
-  <div class="cv-title">1. Membro de banca de mestrado — César Marins de Oliveira</div>
+  <div class="cv-title">1. Membro de banca de mestrado: César Marins de Oliveira</div>
   <div class="cv-sub">Universidade de São Paulo, jun. 2022</div>
+</div>
+
+## Funções honorárias
+
+<div class="cv-item">
+  <div class="cv-date">desde 10/2026</div>
+  <div class="cv-title">1. Presidente da GLPS e. V.</div>
+  <div class="cv-sub">Associação mantenedora do Zentrum Portugiesischsprachige Welt (ZPW, Centro do Mundo de Língua Portuguesa), instituto associado da Universidade de Colônia</div>
+</div>
+
+## Afiliações
+
+<div class="cv-item">
+  <div class="cv-date">desde 2026</div>
+  <div class="cv-title">1. Membro da Gesellschaft für Exilforschung (Sociedade de Estudos do Exílio)</div>
 </div>
 
 ## Idiomas
